@@ -1,5 +1,7 @@
 # Shorts de Ciencia de Datos (@UniversoCienciaDatos)
 
+Este repositorio se hizo con el fin de hacer Shorts para YouTube sobre Ciencia de Datos.
+
 Shorts verticales (1080×1920, 30 s) sin cara, hechos con [Remotion](https://remotion.dev).
 
 ## Shorts
