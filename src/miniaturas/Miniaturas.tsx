@@ -530,3 +530,156 @@ export const MiniMates4: React.FC = () => (
     </svg>
   </SerieMini>
 );
+
+export const MiniMates5: React.FC = () => (
+  <SerieMini n={5} accent={C.yellow}>
+    <Grande size={160}>¿EL HELADO</Grande>
+    <Grande size={190} color={C.coral}>
+      MATA?
+    </Grande>
+    <svg width={300} height={300} viewBox="0 0 100 100">
+      {Array.from({ length: 12 }).map((_, i) => {
+        const a = (i / 12) * Math.PI * 2;
+        return (
+          <line
+            key={i}
+            x1={50 + 30 * Math.cos(a)}
+            y1={50 + 30 * Math.sin(a)}
+            x2={50 + 46 * Math.cos(a)}
+            y2={50 + 46 * Math.sin(a)}
+            stroke={C.yellow}
+            strokeWidth={6}
+            strokeLinecap="round"
+          />
+        );
+      })}
+      <circle cx={50} cy={50} r={24} fill={C.yellow} />
+    </svg>
+  </SerieMini>
+);
+
+export const MiniMates6: React.FC = () => (
+  <SerieMini n={6} accent={C.blue}>
+    <Grande size={170}>¿CUÁNTO</Grande>
+    <Grande size={170} color={C.green}>
+      CUESTA?
+    </Grande>
+    <svg width={760} height={330} viewBox="0 0 760 330">
+      <line x1={40} y1={300} x2={740} y2={300} stroke={C.dim} strokeWidth={5} />
+      <line x1={40} y1={20} x2={40} y2={300} stroke={C.dim} strokeWidth={5} />
+      <line
+        x1={60}
+        y1={280}
+        x2={720}
+        y2={40}
+        stroke={C.yellow}
+        strokeWidth={10}
+        strokeLinecap="round"
+      />
+      {[
+        [110, 255],
+        [200, 235],
+        [290, 180],
+        [370, 175],
+        [460, 130],
+        [560, 105],
+        [650, 60],
+      ].map(([x, y], i) => (
+        <circle
+          key={i}
+          cx={x}
+          cy={y}
+          r={20}
+          fill={C.blue}
+          stroke="#0b1020"
+          strokeWidth={4}
+        />
+      ))}
+    </svg>
+  </SerieMini>
+);
+
+export const MiniMates7: React.FC = () => (
+  <SerieMini n={7} accent={C.green}>
+    <Grande size={190}>TÚ =</Grande>
+    <Grande size={190} color={C.yellow}>
+      FLECHA
+    </Grande>
+    <svg width={560} height={340} viewBox="0 0 560 340">
+      <defs>
+        <marker
+          id="mm7"
+          markerWidth={8}
+          markerHeight={8}
+          refX={5}
+          refY={4}
+          orient="auto"
+        >
+          <path d="M0,0 L8,4 L0,8 Z" fill={C.yellow} />
+        </marker>
+        <marker
+          id="mm7b"
+          markerWidth={8}
+          markerHeight={8}
+          refX={5}
+          refY={4}
+          orient="auto"
+        >
+          <path d="M0,0 L8,4 L0,8 Z" fill={C.green} />
+        </marker>
+      </defs>
+      <line
+        x1={30}
+        y1={320}
+        x2={500}
+        y2={200}
+        stroke={C.yellow}
+        strokeWidth={16}
+        strokeLinecap="round"
+        markerEnd="url(#mm7)"
+      />
+      <line
+        x1={30}
+        y1={320}
+        x2={460}
+        y2={130}
+        stroke={C.green}
+        strokeWidth={16}
+        strokeLinecap="round"
+        markerEnd="url(#mm7b)"
+      />
+    </svg>
+  </SerieMini>
+);
+
+export const MiniMates8: React.FC = () => (
+  <SerieMini n={8} accent={C.purple}>
+    <Grande size={160}>¿CÓMO</Grande>
+    <Grande size={170} color={C.purple}>
+      APRENDE?
+    </Grande>
+    <svg width={760} height={340} viewBox="0 0 760 340">
+      <path
+        d="M20 30 Q380 640 740 30"
+        fill="none"
+        stroke={C.purple}
+        strokeWidth={12}
+      />
+      <circle
+        cx={150}
+        cy={150}
+        r={30}
+        fill={C.yellow}
+        stroke="#0b1020"
+        strokeWidth={5}
+      />
+      <path
+        d="M190 190 Q240 240 290 250"
+        fill="none"
+        stroke={C.yellow}
+        strokeWidth={8}
+        strokeDasharray="16 12"
+      />
+    </svg>
+  </SerieMini>
+);

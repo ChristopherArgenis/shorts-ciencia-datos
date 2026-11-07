@@ -236,3 +236,148 @@ export const prog = (frame: number, a: number, b: number) =>
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
   });
+
+/** Tarjeta de aplicación (título + texto) que entra deslizándose. */
+export const Tarjeta: React.FC<{
+  titulo: string;
+  texto: string;
+  color: string;
+  delay: number;
+}> = ({ titulo, texto, color, delay }) => {
+  const p = useIn(delay, 12);
+  return (
+    <div
+      style={{
+        width: 880,
+        background: C.bg2,
+        borderRadius: 26,
+        padding: "26px 32px",
+        borderLeft: `12px solid ${color}`,
+        opacity: p,
+        translate: `${(1 - p) * 80}px 0px`,
+        fontFamily: FONT,
+      }}
+    >
+      <div style={{ fontWeight: 900, fontSize: 56, color: C.ink }}>
+        {titulo}
+      </div>
+      <div
+        style={{ fontWeight: 600, fontSize: 40, color: C.dim, marginTop: 6 }}
+      >
+        {texto}
+      </div>
+    </div>
+  );
+};
+
+/** Gráfica de dispersión simple con ejes y etiquetas. */
+export const Dispersion: React.FC<{
+  xs: number[];
+  ys: number[];
+  xr: [number, number];
+  yr: [number, number];
+  xLabel: string;
+  yLabel: string;
+  color?: string;
+  aparicion?: number; // 0..1 cuántos puntos se ven
+  recta?: { m: number; b: number; p: number; color?: string };
+  residuos?: number; // 0..1
+  extra?: React.ReactNode;
+  w?: number;
+  h?: number;
+}> = ({
+  xs,
+  ys,
+  xr,
+  yr,
+  xLabel,
+  yLabel,
+  color = C.blue,
+  aparicion = 1,
+  recta,
+  residuos = 0,
+  extra,
+  w = 860,
+  h = 620,
+}) => {
+  const L = 90;
+  const B = 80;
+  const px = (x: number) => L + ((w - L - 30) * (x - xr[0])) / (xr[1] - xr[0]);
+  const py = (y: number) =>
+    h - B - ((h - B - 30) * (y - yr[0])) / (yr[1] - yr[0]);
+  const n = Math.floor(aparicion * xs.length + 0.001);
+  return (
+    <svg width={w} height={h} viewBox={`0 0 ${w} ${h}`}>
+      <line
+        x1={L}
+        y1={h - B}
+        x2={w - 20}
+        y2={h - B}
+        stroke={C.dim}
+        strokeWidth={4}
+      />
+      <line x1={L} y1={20} x2={L} y2={h - B} stroke={C.dim} strokeWidth={4} />
+      <text
+        x={(w + L) / 2}
+        y={h - 22}
+        fill={C.dim}
+        fontFamily={FONT}
+        fontWeight={800}
+        fontSize={34}
+        textAnchor="middle"
+      >
+        {xLabel}
+      </text>
+      <text
+        x={34}
+        y={(h - B) / 2}
+        fill={C.dim}
+        fontFamily={FONT}
+        fontWeight={800}
+        fontSize={34}
+        textAnchor="middle"
+        transform={`rotate(-90 34 ${(h - B) / 2})`}
+      >
+        {yLabel}
+      </text>
+      {recta && residuos > 0
+        ? xs
+            .slice(0, n)
+            .map((x, i) => (
+              <line
+                key={`r${i}`}
+                x1={px(x)}
+                y1={py(ys[i])}
+                x2={px(x)}
+                y2={py(ys[i] + (recta.m * x + recta.b - ys[i]) * residuos)}
+                stroke={C.coral}
+                strokeWidth={5}
+              />
+            ))
+        : null}
+      {recta ? (
+        <line
+          x1={px(xr[0])}
+          y1={py(recta.m * xr[0] + recta.b)}
+          x2={px(xr[0] + (xr[1] - xr[0]) * recta.p)}
+          y2={py(recta.m * (xr[0] + (xr[1] - xr[0]) * recta.p) + recta.b)}
+          stroke={recta.color ?? C.yellow}
+          strokeWidth={8}
+          strokeLinecap="round"
+        />
+      ) : null}
+      {xs.slice(0, n).map((x, i) => (
+        <circle
+          key={i}
+          cx={px(x)}
+          cy={py(ys[i])}
+          r={16}
+          fill={color}
+          stroke="#0b1020"
+          strokeWidth={4}
+        />
+      ))}
+      {extra}
+    </svg>
+  );
+};

@@ -78,5 +78,37 @@
     "p4": "Mira solo los que dicen gratis. Dieciocho de veinticinco: setenta y dos por ciento.",
     "p5": "Eso es Bayes. Los filtros de spam lo repiten con cada palabra.",
     "p6": "Y en la parte cinco: por qué el helado no causa ahogados."
+  },
+  "mates5": {
+    "c1": "Cuando suben las ventas de helado, suben los ahogados. ¿El helado es peligroso?",
+    "c2": "Si los graficas, casi forman una línea. Correlación de cero punto nueve dos.",
+    "c3": "La correlación va de menos uno a uno. Solo mide si dos cosas se mueven juntas.",
+    "c4": "Pero hay una tercera variable escondida: el calor. Más calor, más helados, y más gente nadando.",
+    "c5": "Por eso, antes de decidir, las empresas hacen experimentos, como las pruebas A B.",
+    "c6": "En la parte seis: una línea para predecir el futuro."
+  },
+  "mates6": {
+    "r1": "Con una línea puedes adivinar el precio de una casa.",
+    "r2": "Cada punto es una casa: su tamaño y su precio.",
+    "r3": "La regresión lineal busca la recta que pasa lo más cerca de todos los puntos.",
+    "r4": "Mide qué tan lejos queda cada punto, y elige la recta con el menor error.",
+    "r5": "Con ella predices: una casa de ciento treinta metros, unos dos millones seiscientos cincuenta mil.",
+    "r6": "En la parte siete: tus gustos, convertidos en flechas."
+  },
+  "mates7": {
+    "v1": "Para tu app de música, tú eres una flecha.",
+    "v2": "Cada eje es un gusto: cuánto rock escuchas, y cuánto reguetón.",
+    "v3": "Si dos flechas apuntan hacia el mismo lado, sus gustos se parecen.",
+    "v4": "La similitud coseno mide ese ángulo. Tú y Ana: cero punto nueve nueve. Tú y Luis: cero punto tres cinco.",
+    "v5": "Las apps usan cientos de dimensiones, para recomendarte canciones y encontrar cosas parecidas.",
+    "v6": "En la parte ocho, la última: cómo aprende una inteligencia artificial."
+  },
+  "mates8": {
+    "g1": "Así aprende una inteligencia artificial: bajando una montaña con los ojos vendados.",
+    "g2": "La montaña es el error del modelo. Queremos llegar a lo más bajo.",
+    "g3": "La derivada es la pendiente: te dice hacia dónde baja el terreno.",
+    "g4": "Das un paso en esa dirección. Y otro. Y otro. Con cada paso, el error baja.",
+    "g5": "Eso es el descenso de gradiente. Así se entrenan muchísimos modelos, incluidos los de lenguaje como Claude.",
+    "g6": "Fin de la serie. ¿Qué matemáticas quieres que expliquemos después?"
   }
 }

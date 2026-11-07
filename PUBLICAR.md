@@ -166,6 +166,38 @@ Plan: 1 Promedio vs mediana · 2 Desviación estándar · 3 Distribución normal
 > Parte 4 de 8 de la serie "Matemáticas que sí usa un científico de datos". Números ilustrativos.
 **#:** #cienciadedatos #probabilidad #teoremadebayes #matematicas #shorts
 
+## Parte 5: Correlación ≠ causalidad
+**Título:** Correlación vs causalidad | Mates de científico de datos #5
+**Miniatura:** `MiniMates5` → "¿EL HELADO MATA?"
+**Descripción:**
+> Cuando suben las ventas de helado, suben los ahogados: correlación de 0.92. ¿El helado es peligroso? No: hay una variable escondida, el calor. La correlación (de −1 a 1) solo dice si dos cosas se mueven juntas, no por qué. Por eso las empresas deciden con experimentos como las pruebas A/B.
+> Parte 5 de 8 de la serie "Matemáticas que sí usa un científico de datos". Ejemplo simplificado.
+**#:** #cienciadedatos #estadistica #correlacion #matematicas #shorts
+
+## Parte 6: Regresión lineal
+**Título:** Regresión lineal | Mates de científico de datos #6
+**Miniatura:** `MiniMates6` → "¿CUÁNTO CUESTA?"
+**Descripción:**
+> Con una línea puedes estimar el precio de una casa. La regresión lineal (y = m·x + b) busca la recta con el menor error: la suma de las distancias al cuadrado de cada punto. En este ejemplo, una casa de 130 m² costaría unos $2.65 millones. Se usa para estimar precios, ventas y demanda.
+> Parte 6 de 8 de la serie "Matemáticas que sí usa un científico de datos". Ejemplo simplificado.
+**#:** #cienciadedatos #regresionlineal #machinelearning #matematicas #shorts
+
+## Parte 7: Vectores y similitud coseno
+**Título:** Vectores y similitud | Mates de científico de datos #7
+**Miniatura:** `MiniMates7` → "TÚ = FLECHA"
+**Descripción:**
+> Para una app de música, tus gustos son una flecha: cuánto rock y cuánto reguetón escuchas. Si dos flechas apuntan al mismo lado, sus gustos se parecen. La similitud coseno mide ese ángulo: Tú y Ana 0.99, Tú y Luis 0.35. Así funcionan las recomendaciones y las búsquedas por significado, con cientos de dimensiones.
+> Parte 7 de 8 de la serie "Matemáticas que sí usa un científico de datos". Ejemplo simplificado.
+**#:** #cienciadedatos #algebralineal #machinelearning #matematicas #shorts
+
+## Parte 8: Derivadas y descenso de gradiente (final)
+**Título:** Descenso de gradiente | Mates de científico de datos #8
+**Miniatura:** `MiniMates8` → "¿CÓMO APRENDE?"
+**Descripción:**
+> Así aprende una IA: bajando una montaña con los ojos vendados. La montaña es el error del modelo, la derivada es la pendiente que indica hacia dónde bajar, y cada paso (w ← w − α·f′(w)) reduce el error. Eso es el descenso de gradiente: con él se entrenan las redes neuronales y los modelos de lenguaje como Claude.
+> Parte 8 de 8, final de la serie "Matemáticas que sí usa un científico de datos". Ejemplo simplificado.
+**#:** #cienciadedatos #inteligenciaartificial #machinelearning #matematicas #shorts
+
 ---
 
 ## Semana tipo (20–30 h)

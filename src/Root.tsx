@@ -9,6 +9,10 @@ import { Mates1Mediana, TOTAL_M1 } from "./shorts/serie/Mates1Mediana";
 import { Mates2Desviacion, TOTAL_M2 } from "./shorts/serie/Mates2Desviacion";
 import { Mates3Normal, TOTAL_M3 } from "./shorts/serie/Mates3Normal";
 import { Mates4Bayes, TOTAL_M4 } from "./shorts/serie/Mates4Bayes";
+import { Mates5Correlacion, TOTAL_M5 } from "./shorts/serie/Mates5Correlacion";
+import { Mates6Regresion, TOTAL_M6 } from "./shorts/serie/Mates6Regresion";
+import { Mates7Vectores, TOTAL_M7 } from "./shorts/serie/Mates7Vectores";
+import { Mates8Gradiente, TOTAL_M8 } from "./shorts/serie/Mates8Gradiente";
 import {
   MiniCumpleanos,
   MiniSimpson,
@@ -20,6 +24,10 @@ import {
   MiniMates2,
   MiniMates3,
   MiniMates4,
+  MiniMates5,
+  MiniMates6,
+  MiniMates7,
+  MiniMates8,
 } from "./miniaturas/Miniaturas";
 
 export const RemotionRoot: React.FC = () => {
@@ -108,6 +116,38 @@ export const RemotionRoot: React.FC = () => {
           width={1080}
           height={1920}
         />
+        <Composition
+          id="Mates5-Correlacion"
+          component={Mates5Correlacion}
+          durationInFrames={TOTAL_M5}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="Mates6-Regresion"
+          component={Mates6Regresion}
+          durationInFrames={TOTAL_M6}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="Mates7-Vectores"
+          component={Mates7Vectores}
+          durationInFrames={TOTAL_M7}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="Mates8-Gradiente"
+          component={Mates8Gradiente}
+          durationInFrames={TOTAL_M8}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
       </Folder>
       <Folder name="Miniaturas">
         <Still
@@ -162,6 +202,30 @@ export const RemotionRoot: React.FC = () => {
         <Still
           id="MiniMates4"
           component={MiniMates4}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniMates5"
+          component={MiniMates5}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniMates6"
+          component={MiniMates6}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniMates7"
+          component={MiniMates7}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniMates8"
+          component={MiniMates8}
           width={1080}
           height={1920}
         />
