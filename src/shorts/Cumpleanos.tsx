@@ -1,9 +1,9 @@
 import React from "react";
-import { AbsoluteFill, Easing, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { Audio } from "@remotion/media";
+import { AbsoluteFill, Easing, interpolate, useCurrentFrame } from "remotion";
 import { TransitionSeries, linearTiming } from "@remotion/transitions";
 import { slide } from "@remotion/transitions/slide";
 import { fade } from "@remotion/transitions/fade";
+import { Narracion, Musica, type Linea } from "../kit/voz";
 import { Bg, Counter, Handle, Sfx, Stage, Sticker, Words, useIn } from "../kit/kit";
 import { C, FONT } from "../kit/theme";
 
@@ -227,8 +227,10 @@ const Cierre: React.FC = () => (
   </Stage>
 );
 
+const VOZ: Linea[] = [{ id: "c1", at: 2 }, { id: "c2", at: 150 }, { id: "c3", at: 300 }, { id: "c4", at: 500 }, { id: "c5", at: 738 }];
+
 export const Cumpleanos: React.FC = () => {
-  const { fps, durationInFrames } = useVideoConfig();
+
   const T = 8;
   return (
     <AbsoluteFill>
@@ -259,11 +261,8 @@ export const Cumpleanos: React.FC = () => {
         </TransitionSeries.Sequence>
       </TransitionSeries>
       <Handle />
-      <Audio
-        name="Música"
-        src={staticFile("music-curious.wav")}
-        volume={(f) => 0.32 * interpolate(f, [durationInFrames - 0.8 * fps, durationInFrames], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })}
-      />
+      <Narracion short="cumple" lineas={VOZ} />
+      <Musica src="music-curious.wav" short="cumple" lineas={VOZ} />
     </AbsoluteFill>
   );
 };

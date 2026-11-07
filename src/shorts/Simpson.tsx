@@ -1,9 +1,9 @@
 import React from "react";
-import { AbsoluteFill, Easing, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { Audio } from "@remotion/media";
+import { AbsoluteFill, Easing, interpolate, useCurrentFrame } from "remotion";
 import { TransitionSeries, linearTiming } from "@remotion/transitions";
 import { slide } from "@remotion/transitions/slide";
 import { fade } from "@remotion/transitions/fade";
+import { Narracion, Musica, type Linea } from "../kit/voz";
 import { Bg, Counter, Handle, Sfx, Stage, Sticker, Words } from "../kit/kit";
 import { C, FONT, MONO } from "../kit/theme";
 
@@ -170,8 +170,10 @@ const Fuente: React.FC = () => (
   </div>
 );
 
+const VOZ: Linea[] = [{ id: "s1", at: 2 }, { id: "s2", at: 197 }, { id: "s3", at: 330 }, { id: "s4", at: 480 }, { id: "s5", at: 643 }, { id: "s6", at: 733 }];
+
 export const Simpson: React.FC = () => {
-  const { fps, durationInFrames } = useVideoConfig();
+
   const T = 8;
   return (
     <AbsoluteFill>
@@ -203,11 +205,8 @@ export const Simpson: React.FC = () => {
       </TransitionSeries>
       <Handle />
       <Fuente />
-      <Audio
-        name="Música"
-        src={staticFile("music-tension.wav")}
-        volume={(f) => 0.3 * interpolate(f, [durationInFrames - 0.8 * fps, durationInFrames], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })}
-      />
+      <Narracion short="simpson" lineas={VOZ} />
+      <Musica src="music-tension.wav" short="simpson" lineas={VOZ} />
     </AbsoluteFill>
   );
 };

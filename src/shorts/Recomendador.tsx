@@ -1,8 +1,8 @@
 import React from "react";
-import { AbsoluteFill, Easing, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { Audio } from "@remotion/media";
+import { AbsoluteFill, Easing, interpolate, useCurrentFrame } from "remotion";
 import { TransitionSeries, linearTiming } from "@remotion/transitions";
 import { slide } from "@remotion/transitions/slide";
+import { Narracion, Musica, type Linea } from "../kit/voz";
 import { Bg, Handle, Sfx, Stage, Sticker, Words, useIn } from "../kit/kit";
 import { C, FONT } from "../kit/theme";
 
@@ -213,8 +213,10 @@ const Cierre: React.FC = () => (
   </Stage>
 );
 
+const VOZ: Linea[] = [{ id: "n1", at: 2 }, { id: "n2", at: 268 }, { id: "n3", at: 470 }, { id: "n4", at: 596 }, { id: "n5", at: 753 }];
+
 export const Recomendador: React.FC = () => {
-  const { fps, durationInFrames } = useVideoConfig();
+
   const T = 8;
   return (
     <AbsoluteFill>
@@ -245,11 +247,8 @@ export const Recomendador: React.FC = () => {
         </TransitionSeries.Sequence>
       </TransitionSeries>
       <Handle />
-      <Audio
-        name="Música"
-        src={staticFile("music-chill.wav")}
-        volume={(f) => 0.32 * interpolate(f, [durationInFrames - 0.8 * fps, durationInFrames], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })}
-      />
+      <Narracion short="netflix" lineas={VOZ} />
+      <Musica src="music-chill.wav" short="netflix" lineas={VOZ} />
     </AbsoluteFill>
   );
 };

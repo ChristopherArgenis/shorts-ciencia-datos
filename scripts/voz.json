@@ -1,0 +1,32 @@
+{
+  "_nota": "Frases cortas de Alex (Kokoro em_alex). Números escritos con letra para que se pronuncien bien.",
+  "cumple": {
+    "c1": "¿Cuántas personas necesitas, para que dos cumplan años el mismo día?",
+    "c2": "Solo veintitrés.",
+    "c3": "Y ya es más de la mitad.",
+    "c4": "Porque se comparan todas las parejas.",
+    "c5": "Tu intuición falla. Los datos, no."
+  },
+  "simpson": {
+    "s1": "Este tratamiento gana en todos los grupos… y pierde en el total.",
+    "s2": "B parece mejor.",
+    "s3": "Pero en piedras pequeñas, gana A.",
+    "s4": "Y en grandes, también.",
+    "s5": "A se llevó los casos difíciles.",
+    "s6": "Se llama paradoja de Simpson."
+  },
+  "netflix": {
+    "n1": "¿Cómo sabe Netflix qué vas a ver? No adivina: te compara.",
+    "n2": "¿A quién te pareces?",
+    "n3": "A Ana le encantó Marte dos. Entonces, te la recomienda.",
+    "n4": "Esto se llama filtrado colaborativo.",
+    "n5": "Tu próxima serie la eligió alguien que ni conoces."
+  },
+  "f1": {
+    "f1": "Este piloto entró a boxes primero… y por eso ganó.",
+    "f2": "Cada auto lleva unos trescientos sensores.",
+    "f3": "Con llantas nuevas, B gana un segundo y medio por vuelta.",
+    "f4": "Cuando A por fin para… B ya va adelante.",
+    "f5": "Se llama undercut. Y se decide con datos."
+  }
+}

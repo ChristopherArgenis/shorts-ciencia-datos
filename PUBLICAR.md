@@ -1,6 +1,6 @@
 # Shorts de Ciencia de Datos: paquete de publicación
 
-Canal: @UniversoCienciaDatos · Formato: vertical 1080×1920, 30 s, sin cara y sin voz.
+Canal: @UniversoCienciaDatos · Formato: vertical 1080×1920, 30 s, sin cara. Voz: Alex (Kokoro, gratis), solo frases clave.
 
 ## Por qué estos tres temas
 
@@ -70,6 +70,23 @@ relacionado".
 > #cienciadedatos #machinelearning #netflix #python #shorts
 
 **Comentario fijado:** ¿Cuál fue la última serie que te recomendaron y te enganchó? 👇
+
+---
+
+## Short 4: Ciencia de Datos en la F1 (el undercut)
+
+**Título:** Entró a boxes PRIMERO… y por eso ganó
+**Alternativa:** El undercut de la F1 explicado con datos
+**Bucle:** "¿Tú habrías entrado antes?"
+**Nota:** 300 sensores y 1,1 millones de datos por segundo son cifras de AWS / Fórmula 1. El
+undercut usa números ilustrativos y en pantalla dice "Ejemplo simplificado".
+
+**Descripción:**
+> Un auto de F1 lleva unos 300 sensores que envían cerca de 1,1 millones de datos por segundo (AWS / Fórmula 1). Con esos datos, los equipos deciden cuándo entrar a boxes. El undercut: parar antes que tu rival y usar llantas nuevas para salir adelante.
+>
+> #cienciadedatos #f1 #formula1 #datos #shorts
+
+**Comentario fijado:** ¿Qué carrera recuerdas que se haya ganado por estrategia? 👇
 
 ---
 
