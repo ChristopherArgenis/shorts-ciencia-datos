@@ -11,7 +11,6 @@ Shorts verticales (1080×1920, 30 s) sin cara, hechos con [Remotion](https://rem
 | `Short2-Simpson` | Paradoja de Simpson (datos: Charig et al., BMJ 1986) |
 | `Short3-Recomendador` | ¿Cómo sabe Netflix qué vas a ver? (filtrado colaborativo) |
 | `Short4-F1` | El undercut en la F1 (datos de sensores: AWS / Fórmula 1) |
-| `Short5-Aviones` | Sesgo del superviviente (Abraham Wald, 1943) |
 
 ## Uso
 ```bash
