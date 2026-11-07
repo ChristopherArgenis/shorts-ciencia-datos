@@ -90,6 +90,23 @@ undercut usa números ilustrativos y en pantalla dice "Ejemplo simplificado".
 
 ---
 
+## Short 5: Sesgo del superviviente (los aviones de Wald)
+
+**Título:** ¿Dónde blindarías este avión? (94/100)
+**Alternativa:** El sesgo del superviviente en 30 segundos (94/100)
+**Bucle:** "¿Y ahora dónde lo blindarías?"
+**Nota:** historia real (Abraham Wald, Statistical Research Group, 1943). El dibujo de impactos es
+ilustrativo y así lo dice en pantalla.
+
+**Descripción:**
+> En la Segunda Guerra Mundial, los aviones que volvían tenían impactos en alas, fuselaje y cola. Lo obvio era blindar ahí. El matemático Abraham Wald propuso lo contrario: blindar donde NO había impactos, porque los aviones alcanzados en esas zonas no regresaban. Se llama sesgo del superviviente: los datos que faltan también hablan.
+>
+> #cienciadedatos #estadistica #sesgodelsuperviviente #historia #shorts
+
+**Comentario fijado:** ¿Dónde lo habrías blindado tú antes de ver el final? 👇
+
+---
+
 ## Semana tipo (20–30 h)
 
 Basado en `yt-plan`: un video principal, uno sencillo, y Shorts. Con la plantilla de Remotion ya
