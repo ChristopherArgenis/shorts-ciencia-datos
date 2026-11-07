@@ -46,5 +46,37 @@
     "b5": "Con eso calculan qué tan probable era el gol. Se llama xG.",
     "b6": "Hoy los analistas lo usan para fichar, estudiar al rival y medir el rendimiento.",
     "b7": "Y parte de sus datos son gratis, para que aprendas."
+  },
+  "mates1": {
+    "m1": "Nueve personas en un café. Cada una gana unos quince mil pesos al mes.",
+    "m2": "El promedio: sumas todo y divides. Quince mil.",
+    "m3": "Entra un multimillonario… y el promedio sube a más de quinientos mil.",
+    "m4": "La mediana ordena los datos y toma el del medio. Sigue en quince mil.",
+    "m5": "Por eso, muchos reportes de sueldos y de precios de casas usan la mediana.",
+    "m6": "Pero, ¿qué tan dispersos están los datos? En la parte dos."
+  },
+  "mates2": {
+    "d1": "Dos repartidores tardan treinta minutos en promedio. Solo en uno puedes confiar.",
+    "d2": "Mira sus entregas. Mismo promedio, historias muy distintas.",
+    "d3": "La desviación estándar mide qué tan lejos caen los datos del promedio.",
+    "d4": "Repartidor A: menos de un minuto. Repartidor B: casi dieciséis.",
+    "d5": "Con ella, las empresas miden qué tan confiable es un servicio.",
+    "d6": "¿Y si un dato cae muy, muy lejos? En la parte tres."
+  },
+  "mates3": {
+    "z1": "Tu banco sabe que esta compra no la hiciste tú.",
+    "z2": "Muchos datos forman una campana. Se llama distribución normal.",
+    "z3": "Casi todo cae a menos de tres desviaciones del promedio.",
+    "z4": "El puntaje z dice cuántas desviaciones te alejas. Una compra de trescientos ochenta: z de cero punto dos cinco.",
+    "z5": "Una de nueve mil quinientos: z de setenta y seis. Alerta.",
+    "z6": "¿Y cómo sabe tu correo qué es spam? En la parte cuatro."
+  },
+  "mates4": {
+    "p1": "¿Cómo sabe tu correo que esto es spam?",
+    "p2": "De cada cien correos, treinta son spam. Treinta por ciento.",
+    "p3": "Pero este dice gratis. Y gratis aparece en dieciocho spam, y solo en siete normales.",
+    "p4": "Mira solo los que dicen gratis. Dieciocho de veinticinco: setenta y dos por ciento.",
+    "p5": "Eso es Bayes. Los filtros de spam lo repiten con cada palabra.",
+    "p6": "Y en la parte cinco: por qué el helado no causa ahogados."
   }
 }

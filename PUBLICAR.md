@@ -128,6 +128,46 @@ ilustrativos y así lo dice en pantalla. No usa datos de StatsBomb ni su logo.
 
 ---
 
+# Serie: Matemáticas que sí usa un científico de datos (8 partes)
+
+Plantilla: `src/kit/serie.tsx` (etiqueta "Parte N/8", fórmula, avance). Ritmo sugerido: 2 por semana.
+Plan: 1 Promedio vs mediana · 2 Desviación estándar · 3 Distribución normal · 4 Bayes ·
+5 Correlación ≠ causalidad · 6 Regresión lineal · 7 Vectores y similitud · 8 Descenso de gradiente.
+
+## Parte 1: Promedio vs mediana
+**Título:** Promedio vs mediana | Mates de científico de datos #1
+**Miniatura:** `MiniMates1` → "¿MEDIO MILLÓN?"
+**Descripción:**
+> 9 personas ganan unos $15,000 al mes. Entra un multimillonario y el promedio sube a $513,500… pero la mediana sigue en $15,000. Por eso muchos reportes de sueldos y precios de casas usan la mediana: no la mueven los valores extremos.
+> Parte 1 de 8 de la serie "Matemáticas que sí usa un científico de datos". Ejemplo simplificado.
+**#:** #cienciadedatos #estadistica #matematicas #mediana #shorts
+
+## Parte 2: Desviación estándar
+**Título:** Desviación estándar | Mates de científico de datos #2
+**Miniatura:** `MiniMates2` → "¿EN CUÁL CONFÍAS?"
+**Descripción:**
+> Dos repartidores tardan 30 minutos en promedio, pero uno siempre llega a tiempo y el otro tarda de 10 a 50 minutos. La desviación estándar mide qué tan lejos caen los datos del promedio: σ = 0.6 vs σ = 15.8 minutos. Así se mide qué tan confiable es un servicio, la calidad de una fábrica o el riesgo de una inversión.
+> Parte 2 de 8 de la serie "Matemáticas que sí usa un científico de datos". Ejemplo simplificado.
+**#:** #cienciadedatos #estadistica #matematicas #desviacionestandar #shorts
+
+## Parte 3: Distribución normal y puntaje z
+**Título:** Distribución normal | Mates de científico de datos #3
+**Miniatura:** `MiniMates3` → "¿FUISTE TÚ?"
+**Descripción:**
+> Muchos datos forman una campana: la distribución normal. El 68 % cae a 1 desviación del promedio, el 95 % a 2 y el 99.7 % a 3. El puntaje z = (x − μ)/σ dice qué tan lejos está un dato: una compra de $380 da z = 0.25 (normal) y una de $9,500 da z = 76 (alerta). Es la idea base de la detección de fraude.
+> Parte 3 de 8 de la serie "Matemáticas que sí usa un científico de datos". Ejemplo simplificado: los bancos usan modelos más complejos.
+**#:** #cienciadedatos #estadistica #distribucionnormal #matematicas #shorts
+
+## Parte 4: Teorema de Bayes
+**Título:** Teorema de Bayes | Mates de científico de datos #4
+**Miniatura:** `MiniMates4` → "¿ES SPAM?"
+**Descripción:**
+> De cada 100 correos, 30 son spam. Pero si el correo dice "GRATIS", la probabilidad sube: de 25 correos con esa palabra, 18 son spam → 72 %. Eso es probabilidad condicional y el Teorema de Bayes, la base de los filtros de spam "Bayes ingenuo", que repiten el cálculo con cada palabra.
+> Parte 4 de 8 de la serie "Matemáticas que sí usa un científico de datos". Números ilustrativos.
+**#:** #cienciadedatos #probabilidad #teoremadebayes #matematicas #shorts
+
+---
+
 ## Semana tipo (20–30 h)
 
 Basado en `yt-plan`: un video principal, uno sencillo, y Shorts. Con la plantilla de Remotion ya

@@ -12,6 +12,7 @@ Shorts verticales (1080×1920, 30 s) sin cara, hechos con [Remotion](https://rem
 | `Short3-Recomendador` | ¿Cómo sabe Netflix qué vas a ver? (filtrado colaborativo) |
 | `Short4-F1` | El undercut en la F1 (datos de sensores: AWS / Fórmula 1) |
 | `Short5-ComoFuncionaClaude` | Cómo funciona Claude desde cero: tokens, atención y predicción (~40 s) |
+| `Mates1-Mediana` … `Mates4-Bayes` | Serie "Mates de científico de datos" partes 1–4 (`src/shorts/serie/`, plantilla en `src/kit/serie.tsx`) |
 | `Short6-StatsBomb` | StatsBomb: datos de eventos, 360, xG y cómo los usan los analistas (~38 s) |
 
 ## Uso
