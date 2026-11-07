@@ -66,6 +66,7 @@ def music(seconds, bpm, chords, seed):
 save("music-curious.wav", music(34, 96, [[57, 60, 64], [53, 57, 60], [48, 52, 55], [55, 59, 62]], 1))
 save("music-tension.wav", music(34, 104, [[50, 53, 57], [46, 50, 53], [53, 57, 60], [52, 56, 59]], 2))
 save("music-chill.wav", music(34, 90, [[60, 64, 67], [57, 60, 64], [53, 57, 60], [55, 59, 62]], 3))
+save("music-explica.wav", music(44, 92, [[62, 65, 69], [58, 62, 65], [60, 64, 67], [57, 60, 64]], 4))
 
 # SFX
 L = int(0.12 * SR); t = np.arange(L) / SR

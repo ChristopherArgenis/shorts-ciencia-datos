@@ -90,6 +90,23 @@ undercut usa números ilustrativos y en pantalla dice "Ejemplo simplificado".
 
 ---
 
+## Short 5: Cómo funciona Claude, desde cero (~40 s)
+
+**Título:** Cómo funciona Claude en 40 segundos (100/100)
+**Alternativa:** Claude no lee palabras. Lee números. (90/100, más intriga)
+**Bucle:** "¿Cuál será el siguiente token?"
+**Nota:** explicación general de un modelo de lenguaje. Los cortes en tokens, los números y los
+porcentajes son ilustrativos y así lo dice en pantalla.
+
+**Descripción:**
+> Claude no lee palabras: corta tu texto en tokens y los convierte en números. Luego cada token "mira" a los demás para entender el contexto (atención), predice el siguiente token, lo agrega y repite. Así se escribe cada respuesta. Aprendió leyendo muchísimo texto y después lo entrenaron para ser útil, honesto e inofensivo.
+>
+> #cienciadedatos #inteligenciaartificial #claude #machinelearning #shorts
+
+**Comentario fijado:** ¿Qué otra IA quieres que explique desde cero? 👇
+
+---
+
 ## Semana tipo (20–30 h)
 
 Basado en `yt-plan`: un video principal, uno sencillo, y Shorts. Con la plantilla de Remotion ya
@@ -107,9 +124,7 @@ hecha, cada Short nuevo cuesta unas **2–3 h** (idea + verificar datos + adapta
 
 **Total:** ~21–25 h. **Si la semana se complica:** quita primero el video largo y deja los Shorts.
 
-Ideas para los próximos Shorts con el mismo patrón: el problema de Monty Hall, la Ley de Benford
-(¿por qué hay más números que empiezan con 1?), el sesgo del superviviente (los aviones de la
-Segunda Guerra Mundial), el xG en el fútbol, correlación ≠ causalidad (helados y ahogados).
+Ideas propias para próximos Shorts: temas explicados desde cero con ejemplos originales (cómo funciona una IA, qué datos genera tu celular en un día, cómo se predice el clima).
 
 **Antes de publicar:** revisa en YouTube Analytics el día y la hora en que tu audiencia está más
 activa. No asumas un día fijo.

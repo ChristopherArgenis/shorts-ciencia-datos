@@ -28,5 +28,14 @@
     "f3": "Con llantas nuevas, B gana un segundo y medio por vuelta.",
     "f4": "Cuando A por fin para… B ya va adelante.",
     "f5": "Se llama undercut. Y se decide con datos."
+  },
+  "claude": {
+    "k1": "Claude no lee palabras. Lee esto.",
+    "k2": "Tu texto se corta en pedacitos llamados tokens. Y cada uno se vuelve números.",
+    "k3": "Luego, cada token mira a los demás, para entender el contexto. Se llama atención.",
+    "k4": "Y al final, hace una sola cosa: predecir el siguiente token.",
+    "k5": "Lo agrega, y repite. Token por token.",
+    "k6": "¿Cómo aprendió? Leyendo muchísimo texto. Y después, lo entrenaron para ser útil, honesto e inofensivo.",
+    "k7": "No es magia. Es predicción."
   }
 }
