@@ -1,9 +1,14 @@
-import { MyComposition } from "./Composition";
+import { Composition, Folder } from "remotion";
+import { Cumpleanos } from "./shorts/Cumpleanos";
+import { Simpson } from "./shorts/Simpson";
+import { Recomendador } from "./shorts/Recomendador";
 
 export const RemotionRoot: React.FC = () => {
   return (
-    <>
-      <MyComposition />
-    </>
+    <Folder name="Shorts">
+      <Composition id="Short1-Cumpleanos" component={Cumpleanos} durationInFrames={900} fps={30} width={1080} height={1920} />
+      <Composition id="Short2-Simpson" component={Simpson} durationInFrames={910} fps={30} width={1080} height={1920} />
+      <Composition id="Short3-Recomendador" component={Recomendador} durationInFrames={900} fps={30} width={1080} height={1920} />
+    </Folder>
   );
 };

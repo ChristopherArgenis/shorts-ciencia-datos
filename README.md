@@ -1,54 +1,26 @@
-# Remotion video
+# Shorts de Ciencia de Datos (@UniversoCienciaDatos)
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.apng">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+Shorts verticales (1080×1920, 30 s) sin cara, hechos con [Remotion](https://remotion.dev).
 
-Welcome to your Remotion project!
+## Shorts
+| ID | Tema |
+| --- | --- |
+| `Short1-Cumpleanos` | Paradoja del cumpleaños |
+| `Short2-Simpson` | Paradoja de Simpson (datos: Charig et al., BMJ 1986) |
+| `Short3-Recomendador` | ¿Cómo sabe Netflix qué vas a ver? (filtrado colaborativo) |
 
-## Commands
-
-**Install Dependencies**
-
-```console
-npm i --loglevel=error
+## Uso
+```bash
+npm i
+npm run dev                                   # vista previa en Remotion Studio
+npx remotion render Short1-Cumpleanos out/Short1-Cumpleanos.mp4
+python3 scripts/make_audio.py                 # regenera música y efectos (requiere numpy)
 ```
 
-**Start Preview**
+- `src/kit/` plantilla compartida (fondo, texto animado, contadores, sonidos).
+- `src/shorts/` un archivo por Short.
+- `public/` música y efectos originales generados por código, y fuentes locales.
+- `PUBLICAR.md` títulos, descripciones, hashtags y plan semanal.
 
-```console
-npm run dev
-```
-
-**Render video**
-
-```console
-npx remotion render
-```
-
-**Upgrade Remotion**
-
-```console
-npx remotion upgrade
-```
-
-## Docs
-
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
-
-## Help
-
-We provide help on our [Discord server](https://discord.gg/6VzzNDwUwV).
-
-## Issues
-
-Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
-
-## License
-
-Note that for some entities a company license is needed. [Read the terms here](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
+Fuera de este sandbox, borra la línea `Config.setBrowserExecutable(...)` de `remotion.config.ts`
+(Remotion descarga su propio navegador).
