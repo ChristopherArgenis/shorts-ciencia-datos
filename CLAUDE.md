@@ -18,4 +18,7 @@ Al terminar cada video, entregar SIEMPRE en el chat, listo para copiar a YouTube
 - **Título** (≤ 60 caracteres, verificado con `yt-package/title.py`)
 - **Descripción** (las 2 primeras líneas dicen qué da el video, con las palabras que la gente busca)
 - **#** (3 a 5 hashtags relevantes + #shorts; YouTube muestra los 3 primeros sobre el título)
+- **Miniatura** PNG 1080×1920: máximo 3 palabras, distintas al título, legible al tamaño del feed.
+  Se hace como `<Still>` en `src/miniaturas/Miniaturas.tsx` y se exporta con
+  `npx remotion still <id> out/miniaturas/<id>.png`.
 Y agregarlo también a `PUBLICAR.md`.

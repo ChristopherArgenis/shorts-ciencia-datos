@@ -24,6 +24,7 @@ python3 scripts/make_voice.py f1              # voz de Alex (Kokoro) desde scrip
 
 - `src/kit/` plantilla compartida (fondo, texto animado, contadores, sonidos).
 - `src/shorts/` un archivo por Short.
+- `src/miniaturas/` miniaturas (1080×1920): `npx remotion still Mini1-Cumpleanos out/miniaturas/Mini1-Cumpleanos.png`
 - `public/` música y efectos originales generados por código, y fuentes locales.
 - `scripts/voz.json` frases de narración; `src/kit/voz.tsx` coloca la voz y baja la música.
 - `PUBLICAR.md` títulos, descripciones, hashtags y plan semanal.
