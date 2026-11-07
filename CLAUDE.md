@@ -12,3 +12,10 @@
 ## Formato de los Shorts
 - Vertical 1080×1920, ~30 s, sin cara. Voz: Alex (Kokoro), solo frases clave.
 - Datos reales con fuente en pantalla; ejemplos ilustrativos marcados como "Ejemplo simplificado".
+
+## Entrega de cada video nuevo
+Al terminar cada video, entregar SIEMPRE en el chat, listo para copiar a YouTube:
+- **Título** (≤ 60 caracteres, verificado con `yt-package/title.py`)
+- **Descripción** (las 2 primeras líneas dicen qué da el video, con las palabras que la gente busca)
+- **#** (3 a 5 hashtags relevantes + #shorts; YouTube muestra los 3 primeros sobre el título)
+Y agregarlo también a `PUBLICAR.md`.
