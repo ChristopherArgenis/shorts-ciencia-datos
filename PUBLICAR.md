@@ -107,6 +107,27 @@ porcentajes son ilustrativos y así lo dice en pantalla.
 
 ---
 
+## Short 6: StatsBomb, la fuente de datos de los analistas de fútbol (~38 s)
+
+**Título:** StatsBomb explicado en 38 segundos (100/100)
+**Alternativa:** 3,300 datos por partido: así trabaja StatsBomb (94/100)
+**Miniatura:** `Mini6-StatsBomb` → "3,300 DATOS" sobre una cancha llena de puntos
+**Bucle:** "¿Cuántos datos crees que tiene TU partido?"
+**Nota:** datos verificados en fuentes de StatsBomb/Hudl. Jugadas, posiciones y valores de xG son
+ilustrativos y así lo dice en pantalla. No usa datos de StatsBomb ni su logo.
+
+**Descripción:**
+> Un partido de fútbol tiene unos 3,300 eventos registrados: cada pase, presión o tiro con su ubicación y su momento. Así trabaja StatsBomb, la fuente de datos que usan los analistas de fútbol para fichar, estudiar al rival y medir el rendimiento.
+> Con su tecnología 360 congelan la posición de los jugadores visibles en cada evento, y con eso calculan el xG: qué tan probable era el gol. Nació como blog en 2013 y hoy es parte de Hudl. Parte de sus datos son gratis en GitHub (statsbombpy).
+>
+> Fuente: StatsBomb / Hudl. Ejemplos de jugadas simplificados.
+
+**#:** #cienciadedatos #futbol #statsbomb #analisisdedatos #shorts
+
+**Comentario fijado:** ¿Quieres que analicemos un partido real con sus datos gratis? 👇
+
+---
+
 ## Semana tipo (20–30 h)
 
 Basado en `yt-plan`: un video principal, uno sencillo, y Shorts. Con la plantilla de Remotion ya

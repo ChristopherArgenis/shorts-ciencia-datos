@@ -198,3 +198,33 @@ export const MiniClaude: React.FC = () => (
     </div>
   </Fondo>
 );
+
+export const MiniStatsBomb: React.FC = () => {
+  let s = 21;
+  const r = () => {
+    s = (s * 16807) % 2147483647;
+    return (s - 1) / 2147483646;
+  };
+  const puntos = Array.from({ length: 150 }).map(() => [20 + r() * 640, 20 + r() * 1010]);
+  return (
+    <Fondo accent={C.green}>
+      <Grande size={300} color={C.yellow}>
+        3,300
+      </Grande>
+      <Grande size={170}>DATOS</Grande>
+      <svg width={460} height={710} viewBox="0 0 680 1050">
+        <rect x={0} y={0} width={680} height={1050} rx={18} fill="#123a2a" />
+        <g fill="none" stroke="#d7f5e5" strokeWidth={5} opacity={0.75}>
+          <rect x={10} y={10} width={660} height={1030} rx={6} />
+          <line x1={10} y1={525} x2={670} y2={525} />
+          <circle cx={340} cy={525} r={91.5} />
+          <rect x={138.5} y={10} width={403} height={165} />
+          <rect x={138.5} y={875} width={403} height={165} />
+        </g>
+        {puntos.map(([x, y], i) => (
+          <circle key={i} cx={x} cy={y} r={11} fill={[C.green, C.yellow, C.blue, C.coral][i % 4]} />
+        ))}
+      </svg>
+    </Fondo>
+  );
+};

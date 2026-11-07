@@ -37,5 +37,14 @@
     "k5": "Lo agrega, y repite. Token por token.",
     "k6": "¿Cómo aprendió? Leyendo muchísimo texto. Y después, lo entrenaron para ser útil, honesto e inofensivo.",
     "k7": "No es magia. Es predicción."
+  },
+  "statsbomb": {
+    "b1": "Un partido de fútbol tiene unos tres mil trescientos datos.",
+    "b2": "Los recolecta StatsBomb, una empresa que nació como un blog en dos mil trece.",
+    "b3": "Cada pase, presión o tiro se guarda con su ubicación y su momento.",
+    "b4": "Y en cada evento, congelan la posición de los jugadores visibles.",
+    "b5": "Con eso calculan qué tan probable era el gol. Se llama xG.",
+    "b6": "Hoy los analistas lo usan para fichar, estudiar al rival y medir el rendimiento.",
+    "b7": "Y parte de sus datos son gratis, para que aprendas."
   }
 }

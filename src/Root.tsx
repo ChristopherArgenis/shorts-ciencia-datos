@@ -4,12 +4,14 @@ import { Simpson } from "./shorts/Simpson";
 import { Recomendador } from "./shorts/Recomendador";
 import { F1 } from "./shorts/F1";
 import { ComoFuncionaClaude } from "./shorts/ComoFuncionaClaude";
+import { StatsBomb } from "./shorts/StatsBomb";
 import {
   MiniCumpleanos,
   MiniSimpson,
   MiniRecomendador,
   MiniF1,
   MiniClaude,
+  MiniStatsBomb,
 } from "./miniaturas/Miniaturas";
 
 export const RemotionRoot: React.FC = () => {
@@ -56,6 +58,14 @@ export const RemotionRoot: React.FC = () => {
           width={1080}
           height={1920}
         />
+        <Composition
+          id="Short6-StatsBomb"
+          component={StatsBomb}
+          durationInFrames={1137}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
       </Folder>
       <Folder name="Miniaturas">
         <Still
@@ -80,6 +90,12 @@ export const RemotionRoot: React.FC = () => {
         <Still
           id="Mini5-ComoFuncionaClaude"
           component={MiniClaude}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="Mini6-StatsBomb"
+          component={MiniStatsBomb}
           width={1080}
           height={1920}
         />
