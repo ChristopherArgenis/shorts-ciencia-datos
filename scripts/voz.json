@@ -150,5 +150,45 @@
     "e4": "Una cola es como la fila del banco: el primero que llega es el primero que atienden.",
     "e5": "Los científicos de datos usan colas para procesar datos en el orden en que llegan: pedidos, mensajes o lecturas de sensores.",
     "e6": "En la parte seis: cómo ordenar mil exámenes sin volverte loco."
+  },
+  "algo6": {
+    "f1": "Mil exámenes desordenados. ¿Cómo los ordenas sin volverte loco?",
+    "f2": "Si buscas el menor una y otra vez, son casi quinientas mil comparaciones.",
+    "f3": "Merge sort: divide la pila a la mitad, una y otra vez, hasta tener exámenes sueltos.",
+    "f4": "Luego junta pares ya ordenados, y así hasta arriba. Solo unas diez mil comparaciones.",
+    "f5": "Ordenar es la base de los rankings, del top de ventas, y hasta de la mediana. Python usa un algoritmo basado en merge sort.",
+    "f6": "En la parte siete: las carpetas de tu compu son un árbol."
+  },
+  "algo7": {
+    "g1": "Las carpetas de tu computadora son un árbol.",
+    "g2": "Hay una raíz, ramas que se dividen, y hojas al final.",
+    "g3": "Para llegar a un archivo no revisas todo: bajas por la rama correcta.",
+    "g4": "Un árbol de decisión hace lo mismo, pero con preguntas. ¿Ingreso alto? ¿Pagos atrasados? Y llega a una respuesta.",
+    "g5": "Los científicos de datos los entrenan para aprobar créditos, detectar fraudes, o predecir si un cliente se va.",
+    "g6": "En la parte ocho: tú y tus amigos, como un grafo."
+  },
+  "algo8": {
+    "h1": "Tú, tus amigos, y los amigos de tus amigos forman un grafo.",
+    "h2": "Cada persona es un nodo. Cada amistad es una arista.",
+    "h3": "Sara no es tu amiga, pero tiene dos amigos en común contigo.",
+    "h4": "Por eso una red social te la sugeriría, como alguien que quizás conozcas.",
+    "h5": "Los científicos de datos usan grafos para recomendar, y para detectar fraudes: cuentas distintas conectadas por la misma tarjeta.",
+    "h6": "En la parte nueve: cómo se encuentra la ruta más rápida."
+  },
+  "algo9": {
+    "i1": "¿Cómo encuentra una app de mapas la ruta más rápida?",
+    "i2": "Las calles son un grafo. Cada tramo tiene un tiempo, en minutos.",
+    "i3": "La ruta que parece directa toma dieciocho minutos.",
+    "i4": "El algoritmo de Dijkstra explora desde tu casa, siempre por lo más cercano primero. Y encuentra una de trece.",
+    "i5": "Los científicos de datos lo usan en logística: rutas de reparto, tiempos de entrega y cadenas de suministro.",
+    "i6": "En la parte diez, la última: cómo saber que gatp era gato."
+  },
+  "algo10": {
+    "j1": "¿Cómo saber que gatp, en realidad, era gato?",
+    "j2": "Se mide cuántos cambios separan dos palabras. Se llama distancia de edición.",
+    "j3": "En vez de probar todas las combinaciones, se llena una tabla: resuelves problemas pequeños y guardas las respuestas.",
+    "j4": "Gatp y gato: un solo cambio. Es la palabra más cercana. Eso es programación dinámica.",
+    "j5": "Los científicos de datos la usan para limpiar datos: saber que José Pérez, con acentos y sin acentos, es la misma persona.",
+    "j6": "Fin de la serie. ¿Qué tema quieres que expliquemos después?"
   }
 }

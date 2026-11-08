@@ -802,3 +802,181 @@ export const MiniAlgo5: React.FC = () => (
     </div>
   </SerieMini>
 );
+
+export const MiniAlgo6: React.FC = () => (
+  <SerieMini n={6} accent={C.yellow} {...ALG}>
+    <Grande size={200} color={C.yellow}>
+      1,000
+    </Grande>
+    <Grande size={150}>EXÁMENES</Grande>
+    <div
+      style={{ display: "flex", alignItems: "flex-end", gap: 12, height: 240 }}
+    >
+      {[3, 9, 10, 27, 38, 43, 55, 82].map((v) => (
+        <div
+          key={v}
+          style={{
+            width: 80,
+            height: 40 + v * 2.4,
+            borderRadius: 10,
+            background:
+              v < 20 ? C.blue : v < 45 ? C.green : v < 60 ? C.yellow : C.coral,
+          }}
+        />
+      ))}
+    </div>
+  </SerieMini>
+);
+
+export const MiniAlgo7: React.FC = () => (
+  <SerieMini n={7} accent={C.green} {...ALG}>
+    <Grande size={170}>¿CRÉDITO</Grande>
+    <Grande size={160} color={C.green}>
+      APROBADO?
+    </Grande>
+    <svg width={700} height={300} viewBox="0 0 700 300">
+      <line
+        x1={350}
+        y1={50}
+        x2={170}
+        y2={170}
+        stroke={C.yellow}
+        strokeWidth={10}
+      />
+      <line x1={350} y1={50} x2={530} y2={170} stroke={C.dim} strokeWidth={8} />
+      <line
+        x1={170}
+        y1={170}
+        x2={80}
+        y2={270}
+        stroke={C.yellow}
+        strokeWidth={10}
+      />
+      <line
+        x1={170}
+        y1={170}
+        x2={260}
+        y2={270}
+        stroke={C.dim}
+        strokeWidth={8}
+      />
+      <circle cx={350} cy={50} r={40} fill={C.blue} />
+      <circle cx={170} cy={170} r={40} fill={C.blue} />
+      <circle cx={530} cy={170} r={40} fill={C.coral} />
+      <circle cx={80} cy={260} r={40} fill={C.green} />
+      <circle cx={260} cy={260} r={40} fill={C.yellow} />
+    </svg>
+  </SerieMini>
+);
+
+export const MiniAlgo8: React.FC = () => (
+  <SerieMini n={8} accent={C.purple} {...ALG}>
+    <Grande size={180}>¿LA</Grande>
+    <Grande size={180} color={C.purple}>
+      CONOCES?
+    </Grande>
+    <svg width={700} height={300} viewBox="0 0 700 300">
+      {[
+        [350, 150, 200, 60],
+        [350, 150, 200, 240],
+        [350, 150, 560, 150],
+        [200, 60, 60, 150],
+        [200, 240, 60, 150],
+      ].map(([a, b, c, d], i) => (
+        <line
+          key={i}
+          x1={a}
+          y1={b}
+          x2={c}
+          y2={d}
+          stroke={i > 2 ? C.green : C.dim}
+          strokeWidth={10}
+        />
+      ))}
+      {[
+        [350, 150, C.yellow],
+        [200, 60, C.blue],
+        [200, 240, C.blue],
+        [560, 150, C.blue],
+        [60, 150, C.purple],
+      ].map(([x, y, c], i) => (
+        <circle
+          key={i}
+          cx={x as number}
+          cy={y as number}
+          r={46}
+          fill={c as string}
+          stroke="#0b1020"
+          strokeWidth={5}
+        />
+      ))}
+    </svg>
+  </SerieMini>
+);
+
+export const MiniAlgo9: React.FC = () => (
+  <SerieMini n={9} accent={C.green} {...ALG}>
+    <Grande size={190} color={C.coral}>
+      18 MIN
+    </Grande>
+    <Grande size={190} color={C.green}>
+      13 MIN
+    </Grande>
+    <svg width={760} height={280} viewBox="0 0 760 280">
+      <polyline
+        points="40,240 380,200 720,150"
+        fill="none"
+        stroke={C.coral}
+        strokeWidth={12}
+        strokeDasharray="22 14"
+      />
+      <polyline
+        points="40,240 180,60 380,140 540,40 720,150"
+        fill="none"
+        stroke={C.green}
+        strokeWidth={14}
+        strokeLinejoin="round"
+      />
+      <circle cx={40} cy={240} r={30} fill={C.yellow} />
+      <circle cx={720} cy={150} r={30} fill={C.yellow} />
+    </svg>
+  </SerieMini>
+);
+
+export const MiniAlgo10: React.FC = () => (
+  <SerieMini n={10} accent={C.yellow} {...ALG}>
+    <Grande size={200} color={C.coral}>
+      ¿GATP
+    </Grande>
+    <Grande size={200} color={C.green}>
+      = GATO?
+    </Grande>
+    <div
+      style={{
+        display: "grid",
+        gridTemplateColumns: "repeat(4, 110px)",
+        gap: 8,
+        fontFamily: MONO,
+        fontWeight: 700,
+        fontSize: 52,
+      }}
+    >
+      {[0, 1, 2, 3, 1, 0, 1, 2, 2, 1, 0, 1, 3, 2, 1, 1].map((v, i) => (
+        <div
+          key={i}
+          style={{
+            height: 90,
+            borderRadius: 12,
+            background: i === 15 ? C.green : C.bg2,
+            color: i === 15 ? C.bg : C.ink,
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          {v}
+        </div>
+      ))}
+    </div>
+  </SerieMini>
+);

@@ -287,7 +287,8 @@ const Aplicacion: React.FC = () => (
       lineas={[
         "conteo = {}            # contar",
         "unicos = set(correos)  # sin repetidos",
-        'df.merge(clientes, on="id")', "# ↑ unir tablas",
+        'df.merge(clientes, on="id")',
+        "# ↑ unir tablas",
       ]}
       delay={60}
       size={34}

@@ -246,6 +246,46 @@ Plan: 1 Arreglos · 2 Big O · 3 Búsqueda binaria · 4 Tablas hash · 5 Pilas y
 > Parte 5 de 10 de la serie "Estructuras de Datos y Algoritmos". Ejemplo simplificado.
 **#:** #cienciadedatos #programacion #python #estructurasdedatos #shorts
 
+## Parte 6: Ordenamiento
+**Título:** Ordenamiento | Estructuras y algoritmos #6
+**Miniatura:** `MiniAlgo6` → "1,000 EXÁMENES"
+**Descripción:**
+> Ordenar 1,000 exámenes buscando el menor una y otra vez cuesta unas 500,000 comparaciones. Merge sort divide la pila a la mitad hasta tener exámenes sueltos y luego junta pares ya ordenados: unas 10,000 comparaciones, O(n log n). Es la base de rankings, top de ventas y la mediana; Python usa Timsort, basado en merge sort.
+> Parte 6 de 10 de la serie "Estructuras de Datos y Algoritmos". Ejemplo simplificado.
+**#:** #cienciadedatos #programacion #algoritmos #python #shorts
+
+## Parte 7: Árboles
+**Título:** Árboles | Estructuras y algoritmos #7
+**Miniatura:** `MiniAlgo7` → "¿CRÉDITO APROBADO?"
+**Descripción:**
+> Las carpetas de tu computadora son un árbol: raíz, ramas y hojas. Para llegar a un archivo no revisas todo, bajas por la rama correcta. Un árbol de decisión hace lo mismo con preguntas (¿ingreso alto? ¿pagos atrasados?) y los científicos de datos los entrenan para aprobar créditos, detectar fraudes o predecir si un cliente se va.
+> Parte 7 de 10 de la serie "Estructuras de Datos y Algoritmos". Ejemplo simplificado.
+**#:** #cienciadedatos #machinelearning #algoritmos #python #shorts
+
+## Parte 8: Grafos
+**Título:** Grafos | Estructuras y algoritmos #8
+**Miniatura:** `MiniAlgo8` → "¿LA CONOCES?"
+**Descripción:**
+> Tú, tus amigos y los amigos de tus amigos forman un grafo: personas = nodos, amistades = aristas. Sara no es tu amiga, pero tiene 2 amigos en común contigo: por eso una red social te la sugeriría. Los científicos de datos usan grafos para recomendar y para detectar fraudes, como varias cuentas conectadas a la misma tarjeta.
+> Parte 8 de 10 de la serie "Estructuras de Datos y Algoritmos". Ejemplo simplificado.
+**#:** #cienciadedatos #grafos #algoritmos #python #shorts
+
+## Parte 9: Camino más corto
+**Título:** Camino más corto | Estructuras y algoritmos #9
+**Miniatura:** `MiniAlgo9` → "18 MIN vs 13 MIN"
+**Descripción:**
+> Las calles son un grafo y cada tramo tiene un tiempo. La ruta que parece directa toma 18 minutos; el algoritmo de Dijkstra explora siempre lo más cercano primero y encuentra una de 13. Se usa en logística: rutas de reparto, tiempos de entrega y cadenas de suministro. Las apps de mapas usan versiones más avanzadas con tráfico en vivo.
+> Parte 9 de 10 de la serie "Estructuras de Datos y Algoritmos". Ejemplo simplificado.
+**#:** #cienciadedatos #algoritmos #grafos #python #shorts
+
+## Parte 10: Programación dinámica
+**Título:** Programación dinámica | Estructuras y algoritmos #10
+**Miniatura:** `MiniAlgo10` → "¿GATP = GATO?"
+**Descripción:**
+> ¿Cómo saber que "gatp" era "gato"? Con la distancia de edición: cuántos cambios separan dos palabras. En vez de probar todo, se llena una tabla guardando respuestas pequeñas: eso es programación dinámica. Los científicos de datos la usan para limpiar datos, como saber que "José Pérez" y "Jose Perez" son la misma persona.
+> Parte 10 de 10 de la serie "Estructuras de Datos y Algoritmos". Final de la serie. Ejemplo simplificado.
+**#:** #cienciadedatos #programacion #algoritmos #python #shorts
+
 ---
 
 ## Semana tipo (20–30 h)
