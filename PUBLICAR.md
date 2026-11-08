@@ -333,6 +333,46 @@ Plan: 1 Ciclo · 2 Pregunta · 3 Recolección · 4 Datos ordenados · 5 Limpieza
 > Parte 5 de 10 de la serie "Programación en Ciencia de Datos". Café Datos es un caso ficticio.
 **#:** #cienciadedatos #python #pandas #limpiezadedatos #shorts
 
+## Parte 6: Datos atípicos
+**Título:** Datos atípicos | Ciencia de datos en práctica #6
+**Miniatura:** `MiniPrac6` → "¿CAFÉ DE $15,000?"
+**Descripción:**
+> Un ticket de $15,000 en un café: ¿error o el cliente del año? Un dato atípico queda muy lejos de los demás. Con la regla del rango intercuartílico (IQR = Q3 − Q1) todo lo que pase de Q3 + 1.5·IQR (aquí $144.5) se revisa. Revisar no es borrar: un cero de más se corrige; un pedido real para una boda es un hallazgo.
+> Parte 6 de 10 de la serie "Programación en Ciencia de Datos". Café Datos es un caso ficticio.
+**#:** #cienciadedatos #estadistica #python #pandas #shorts
+
+## Parte 7: Transformar datos
+**Título:** Transformar datos | Ciencia de datos en práctica #7
+**Miniatura:** `MiniPrac7` → "3 COMANDOS"
+**Descripción:**
+> ¿Qué día vende más Café Datos? Con 3 comandos de pandas: filtrar (solo este mes), agrupar por día y sumar (groupby: gana el sábado) y unir con el inventario (merge: el fin de semana se acaba el pan). Filtrar, agrupar y unir: el día a día de un científico de datos.
+> Parte 7 de 10 de la serie "Programación en Ciencia de Datos". Café Datos es un caso ficticio.
+**#:** #cienciadedatos #python #pandas #datascience #shorts
+
+## Parte 8: Análisis exploratorio
+**Título:** Análisis exploratorio | Ciencia de datos en práctica #8
+**Miniatura:** `MiniPrac8` → "¿POR QUÉ LUNES?"
+**Descripción:**
+> Antes de concluir, mira tus datos. El análisis exploratorio (EDA) es hacerle preguntas a los datos con gráficas: un histograma muestra que la mayoría de los tickets están entre $50 y $100, y al cruzar producto y día aparece algo: los lunes casi no se vende pan dulce. Explorar no da respuestas finales, da buenas preguntas.
+> Parte 8 de 10 de la serie "Programación en Ciencia de Datos". Café Datos es un caso ficticio.
+**#:** #cienciadedatos #analisisdedatos #python #visualizacion #shorts
+
+## Parte 9: Los 4 tipos de análisis
+**Título:** Los 4 tipos de análisis | Ciencia de datos en práctica #9
+**Miniatura:** `MiniPrac9` → "4 ANÁLISIS"
+**Descripción:**
+> Un café, cuatro preguntas. Descriptivo: ¿qué pasó? (ventas −15%). Diagnóstico: ¿por qué? (llovió 5 días). Predictivo: ¿qué pasará? (más lluvia). Prescriptivo: ¿qué hago? (promo de chocolate caliente y más envíos). Cada tipo es más difícil y aporta más valor.
+> Parte 9 de 10 de la serie "Programación en Ciencia de Datos". Café Datos es un caso ficticio.
+**#:** #cienciadedatos #analisisdedatos #datascience #negocios #shorts
+
+## Parte 10: Comunicar y decidir
+**Título:** Comunicar y decidir | Ciencia de datos en práctica #10
+**Miniatura:** `MiniPrac10` → "¿SE DISPARARON?"
+**Descripción:**
+> Un análisis que nadie entiende no sirve. Una gráfica con el eje empezando en 4,000 hace ver enorme un cambio de +6.5%. Para comunicar: una idea por gráfica, la gráfica correcta y una recomendación clara; y que sea repetible con un notebook y Git. Así Café Datos decide: más pan los fines de semana. Próxima serie: Aprendizaje Automático.
+> Parte 10 de 10 de la serie "Programación en Ciencia de Datos". Final de la serie. Café Datos es un caso ficticio.
+**#:** #cienciadedatos #visualizacion #datascience #storytelling #shorts
+
 ---
 
 ## Semana tipo (20–30 h)

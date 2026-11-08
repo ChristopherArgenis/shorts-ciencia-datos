@@ -230,5 +230,45 @@
     "q4": "En Café Datos, después de limpiar, Ciudad de México pasa de tres grupos a uno solo.",
     "q5": "Por eso se dice que limpiar datos es de lo que más tiempo toma en un proyecto.",
     "q6": "En la parte seis: un café de quince mil pesos. ¿Error, o el cliente del año?"
+  },
+  "prac6": {
+    "r1": "Un café de quince mil pesos. ¿Error… o el cliente del año?",
+    "r2": "Un dato atípico es uno que queda muy lejos de los demás.",
+    "r3": "Una regla común: el rango intercuartílico. Tomas el cincuenta por ciento central de los datos, y le das un margen.",
+    "r4": "En Café Datos, todo lo que pase de ciento cuarenta y cuatro pesos se revisa. Y quince mil queda muy fuera.",
+    "r5": "Revisar no es borrar. Si fue un cero de más, se corrige. Si fue un pedido real para una boda, es un hallazgo.",
+    "r6": "En la parte siete: responder lo que tu jefe pregunta, con tres comandos."
+  },
+  "prac7": {
+    "s1": "Con tres comandos respondes lo que tu jefe pregunta.",
+    "s2": "¿Qué día vendemos más? La tabla tiene miles de tickets, uno por fila.",
+    "s3": "Primero filtras: solo las ventas de este mes.",
+    "s4": "Luego agrupas por día de la semana, y sumas. El sábado gana.",
+    "s5": "Y si unes con la tabla de inventario, sabes qué día se acaba el pan. Filtrar, agrupar y unir: el día a día de un científico de datos.",
+    "s6": "En la parte ocho: antes de concluir, mira tus datos."
+  },
+  "prac8": {
+    "u1": "Antes de concluir, mira tus datos.",
+    "u2": "El análisis exploratorio es hacerle preguntas a los datos, con gráficas.",
+    "u3": "Un histograma muestra cómo se reparten los tickets: la mayoría entre cincuenta y cien pesos.",
+    "u4": "Y al cruzar producto y día, aparece algo: los lunes casi no se vende pan dulce.",
+    "u5": "Explorar no da respuestas finales. Da buenas preguntas. ¿Por qué los lunes?",
+    "u6": "En la parte nueve: los cuatro tipos de análisis."
+  },
+  "prac9": {
+    "w1": "Un café. Cuatro preguntas. Cuatro tipos de análisis.",
+    "w2": "Descriptivo: ¿qué pasó? Las ventas bajaron quince por ciento la semana pasada.",
+    "w3": "Diagnóstico: ¿por qué pasó? Llovió cinco días, y llegó menos gente.",
+    "w4": "Predictivo: ¿qué pasará? Se espera lluvia otra vez la próxima semana.",
+    "w5": "Prescriptivo: ¿qué hago? Promoción de chocolate caliente, y más pedidos a domicilio.",
+    "w6": "Cada tipo es más difícil, y aporta más valor. En la parte diez: comunicarlo."
+  },
+  "prac10": {
+    "x1": "Un análisis que nadie entiende, no sirve.",
+    "x2": "Mira esta gráfica: parece que las ventas se dispararon.",
+    "x3": "Pero el eje empieza en cuatro mil. Desde cero, el cambio es pequeño.",
+    "x4": "Para comunicar: una idea por gráfica, la gráfica correcta, y una recomendación clara.",
+    "x5": "Y que se pueda repetir: con un notebook y Git, cualquiera reproduce tu análisis. Así Café Datos toma su decisión.",
+    "x6": "Y para predecir… se usan modelos. Eso viene en la siguiente serie."
   }
 }

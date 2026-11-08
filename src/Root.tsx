@@ -31,6 +31,11 @@ import { Prac2Pregunta, TOTAL_P2 } from "./shorts/practica/Prac2Pregunta";
 import { Prac3Recoleccion, TOTAL_P3 } from "./shorts/practica/Prac3Recoleccion";
 import { Prac4Ordenados, TOTAL_P4 } from "./shorts/practica/Prac4Ordenados";
 import { Prac5Limpieza, TOTAL_P5 } from "./shorts/practica/Prac5Limpieza";
+import { Prac6Atipicos, TOTAL_P6 } from "./shorts/practica/Prac6Atipicos";
+import { Prac7Transformar, TOTAL_P7 } from "./shorts/practica/Prac7Transformar";
+import { Prac8EDA, TOTAL_P8 } from "./shorts/practica/Prac8EDA";
+import { Prac9Analisis, TOTAL_P9 } from "./shorts/practica/Prac9Analisis";
+import { Prac10Comunicar, TOTAL_P10 } from "./shorts/practica/Prac10Comunicar";
 import {
   MiniCumpleanos,
   MiniSimpson,
@@ -61,6 +66,11 @@ import {
   MiniPrac3,
   MiniPrac4,
   MiniPrac5,
+  MiniPrac6,
+  MiniPrac7,
+  MiniPrac8,
+  MiniPrac9,
+  MiniPrac10,
 } from "./miniaturas/Miniaturas";
 
 export const RemotionRoot: React.FC = () => {
@@ -305,6 +315,46 @@ export const RemotionRoot: React.FC = () => {
           width={1080}
           height={1920}
         />
+        <Composition
+          id="Prac6-Atipicos"
+          component={Prac6Atipicos}
+          durationInFrames={TOTAL_P6}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="Prac7-Transformar"
+          component={Prac7Transformar}
+          durationInFrames={TOTAL_P7}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="Prac8-EDA"
+          component={Prac8EDA}
+          durationInFrames={TOTAL_P8}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="Prac9-Analisis"
+          component={Prac9Analisis}
+          durationInFrames={TOTAL_P9}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="Prac10-Comunicar"
+          component={Prac10Comunicar}
+          durationInFrames={TOTAL_P10}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
       </Folder>
       <Folder name="Miniaturas">
         <Still
@@ -473,6 +523,36 @@ export const RemotionRoot: React.FC = () => {
         <Still
           id="MiniPrac5"
           component={MiniPrac5}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniPrac6"
+          component={MiniPrac6}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniPrac7"
+          component={MiniPrac7}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniPrac8"
+          component={MiniPrac8}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniPrac9"
+          component={MiniPrac9}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniPrac10"
+          component={MiniPrac10}
           width={1080}
           height={1920}
         />

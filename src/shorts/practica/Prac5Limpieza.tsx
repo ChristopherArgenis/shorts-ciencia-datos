@@ -206,7 +206,7 @@ const Resultado: React.FC = () => {
           "df = df.drop_duplicates()",
           'df["ciudad"] = df["ciudad"].replace(sinonimos)',
           'df["producto"] = (df["producto"].str.strip()',
-          '                  .str.capitalize())',
+          "                  .str.capitalize())",
         ]}
         delay={5}
         size={30}

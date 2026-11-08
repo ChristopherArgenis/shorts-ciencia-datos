@@ -1087,3 +1087,120 @@ export const MiniPrac5: React.FC = () => (
     </div>
   </SerieMini>
 );
+
+export const MiniPrac6: React.FC = () => (
+  <SerieMini n={6} accent={C.coral} {...PRAC}>
+    <Grande size={150}>¿CAFÉ DE</Grande>
+    <Grande size={210} color={C.coral}>
+      $15,000?
+    </Grande>
+    <svg width={760} height={120} viewBox="0 0 760 120">
+      <line x1={20} y1={90} x2={740} y2={90} stroke={C.dim} strokeWidth={5} />
+      {[60, 90, 110, 130, 150, 170, 200].map((x, i) => (
+        <circle key={i} cx={x} cy={70 - (i % 2) * 18} r={16} fill={C.blue} />
+      ))}
+      <circle cx={700} cy={60} r={26} fill={C.coral} />
+    </svg>
+  </SerieMini>
+);
+
+export const MiniPrac7: React.FC = () => (
+  <SerieMini n={7} accent={C.green} {...PRAC}>
+    <Grande size={200}>3</Grande>
+    <Grande size={150} color={C.green}>
+      COMANDOS
+    </Grande>
+    <div style={{ display: "flex", gap: 14 }}>
+      {["filtrar", "agrupar", "unir"].map((t, i) => (
+        <span
+          key={t}
+          style={{
+            fontFamily: MONO,
+            fontWeight: 700,
+            fontSize: 52,
+            color: C.bg,
+            background: [C.yellow, C.green, C.blue][i],
+            borderRadius: 16,
+            padding: "10px 22px",
+          }}
+        >
+          {t}
+        </span>
+      ))}
+    </div>
+  </SerieMini>
+);
+
+export const MiniPrac8: React.FC = () => (
+  <SerieMini n={8} accent={C.blue} {...PRAC}>
+    <Grande size={180}>¿POR QUÉ</Grande>
+    <Grande size={180} color={C.coral}>
+      LUNES?
+    </Grande>
+    <div
+      style={{
+        display: "grid",
+        gridTemplateColumns: "repeat(7, 100px)",
+        gap: 8,
+      }}
+    >
+      {[4, 30, 32, 35, 45, 70, 66].map((v, i) => (
+        <div
+          key={i}
+          style={{
+            height: 100,
+            borderRadius: 14,
+            background: `rgba(61,220,132,${0.15 + 0.85 * (v / 70)})`,
+            outline: i === 0 ? `6px solid ${C.coral}` : "none",
+          }}
+        />
+      ))}
+    </div>
+  </SerieMini>
+);
+
+export const MiniPrac9: React.FC = () => (
+  <SerieMini n={9} accent={C.purple} {...PRAC}>
+    <Grande size={300}>4</Grande>
+    <Grande size={150} color={C.purple}>
+      ANÁLISIS
+    </Grande>
+    <div style={{ display: "flex", alignItems: "flex-end", gap: 14 }}>
+      {[C.blue, C.purple, C.yellow, C.green].map((c, i) => (
+        <div
+          key={i}
+          style={{
+            width: 150,
+            height: 80 + i * 70,
+            borderRadius: 16,
+            background: c,
+          }}
+        />
+      ))}
+    </div>
+  </SerieMini>
+);
+
+export const MiniPrac10: React.FC = () => (
+  <SerieMini n={10} accent={C.green} {...PRAC}>
+    <Grande size={170}>¿SE</Grande>
+    <Grande size={128} color={C.coral}>
+      DISPARARON?
+    </Grande>
+    <div
+      style={{ display: "flex", alignItems: "flex-end", gap: 20, height: 280 }}
+    >
+      {[80, 130, 160, 260].map((h, i) => (
+        <div
+          key={i}
+          style={{
+            width: 120,
+            height: h,
+            borderRadius: 12,
+            background: C.coral,
+          }}
+        />
+      ))}
+    </div>
+  </SerieMini>
+);
