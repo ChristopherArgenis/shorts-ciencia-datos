@@ -288,6 +288,53 @@ Plan: 1 Arreglos · 2 Big O · 3 Búsqueda binaria · 4 Tablas hash · 5 Pilas y
 
 ---
 
+# Serie: Programación en Ciencia de Datos (10 partes)
+
+Caso ficticio en toda la serie: Café Datos. Plantilla `SERIE_PRACTICA` (verde). Título: `[Tema] | Ciencia de datos en práctica #N`.
+Plan: 1 Ciclo · 2 Pregunta · 3 Recolección · 4 Datos ordenados · 5 Limpieza · 6 Atípicos · 7 Transformar · 8 EDA · 9 Los 4 tipos de análisis · 10 Comunicar y decidir.
+
+## Parte 1: Ciclo de un proyecto
+**Título:** Ciclo de un proyecto | Ciencia de datos en práctica #1
+**Miniatura:** `MiniPrac1` → "NO SON MODELOS"
+**Descripción:**
+> Un dicho entre científicos de datos: la mayor parte del trabajo no son los modelos. El ciclo de un proyecto: pregunta, datos, limpieza, exploración, análisis y comunicar para decidir… y casi nunca es una línea recta. Seguiremos a Café Datos, un café ficticio que quiere vender más, durante las 10 partes.
+> Parte 1 de 10 de la serie "Programación en Ciencia de Datos". Café Datos es un caso ficticio.
+**#:** #cienciadedatos #analisisdedatos #python #datascience #shorts
+
+## Parte 2: La pregunta correcta
+**Título:** La pregunta correcta | Ciencia de datos en práctica #2
+**Miniatura:** `MiniPrac2` → "¿VENDER MÁS?"
+**Descripción:**
+> "Quiero vender más" no es una pregunta de datos: es un deseo. Una buena pregunta dice qué se mide, en qué grupo y en qué tiempo: ¿qué producto se vende menos por las tardes, entre semana, en el último mes? Así sabes qué datos pedir y cuándo terminaste.
+> Parte 2 de 10 de la serie "Programación en Ciencia de Datos". Café Datos es un caso ficticio.
+**#:** #cienciadedatos #analisisdedatos #datascience #negocios #shorts
+
+## Parte 3: Recolección de datos
+**Título:** Recolección de datos | Ciencia de datos en práctica #3
+**Miniatura:** `MiniPrac3` → "¿DE DÓNDE SALEN?"
+**Descripción:**
+> Cada vez que pagas, generas una fila de datos. Café Datos tiene caja registradora, inventario y reseñas; los datos viven en bases de datos (SQL), archivos Excel/CSV o llegan por una API, y con pandas se cargan en una línea (pd.read_csv). Siempre con permiso: los datos personales se protegen.
+> Parte 3 de 10 de la serie "Programación en Ciencia de Datos". Café Datos es un caso ficticio.
+**#:** #cienciadedatos #python #pandas #datascience #shorts
+
+## Parte 4: Datos ordenados
+**Título:** Datos ordenados | Ciencia de datos en práctica #4
+**Miniatura:** `MiniPrac4` → "TABLA MAL HECHA"
+**Descripción:**
+> Una tabla con un mes por columna se ve bonita pero es difícil de analizar. En datos ordenados (tidy), cada fila es una observación y cada columna una variable, y cada variable tiene su tipo: número, categoría, fecha o texto. Con melt, pandas convierte la tabla ancha en larga.
+> Parte 4 de 10 de la serie "Programación en Ciencia de Datos". Café Datos es un caso ficticio.
+**#:** #cienciadedatos #python #pandas #datascience #shorts
+
+## Parte 5: Limpieza de datos
+**Título:** Limpieza de datos | Ciencia de datos en práctica #5
+**Miniatura:** `MiniPrac5` → "CDMX ≠ cdmx"
+**Descripción:**
+> "CDMX", "Ciudad de México" y "cdmx" son el mismo lugar, pero para la computadora son tres. Limpiar datos es revisar faltantes, duplicados, formatos distintos y errores de captura (como un pan dulce de $250). Con pandas: drop_duplicates, replace y str.strip.
+> Parte 5 de 10 de la serie "Programación en Ciencia de Datos". Café Datos es un caso ficticio.
+**#:** #cienciadedatos #python #pandas #limpiezadedatos #shorts
+
+---
+
 ## Semana tipo (20–30 h)
 
 Basado en `yt-plan`: un video principal, uno sencillo, y Shorts. Con la plantilla de Remotion ya
