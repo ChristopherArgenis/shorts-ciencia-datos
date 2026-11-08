@@ -980,3 +980,110 @@ export const MiniAlgo10: React.FC = () => (
     </div>
   </SerieMini>
 );
+
+// ---------- Serie "Programación en Ciencia de Datos" ----------
+const PRAC = { serie: "PROGRAMACIÓN EN CIENCIA DE DATOS", color: C.green };
+
+export const MiniPrac1: React.FC = () => (
+  <SerieMini n={1} accent={C.green} {...PRAC}>
+    <Grande size={170}>NO SON</Grande>
+    <Grande size={170} color={C.coral}>
+      MODELOS
+    </Grande>
+    <div
+      style={{
+        width: 820,
+        height: 100,
+        borderRadius: 50,
+        overflow: "hidden",
+        display: "flex",
+      }}
+    >
+      <div style={{ width: "78%", background: C.green }} />
+      <div style={{ flex: 1, background: C.purple }} />
+    </div>
+  </SerieMini>
+);
+
+export const MiniPrac2: React.FC = () => (
+  <SerieMini n={2} accent={C.blue} {...PRAC}>
+    <Grande size={200}>¿VENDER</Grande>
+    <Grande size={200} color={C.coral}>
+      MÁS?
+    </Grande>
+    <div
+      style={{
+        fontFamily: FONT,
+        fontWeight: 900,
+        fontSize: 200,
+        color: C.coral,
+      }}
+    >
+      ✕
+    </div>
+  </SerieMini>
+);
+
+export const MiniPrac3: React.FC = () => (
+  <SerieMini n={3} accent={C.green} {...PRAC}>
+    <Grande size={160}>¿DE DÓNDE</Grande>
+    <Grande size={160} color={C.green}>
+      SALEN?
+    </Grande>
+    <div
+      style={{
+        width: 420,
+        background: "#f4f6ff",
+        color: "#0b1020",
+        borderRadius: 20,
+        padding: "24px 30px",
+        fontFamily: MONO,
+        fontSize: 38,
+        rotate: "-4deg",
+      }}
+    >
+      <div style={{ fontWeight: 700, textAlign: "center" }}>CAFÉ DATOS</div>
+      <div>Latte ..... $55</div>
+    </div>
+  </SerieMini>
+);
+
+export const MiniPrac4: React.FC = () => (
+  <SerieMini n={4} accent={C.yellow} {...PRAC}>
+    <Grande size={170}>TABLA</Grande>
+    <Grande size={170} color={C.coral}>
+      MAL HECHA
+    </Grande>
+    <div
+      style={{
+        display: "grid",
+        gridTemplateColumns: "repeat(4, 170px)",
+        gap: 8,
+      }}
+    >
+      {Array.from({ length: 12 }).map((_, i) => (
+        <div
+          key={i}
+          style={{
+            height: 70,
+            borderRadius: 10,
+            background:
+              i < 4 ? "#222b5c" : i % 4 === 0 ? C.bg2 : `${C.yellow}55`,
+          }}
+        />
+      ))}
+    </div>
+  </SerieMini>
+);
+
+export const MiniPrac5: React.FC = () => (
+  <SerieMini n={5} accent={C.purple} {...PRAC}>
+    <Grande size={230}>CDMX</Grande>
+    <Grande size={230} color={C.coral}>
+      ≠ cdmx
+    </Grande>
+    <div style={{ fontFamily: MONO, fontSize: 56, color: C.dim }}>
+      drop_duplicates()
+    </div>
+  </SerieMini>
+);

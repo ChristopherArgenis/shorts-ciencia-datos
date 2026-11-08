@@ -190,5 +190,45 @@
     "j4": "Gatp y gato: un solo cambio. Es la palabra más cercana. Eso es programación dinámica.",
     "j5": "Los científicos de datos la usan para limpiar datos: saber que José Pérez, con acentos y sin acentos, es la misma persona.",
     "j6": "Fin de la serie. ¿Qué tema quieres que expliquemos después?"
+  },
+  "prac1": {
+    "k1": "Hay un dicho entre científicos de datos: la mayor parte del trabajo no son los modelos.",
+    "k2": "Café Datos quiere vender más. Vamos a seguir su proyecto paso a paso.",
+    "k3": "Primero, la pregunta. Luego, conseguir los datos, y limpiarlos.",
+    "k4": "Después, explorar, analizar, y al final, comunicar para tomar una decisión.",
+    "k5": "Y casi nunca es una línea recta: muchas veces regresas a un paso anterior.",
+    "k6": "En la parte dos: por qué quiero vender más, no es una pregunta de datos."
+  },
+  "prac2": {
+    "l1": "Quiero vender más, no es una pregunta de datos.",
+    "l2": "Es un deseo. No dice qué medir, ni cuándo, ni comparado con qué.",
+    "l3": "Una buena pregunta tiene tres cosas: qué se mide, en qué grupo, y en qué tiempo.",
+    "l4": "Por ejemplo: ¿qué producto se vende menos por las tardes, entre semana, en el último mes?",
+    "l5": "Con una pregunta así, ya sabes qué datos necesitas, y cuándo terminaste.",
+    "l6": "En la parte tres: de dónde salen los datos."
+  },
+  "prac3": {
+    "n1": "Cada vez que pagas en un café, generas una fila de datos.",
+    "n2": "Café Datos tiene varias fuentes: la caja registradora, el inventario y las reseñas.",
+    "n3": "Pueden vivir en una base de datos, en archivos de Excel o C S V, o llegar desde una A P I.",
+    "n4": "Con pandas, el científico de datos las carga en una tabla con una sola línea.",
+    "n5": "Y siempre con permiso: los datos personales se protegen, y se usan solo para lo que se pidió.",
+    "n6": "En la parte cuatro: una tabla mal hecha que no se nota."
+  },
+  "prac4": {
+    "o1": "Esta tabla está mal hecha… y no se nota.",
+    "o2": "Cada columna es un mes. Se ve bonita, pero es difícil de analizar.",
+    "o3": "En datos ordenados, cada fila es una observación, y cada columna una variable.",
+    "o4": "Y cada variable tiene su tipo: número, categoría, fecha o texto.",
+    "o5": "Con melt, pandas convierte la tabla ancha en una larga, lista para analizar.",
+    "o6": "En la parte cinco: limpiar los datos."
+  },
+  "prac5": {
+    "q1": "C D M X, Ciudad de México y cdmx… son el mismo lugar.",
+    "q2": "Para la computadora son tres lugares distintos. Y eso arruina cualquier conteo.",
+    "q3": "Limpiar es revisar cuatro cosas: datos faltantes, duplicados, formatos distintos y errores de captura.",
+    "q4": "En Café Datos, después de limpiar, Ciudad de México pasa de tres grupos a uno solo.",
+    "q5": "Por eso se dice que limpiar datos es de lo que más tiempo toma en un proyecto.",
+    "q6": "En la parte seis: un café de quince mil pesos. ¿Error, o el cliente del año?"
   }
 }

@@ -26,6 +26,11 @@ import { Algo7Arboles, TOTAL_A7 } from "./shorts/algoritmos/Algo7Arboles";
 import { Algo8Grafos, TOTAL_A8 } from "./shorts/algoritmos/Algo8Grafos";
 import { Algo9Rutas, TOTAL_A9 } from "./shorts/algoritmos/Algo9Rutas";
 import { Algo10Dinamica, TOTAL_A10 } from "./shorts/algoritmos/Algo10Dinamica";
+import { Prac1Ciclo, TOTAL_P1 } from "./shorts/practica/Prac1Ciclo";
+import { Prac2Pregunta, TOTAL_P2 } from "./shorts/practica/Prac2Pregunta";
+import { Prac3Recoleccion, TOTAL_P3 } from "./shorts/practica/Prac3Recoleccion";
+import { Prac4Ordenados, TOTAL_P4 } from "./shorts/practica/Prac4Ordenados";
+import { Prac5Limpieza, TOTAL_P5 } from "./shorts/practica/Prac5Limpieza";
 import {
   MiniCumpleanos,
   MiniSimpson,
@@ -51,6 +56,11 @@ import {
   MiniAlgo8,
   MiniAlgo9,
   MiniAlgo10,
+  MiniPrac1,
+  MiniPrac2,
+  MiniPrac3,
+  MiniPrac4,
+  MiniPrac5,
 } from "./miniaturas/Miniaturas";
 
 export const RemotionRoot: React.FC = () => {
@@ -254,6 +264,48 @@ export const RemotionRoot: React.FC = () => {
           height={1920}
         />
       </Folder>
+      <Folder name="Serie-Practica">
+        <Composition
+          id="Prac1-Ciclo"
+          component={Prac1Ciclo}
+          durationInFrames={TOTAL_P1}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="Prac2-Pregunta"
+          component={Prac2Pregunta}
+          durationInFrames={TOTAL_P2}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="Prac3-Recoleccion"
+          component={Prac3Recoleccion}
+          durationInFrames={TOTAL_P3}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="Prac4-Ordenados"
+          component={Prac4Ordenados}
+          durationInFrames={TOTAL_P4}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="Prac5-Limpieza"
+          component={Prac5Limpieza}
+          durationInFrames={TOTAL_P5}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+      </Folder>
       <Folder name="Miniaturas">
         <Still
           id="Mini1-Cumpleanos"
@@ -391,6 +443,36 @@ export const RemotionRoot: React.FC = () => {
         <Still
           id="MiniAlgo10"
           component={MiniAlgo10}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniPrac1"
+          component={MiniPrac1}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniPrac2"
+          component={MiniPrac2}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniPrac3"
+          component={MiniPrac3}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniPrac4"
+          component={MiniPrac4}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniPrac5"
+          component={MiniPrac5}
           width={1080}
           height={1920}
         />

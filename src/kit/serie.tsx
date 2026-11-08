@@ -21,6 +21,11 @@ export const SERIE_MATES: SerieInfo = {
   total: TOTAL_PARTES,
   color: COLOR_SERIE,
 };
+export const SERIE_PRACTICA: SerieInfo = {
+  nombre: "PROGRAMACIÓN EN CIENCIA DE DATOS",
+  total: 10,
+  color: C.green,
+};
 export const SERIE_ALGORITMOS: SerieInfo = {
   nombre: "ESTRUCTURAS Y ALGORITMOS",
   total: 10,
