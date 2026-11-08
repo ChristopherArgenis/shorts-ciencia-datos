@@ -14,6 +14,21 @@ export const TOTAL_PARTES = 8;
 export const COLOR_SERIE = C.yellow;
 const T = 8; // duración de cada transición (frames)
 
+/** Datos de la serie (nombre en la etiqueta, total de partes, color). */
+export type SerieInfo = { nombre: string; total: number; color: string };
+export const SERIE_MATES: SerieInfo = {
+  nombre: SERIE,
+  total: TOTAL_PARTES,
+  color: COLOR_SERIE,
+};
+export const SERIE_ALGORITMOS: SerieInfo = {
+  nombre: "ESTRUCTURAS Y ALGORITMOS",
+  total: 10,
+  color: C.blue,
+};
+const SerieCtx = React.createContext<SerieInfo>(SERIE_MATES);
+export const useSerie = () => React.useContext(SerieCtx);
+
 /** Formato numérico de México: 15,000 y 0.25 */
 export const fmt = (n: number, dec = 0) =>
   n.toLocaleString("es-MX", {
@@ -22,50 +37,55 @@ export const fmt = (n: number, dec = 0) =>
   });
 
 /** Etiqueta fija de la serie arriba del video. */
-export const Etiqueta: React.FC<{ parte: number }> = ({ parte }) => (
-  <div
-    style={{
-      position: "absolute",
-      top: 96,
-      left: 0,
-      right: 0,
-      display: "flex",
-      flexDirection: "column",
-      alignItems: "center",
-      gap: 10,
-    }}
-  >
+export const Etiqueta: React.FC<{ parte: number }> = ({ parte }) => {
+  const serie = useSerie();
+  return (
     <div
       style={{
+        position: "absolute",
+        top: 96,
+        left: 0,
+        right: 0,
         display: "flex",
+        flexDirection: "column",
         alignItems: "center",
-        gap: 16,
-        background: "#0b1020cc",
-        border: `3px solid ${COLOR_SERIE}`,
-        borderRadius: 40,
-        padding: "10px 26px",
-        fontFamily: FONT,
-        fontWeight: 900,
-        fontSize: 34,
-        color: C.ink,
-        letterSpacing: 1,
+        gap: 10,
       }}
     >
-      <span>{SERIE}</span>
-      <span
+      <div
         style={{
-          background: COLOR_SERIE,
-          color: C.bg,
-          borderRadius: 24,
-          padding: "2px 16px",
+          display: "flex",
+          alignItems: "center",
+          gap: 16,
+          background: "#0b1020cc",
+          border: `3px solid ${serie.color}`,
+          borderRadius: 40,
+          padding: "10px 26px",
+          fontFamily: FONT,
+          fontWeight: 900,
+          fontSize: 34,
+          color: C.ink,
+          letterSpacing: 1,
         }}
       >
-        {parte}/{TOTAL_PARTES}
-      </span>
+        <span>{serie.nombre}</span>
+        <span
+          style={{
+            background: serie.color,
+            color: C.bg,
+            borderRadius: 24,
+            padding: "2px 16px",
+          }}
+        >
+          {parte}/{serie.total}
+        </span>
+      </div>
+      <div style={{ fontFamily: MONO, fontSize: 28, color: C.dim }}>
+        {HANDLE}
+      </div>
     </div>
-    <div style={{ fontFamily: MONO, fontSize: 28, color: C.dim }}>{HANDLE}</div>
-  </div>
-);
+  );
+};
 
 /** Fórmula en una caja tipo pizarrón. */
 export const Formula: React.FC<{
@@ -74,6 +94,7 @@ export const Formula: React.FC<{
   size?: number;
 }> = ({ children, delay = 0, size = 58 }) => {
   const p = useIn(delay, 12);
+  const { color } = useSerie();
   return (
     <div
       style={{
@@ -82,13 +103,13 @@ export const Formula: React.FC<{
         fontSize: size,
         color: C.ink,
         background: "#0a0d1a",
-        border: `4px solid ${COLOR_SERIE}`,
+        border: `4px solid ${color}`,
         borderRadius: 24,
         padding: "22px 34px",
         textAlign: "center",
         opacity: p,
         scale: 0.85 + 0.15 * p,
-        boxShadow: `0 0 50px ${COLOR_SERIE}33`,
+        boxShadow: `0 0 50px ${color}33`,
       }}
     >
       {children}
@@ -116,10 +137,11 @@ export const Avance: React.FC<{
   gancho: string;
 }> = ({ parte, tema, gancho }) => {
   const frame = useCurrentFrame();
+  const { color } = useSerie();
   const pulso = 1 + 0.03 * Math.sin(frame / 6);
   return (
     <Stage gap={36}>
-      <Words text={gancho} size={78} stagger={2} accent={COLOR_SERIE} />
+      <Words text={gancho} size={78} stagger={2} accent={color} />
       <div style={{ height: 10 }} />
       <div
         style={{
@@ -137,7 +159,7 @@ export const Avance: React.FC<{
           fontWeight: 900,
           fontSize: 84,
           color: C.bg,
-          background: COLOR_SERIE,
+          background: color,
           padding: "16px 40px",
           borderRadius: 28,
           scale: pulso,
@@ -167,7 +189,8 @@ export const Capitulo: React.FC<{
   short: keyof typeof duraciones;
   escenas: Escena[];
   acento?: string;
-}> = ({ parte, short, escenas, acento = C.blue }) => {
+  serie?: SerieInfo;
+}> = ({ parte, short, escenas, acento = C.blue, serie = SERIE_MATES }) => {
   const inicios: number[] = [];
   let t = 0;
   escenas.forEach((e) => {
@@ -179,38 +202,40 @@ export const Capitulo: React.FC<{
     at: i === 0 ? 2 : inicios[i] + 6,
   }));
   return (
-    <AbsoluteFill>
-      <Bg accent={acento} />
-      <TransitionSeries>
-        {escenas.flatMap((e, i) => {
-          const seq = (
-            <TransitionSeries.Sequence
-              key={`s${i}`}
-              name={e.nombre}
-              durationInFrames={e.dur}
-            >
-              {e.el}
-            </TransitionSeries.Sequence>
-          );
-          if (i === escenas.length - 1) return [seq];
-          return [
-            seq,
-            <TransitionSeries.Transition
-              key={`t${i}`}
-              presentation={slide({
-                direction: i % 2 ? "from-right" : "from-bottom",
-              })}
-              timing={linearTiming({ durationInFrames: T })}
-            />,
-          ];
-        })}
-      </TransitionSeries>
-      <Etiqueta parte={parte} />
-      <Narracion short={short} lineas={voz} />
-      <Sequence layout="none" name="Música">
-        <Musica src="music-explica.wav" short={short} lineas={voz} />
-      </Sequence>
-    </AbsoluteFill>
+    <SerieCtx.Provider value={serie}>
+      <AbsoluteFill>
+        <Bg accent={acento} />
+        <TransitionSeries>
+          {escenas.flatMap((e, i) => {
+            const seq = (
+              <TransitionSeries.Sequence
+                key={`s${i}`}
+                name={e.nombre}
+                durationInFrames={e.dur}
+              >
+                {e.el}
+              </TransitionSeries.Sequence>
+            );
+            if (i === escenas.length - 1) return [seq];
+            return [
+              seq,
+              <TransitionSeries.Transition
+                key={`t${i}`}
+                presentation={slide({
+                  direction: i % 2 ? "from-right" : "from-bottom",
+                })}
+                timing={linearTiming({ durationInFrames: T })}
+              />,
+            ];
+          })}
+        </TransitionSeries>
+        <Etiqueta parte={parte} />
+        <Narracion short={short} lineas={voz} />
+        <Sequence layout="none" name="Música">
+          <Musica src="music-explica.wav" short={short} lineas={voz} />
+        </Sequence>
+      </AbsoluteFill>
+    </SerieCtx.Provider>
   );
 };
 
@@ -379,5 +404,44 @@ export const Dispersion: React.FC<{
       ))}
       {extra}
     </svg>
+  );
+};
+
+/** Caja de código Python (líneas que entran una por una). */
+export const Codigo: React.FC<{
+  lineas: string[];
+  delay?: number;
+  size?: number;
+}> = ({ lineas, delay = 0, size = 40 }) => {
+  const frame = useCurrentFrame();
+  const { color } = useSerie();
+  return (
+    <div
+      style={{
+        width: 880,
+        background: "#0a0d1a",
+        border: `3px solid ${color}66`,
+        borderRadius: 22,
+        padding: "22px 28px",
+        fontFamily: MONO,
+        fontSize: size,
+        color: C.ink,
+        lineHeight: 1.5,
+      }}
+    >
+      <div style={{ fontSize: 26, color: C.dim, marginBottom: 6 }}>Python</div>
+      {lineas.map((l, i) => (
+        <div
+          key={i}
+          style={{
+            whiteSpace: "pre",
+            opacity: prog(frame, delay + i * 8, delay + i * 8 + 8),
+            color: l.trim().startsWith("#") ? C.dim : C.ink,
+          }}
+        >
+          {l}
+        </div>
+      ))}
+    </div>
   );
 };

@@ -13,6 +13,11 @@ import { Mates5Correlacion, TOTAL_M5 } from "./shorts/serie/Mates5Correlacion";
 import { Mates6Regresion, TOTAL_M6 } from "./shorts/serie/Mates6Regresion";
 import { Mates7Vectores, TOTAL_M7 } from "./shorts/serie/Mates7Vectores";
 import { Mates8Gradiente, TOTAL_M8 } from "./shorts/serie/Mates8Gradiente";
+import { Algo1Arreglos, TOTAL_A1 } from "./shorts/algoritmos/Algo1Arreglos";
+import { Algo2BigO, TOTAL_A2 } from "./shorts/algoritmos/Algo2BigO";
+import { Algo3Binaria, TOTAL_A3 } from "./shorts/algoritmos/Algo3Binaria";
+import { Algo4Hash, TOTAL_A4 } from "./shorts/algoritmos/Algo4Hash";
+import { Algo5PilasColas, TOTAL_A5 } from "./shorts/algoritmos/Algo5PilasColas";
 import {
   MiniCumpleanos,
   MiniSimpson,
@@ -28,6 +33,11 @@ import {
   MiniMates6,
   MiniMates7,
   MiniMates8,
+  MiniAlgo1,
+  MiniAlgo2,
+  MiniAlgo3,
+  MiniAlgo4,
+  MiniAlgo5,
 } from "./miniaturas/Miniaturas";
 
 export const RemotionRoot: React.FC = () => {
@@ -149,6 +159,48 @@ export const RemotionRoot: React.FC = () => {
           height={1920}
         />
       </Folder>
+      <Folder name="Serie-Algoritmos">
+        <Composition
+          id="Algo1-Arreglos"
+          component={Algo1Arreglos}
+          durationInFrames={TOTAL_A1}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="Algo2-BigO"
+          component={Algo2BigO}
+          durationInFrames={TOTAL_A2}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="Algo3-Binaria"
+          component={Algo3Binaria}
+          durationInFrames={TOTAL_A3}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="Algo4-Hash"
+          component={Algo4Hash}
+          durationInFrames={TOTAL_A4}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="Algo5-PilasColas"
+          component={Algo5PilasColas}
+          durationInFrames={TOTAL_A5}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+      </Folder>
       <Folder name="Miniaturas">
         <Still
           id="Mini1-Cumpleanos"
@@ -226,6 +278,36 @@ export const RemotionRoot: React.FC = () => {
         <Still
           id="MiniMates8"
           component={MiniMates8}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniAlgo1"
+          component={MiniAlgo1}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniAlgo2"
+          component={MiniAlgo2}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniAlgo3"
+          component={MiniAlgo3}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniAlgo4"
+          component={MiniAlgo4}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniAlgo5"
+          component={MiniAlgo5}
           width={1080}
           height={1920}
         />

@@ -200,6 +200,54 @@ Plan: 1 Promedio vs mediana · 2 Desviación estándar · 3 Distribución normal
 
 ---
 
+# Serie: Estructuras de Datos y Algoritmos (10 partes)
+
+Misma plantilla que la serie de mates (`src/kit/serie.tsx`, `SERIE_ALGORITMOS`, color azul).
+Plan: 1 Arreglos · 2 Big O · 3 Búsqueda binaria · 4 Tablas hash · 5 Pilas y colas ·
+6 Ordenamiento · 7 Árboles · 8 Grafos · 9 Camino más corto · 10 Programación dinámica.
+
+## Parte 1: Arreglos
+**Título:** Arreglos | Estructuras y algoritmos #1
+**Miniatura:** `MiniAlgo1` → "TU PLAYLIST"
+**Descripción:**
+> Tu playlist es una estructura de datos: un arreglo. Cada canción vive en una cajita numerada (desde el 0), así que puedes saltar directo a cualquiera en un paso. Pero si metes una al inicio, todas se recorren. Cada columna de una tabla en pandas o NumPy es un arreglo: por eso un científico de datos suma millones de números de un solo golpe.
+> Parte 1 de 10 de la serie "Estructuras de Datos y Algoritmos". Ejemplo simplificado.
+**#:** #cienciadedatos #programacion #python #estructurasdedatos #shorts
+
+## Parte 2: Notación Big O
+**Título:** Notación Big O | Estructuras y algoritmos #2
+**Miniatura:** `MiniAlgo2` → "¿SEGUNDOS O HORAS?"
+**Descripción:**
+> Buscar correos repetidos en 100,000 filas: comparar todos con todos son 10,000 millones de pasos, O(n²), casi 3 horas. Revisar cada correo una sola vez con un set son 100,000 pasos, O(n), una décima de segundo. La notación Big O dice cómo crece el tiempo cuando crecen los datos.
+> Parte 2 de 10 de la serie "Estructuras de Datos y Algoritmos". Ejemplo simplificado: 1 paso = 1 microsegundo.
+**#:** #cienciadedatos #programacion #algoritmos #bigo #shorts
+
+## Parte 3: Búsqueda binaria
+**Título:** Búsqueda binaria | Estructuras y algoritmos #3
+**Miniatura:** `MiniAlgo3` → "20 INTENTOS"
+**Descripción:**
+> Piensa un número del 1 al 1,000,000: lo adivino en 20 intentos o menos. Cada respuesta "más alto / más bajo" descarta la mitad, porque log₂(1,000,000) ≈ 20. Eso es búsqueda binaria, y solo funciona con datos ordenados. Un científico de datos la usa para buscar fechas o identificadores sin revisar fila por fila (searchsorted).
+> Parte 3 de 10 de la serie "Estructuras de Datos y Algoritmos".
+**#:** #cienciadedatos #programacion #algoritmos #python #shorts
+
+## Parte 4: Tablas hash
+**Título:** Tablas hash | Estructuras y algoritmos #4
+**Miniatura:** `MiniAlgo4` → "¿AL INSTANTE?"
+**Descripción:**
+> Como un guardarropa: entregas tu abrigo y te dan una ficha. Una función hash convierte tu nombre en un número de casillero, siempre el mismo, para encontrarte directo sin revisar todo (y a veces dos nombres caen juntos: colisión). En Python son los diccionarios y los conjuntos: contar, quitar duplicados y unir tablas.
+> Parte 4 de 10 de la serie "Estructuras de Datos y Algoritmos". Ejemplo simplificado.
+**#:** #cienciadedatos #programacion #python #estructurasdedatos #shorts
+
+## Parte 5: Pilas y colas
+**Título:** Pilas y colas | Estructuras y algoritmos #5
+**Miniatura:** `MiniAlgo5` → "CTRL+Z VS FILA"
+**Descripción:**
+> Una pila es una torre de platos: el último que entra es el primero que sale, por eso Ctrl+Z deshace lo último que hiciste. Una cola es la fila del banco: el primero que llega es el primero que atienden. Los científicos de datos usan colas para procesar pedidos, mensajes o lecturas de sensores en el orden en que llegan (deque en Python).
+> Parte 5 de 10 de la serie "Estructuras de Datos y Algoritmos". Ejemplo simplificado.
+**#:** #cienciadedatos #programacion #python #estructurasdedatos #shorts
+
+---
+
 ## Semana tipo (20–30 h)
 
 Basado en `yt-plan`: un video principal, uno sencillo, y Shorts. Con la plantilla de Remotion ya

@@ -110,5 +110,45 @@
     "g4": "Das un paso en esa dirección. Y otro. Y otro. Con cada paso, el error baja.",
     "g5": "Eso es el descenso de gradiente. Así se entrenan muchísimos modelos, incluidos los de lenguaje como Claude.",
     "g6": "Fin de la serie. ¿Qué matemáticas quieres que expliquemos después?"
+  },
+  "algo1": {
+    "a1": "Tu playlist es una estructura de datos. Se llama arreglo.",
+    "a2": "Cada canción vive en una cajita con un número. Y se empieza a contar desde cero.",
+    "a3": "¿Quieres la canción tres? Saltas directo a esa cajita. Al instante.",
+    "a4": "Pero si metes una canción al inicio, todas las demás se recorren un lugar.",
+    "a5": "Cada columna de una tabla es un arreglo. Por eso un científico de datos puede sumar millones de números de un solo golpe.",
+    "a6": "En la parte dos: por qué un código tarda un segundo, y otro casi tres horas."
+  },
+  "algo2": {
+    "b1": "El mismo problema: un código tarda menos de un segundo, y otro casi tres horas.",
+    "b2": "Buscar correos repetidos en cien mil filas. Opción uno: comparar cada correo con todos los demás.",
+    "b3": "Cien mil por cien mil: diez mil millones de pasos. Se escribe O de n al cuadrado.",
+    "b4": "Opción dos: revisar cada correo una sola vez. Cien mil pasos. O de n.",
+    "b5": "La notación Big O dice cómo crece el tiempo cuando crecen los datos. Es la diferencia entre esperar segundos, o días.",
+    "b6": "En la parte tres: encontrar uno entre un millón, en veinte intentos."
+  },
+  "algo3": {
+    "c1": "Piensa un número del uno al millón. Lo adivino en veinte intentos o menos.",
+    "c2": "Primer intento: la mitad. ¿Es más alto, o más bajo?",
+    "c3": "Cada respuesta descarta la mitad. Un millón, quinientos mil, doscientos cincuenta mil…",
+    "c4": "En veinte pasos queda uno solo. Eso es búsqueda binaria. Pero solo funciona si los datos están ordenados.",
+    "c5": "Un científico de datos la usa para buscar en datos ordenados, como fechas o identificadores, sin revisar fila por fila.",
+    "c6": "En la parte cuatro: cómo una app te encuentra entre millones, al instante."
+  },
+  "algo4": {
+    "d1": "¿Cómo encuentra una app tu usuario entre millones, al instante?",
+    "d2": "Piensa en un guardarropa. Entregas tu abrigo, y te dan una ficha con un número.",
+    "d3": "Una función hash convierte tu nombre en un número de casillero. Siempre el mismo.",
+    "d4": "Para encontrarte, no revisa todo: calcula el número, y va directo.",
+    "d5": "En Python son los diccionarios y los conjuntos. Con ellos un científico de datos cuenta, quita duplicados y une tablas.",
+    "d6": "En la parte cinco: Control Z, y la fila del banco."
+  },
+  "algo5": {
+    "e1": "Control Z y la fila del banco son lo mismo… pero al revés.",
+    "e2": "Una pila es como una torre de platos: el último que pones es el primero que sacas.",
+    "e3": "Por eso, Control Z deshace primero lo último que hiciste.",
+    "e4": "Una cola es como la fila del banco: el primero que llega es el primero que atienden.",
+    "e5": "Los científicos de datos usan colas para procesar datos en el orden en que llegan: pedidos, mensajes o lecturas de sensores.",
+    "e6": "En la parte seis: cómo ordenar mil exámenes sin volverte loco."
   }
 }

@@ -395,7 +395,15 @@ const SerieMini: React.FC<{
   n: number;
   accent: string;
   children: React.ReactNode;
-}> = ({ n, accent, children }) => (
+  serie?: string;
+  color?: string;
+}> = ({
+  n,
+  accent,
+  children,
+  serie = "MATES DE CIENTÍFICO DE DATOS",
+  color = C.yellow,
+}) => (
   <Fondo accent={accent}>
     <div
       style={{
@@ -403,20 +411,20 @@ const SerieMini: React.FC<{
         fontWeight: 900,
         fontSize: 40,
         color: C.ink,
-        border: `4px solid ${C.yellow}`,
+        border: `4px solid ${color}`,
         borderRadius: 40,
         padding: "10px 28px",
         letterSpacing: 1,
       }}
     >
-      MATES DE CIENTÍFICO DE DATOS
+      {serie}
     </div>
     <div
       style={{
         width: 300,
         height: 300,
         borderRadius: 150,
-        background: C.yellow,
+        background: color,
         color: C.bg,
         display: "flex",
         alignItems: "center",
@@ -424,7 +432,7 @@ const SerieMini: React.FC<{
         fontFamily: FONT,
         fontWeight: 900,
         fontSize: 190,
-        boxShadow: `0 0 80px ${C.yellow}66`,
+        boxShadow: `0 0 80px ${color}66`,
       }}
     >
       #{n}
@@ -681,5 +689,116 @@ export const MiniMates8: React.FC = () => (
         strokeDasharray="16 12"
       />
     </svg>
+  </SerieMini>
+);
+
+// ---------- Serie "Estructuras y algoritmos" ----------
+const ALG = { serie: "ESTRUCTURAS Y ALGORITMOS", color: C.blue };
+
+export const MiniAlgo1: React.FC = () => (
+  <SerieMini n={1} accent={C.blue} {...ALG}>
+    <Grande size={170}>TU</Grande>
+    <Grande size={170} color={C.blue}>
+      PLAYLIST
+    </Grande>
+    <div style={{ display: "flex", gap: 10 }}>
+      {[0, 1, 2, 3, 4, 5].map((i) => (
+        <div
+          key={i}
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            gap: 6,
+          }}
+        >
+          <div
+            style={{
+              width: 120,
+              height: 130,
+              borderRadius: 16,
+              background: i === 3 ? C.yellow : `${C.blue}33`,
+              border: `5px solid ${i === 3 ? C.yellow : C.blue}`,
+            }}
+          />
+          <div
+            style={{
+              fontFamily: MONO,
+              fontSize: 40,
+              color: i === 3 ? C.yellow : C.dim,
+            }}
+          >
+            [{i}]
+          </div>
+        </div>
+      ))}
+    </div>
+  </SerieMini>
+);
+
+export const MiniAlgo2: React.FC = () => (
+  <SerieMini n={2} accent={C.coral} {...ALG}>
+    <Grande size={150}>¿SEGUNDOS</Grande>
+    <Grande size={150} color={C.coral}>
+      O HORAS?
+    </Grande>
+    <div style={{ display: "flex", gap: 24 }}>
+      <Chip color={C.green} size={64}>
+        O(n)
+      </Chip>
+      <Chip color={C.coral} size={64}>
+        O(n²)
+      </Chip>
+    </div>
+  </SerieMini>
+);
+
+export const MiniAlgo3: React.FC = () => (
+  <SerieMini n={3} accent={C.blue} {...ALG}>
+    <Grande size={330} color={C.yellow}>
+      20
+    </Grande>
+    <Grande size={150}>INTENTOS</Grande>
+    <svg width={820} height={60} viewBox="0 0 820 60">
+      <rect x={0} y={15} width={820} height={30} rx={15} fill={C.bg2} />
+      <rect x={560} y={15} width={60} height={30} rx={15} fill={C.blue} />
+    </svg>
+  </SerieMini>
+);
+
+export const MiniAlgo4: React.FC = () => (
+  <SerieMini n={4} accent={C.purple} {...ALG}>
+    <Grande size={170}>¿AL</Grande>
+    <Grande size={170} color={C.purple}>
+      INSTANTE?
+    </Grande>
+    <div style={{ display: "flex", gap: 10 }}>
+      {Array.from({ length: 8 }).map((_, i) => (
+        <div
+          key={i}
+          style={{
+            width: 86,
+            height: 160,
+            borderRadius: 12,
+            background: i === 3 ? `${C.yellow}55` : C.bg2,
+            border: `5px solid ${i === 3 ? C.yellow : "#2a3366"}`,
+          }}
+        />
+      ))}
+    </div>
+  </SerieMini>
+);
+
+export const MiniAlgo5: React.FC = () => (
+  <SerieMini n={5} accent={C.green} {...ALG}>
+    <Grande size={190}>CTRL+Z</Grande>
+    <Grande size={150} color={C.green}>
+      VS FILA
+    </Grande>
+    <div style={{ display: "flex", gap: 14 }}>
+      {[C.green, C.purple, C.coral, C.yellow].map((c, i) => (
+        <Persona key={i} color={c} />
+      ))}
+    </div>
   </SerieMini>
 );
