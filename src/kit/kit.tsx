@@ -16,7 +16,11 @@ import { C, FONT, HANDLE, MONO } from "./theme";
 export const useIn = (delay = 0, damping = 13) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-  return spring({ frame: frame - delay, fps, config: { damping, mass: 0.6, stiffness: 160 } });
+  return spring({
+    frame: frame - delay,
+    fps,
+    config: { damping, mass: 0.6, stiffness: 160 },
+  });
 };
 
 /** Fondo: degradado con una rejilla de puntos que se desplaza lento (movimiento continuo). */
@@ -72,7 +76,16 @@ export const Words: React.FC<{
   accent?: string;
   weight?: number;
   style?: React.CSSProperties;
-}> = ({ text, delay = 0, stagger = 3, size = 92, color = C.ink, accent = C.yellow, weight = 900, style }) => {
+}> = ({
+  text,
+  delay = 0,
+  stagger = 3,
+  size = 92,
+  color = C.ink,
+  accent = C.yellow,
+  weight = 900,
+  style,
+}) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const words = text.split(" ");
@@ -96,14 +109,20 @@ export const Words: React.FC<{
       {words.map((w, i) => {
         const hl = w.startsWith("*");
         const clean = w.replace(/\*/g, "");
-        const p = spring({ frame: frame - delay - i * stagger, fps, config: { damping: 12, mass: 0.5, stiffness: 180 } });
+        const p = spring({
+          frame: frame - delay - i * stagger,
+          fps,
+          config: { damping: 12, mass: 0.5, stiffness: 180 },
+        });
         return (
           <span
             key={i}
             style={{
               display: "inline-block",
               color: hl ? accent : undefined,
-              opacity: interpolate(p, [0, 0.3], [0, 1], { extrapolateRight: "clamp" }),
+              opacity: interpolate(p, [0, 0.3], [0, 1], {
+                extrapolateRight: "clamp",
+              }),
               scale: interpolate(p, [0, 1], [0.55, 1]),
               translate: `0px ${interpolate(p, [0, 1], [40, 0])}px`,
             }}
@@ -125,7 +144,15 @@ export const Counter: React.FC<{
   decimals?: number;
   suffix?: string;
   style?: React.CSSProperties;
-}> = ({ from = 0, to, start = 0, dur = 30, decimals = 0, suffix = "", style }) => {
+}> = ({
+  from = 0,
+  to,
+  start = 0,
+  dur = 30,
+  decimals = 0,
+  suffix = "",
+  style,
+}) => {
   const frame = useCurrentFrame();
   const v = interpolate(frame, [start, start + dur], [from, to], {
     extrapolateLeft: "clamp",
@@ -141,18 +168,22 @@ export const Counter: React.FC<{
 };
 
 /** Efecto de sonido en un frame dado. */
-export const Sfx: React.FC<{ src: string; at: number; volume?: number }> = ({ src, at, volume = 0.6 }) => (
+export const Sfx: React.FC<{ src: string; at: number; volume?: number }> = ({
+  src,
+  at,
+  volume = 0.6,
+}) => (
   <Sequence from={at} layout="none" name={`sfx ${src}`}>
     <Audio src={staticFile(src)} volume={volume} />
   </Sequence>
 );
 
 /** Columna central con márgenes seguros para Shorts. */
-export const Stage: React.FC<{ children: React.ReactNode; top?: number; gap?: number }> = ({
-  children,
-  top = 300,
-  gap = 40,
-}) => (
+export const Stage: React.FC<{
+  children: React.ReactNode;
+  top?: number;
+  gap?: number;
+}> = ({ children, top = 300, gap = 40 }) => (
   <AbsoluteFill
     style={{
       padding: `${top}px 90px 420px 90px`,
@@ -175,7 +206,14 @@ export const Sticker: React.FC<{
   color?: string;
   rotate?: number;
   size?: number;
-}> = ({ children, delay = 0, bg = C.yellow, color = C.bg, rotate = -3, size = 52 }) => {
+}> = ({
+  children,
+  delay = 0,
+  bg = C.yellow,
+  color = C.bg,
+  rotate = -3,
+  size = 52,
+}) => {
   const p = useIn(delay, 9);
   return (
     <div
@@ -188,7 +226,9 @@ export const Sticker: React.FC<{
         padding: "14px 34px",
         borderRadius: 22,
         rotate: `${rotate}deg`,
-        opacity: interpolate(p, [0, 0.2], [0, 1], { extrapolateRight: "clamp" }),
+        opacity: interpolate(p, [0, 0.2], [0, 1], {
+          extrapolateRight: "clamp",
+        }),
         scale: interpolate(p, [0, 1], [0.3, 1]),
         boxShadow: "0 18px 40px rgba(0,0,0,0.35)",
         textAlign: "center",

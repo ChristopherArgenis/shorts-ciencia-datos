@@ -36,6 +36,10 @@ import { Prac7Transformar, TOTAL_P7 } from "./shorts/practica/Prac7Transformar";
 import { Prac8EDA, TOTAL_P8 } from "./shorts/practica/Prac8EDA";
 import { Prac9Analisis, TOTAL_P9 } from "./shorts/practica/Prac9Analisis";
 import { Prac10Comunicar, TOTAL_P10 } from "./shorts/practica/Prac10Comunicar";
+import { ML0Aprender, TOTAL_ML0 } from "./shorts/ml/ML0Aprender";
+import { ML1Entrenar, TOTAL_ML1 } from "./shorts/ml/ML1Entrenar";
+import { ML2Sobreajuste, TOTAL_ML2 } from "./shorts/ml/ML2Sobreajuste";
+import { ML3Variables, TOTAL_ML3 } from "./shorts/ml/ML3Variables";
 import {
   MiniCumpleanos,
   MiniSimpson,
@@ -71,6 +75,10 @@ import {
   MiniPrac8,
   MiniPrac9,
   MiniPrac10,
+  MiniML0,
+  MiniML1,
+  MiniML2,
+  MiniML3,
 } from "./miniaturas/Miniaturas";
 
 export const RemotionRoot: React.FC = () => {
@@ -356,6 +364,40 @@ export const RemotionRoot: React.FC = () => {
           height={1920}
         />
       </Folder>
+      <Folder name="Serie-ML">
+        <Composition
+          id="ML0-Aprender"
+          component={ML0Aprender}
+          durationInFrames={TOTAL_ML0}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="ML1-Entrenar"
+          component={ML1Entrenar}
+          durationInFrames={TOTAL_ML1}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="ML2-Sobreajuste"
+          component={ML2Sobreajuste}
+          durationInFrames={TOTAL_ML2}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="ML3-Variables"
+          component={ML3Variables}
+          durationInFrames={TOTAL_ML3}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+      </Folder>
       <Folder name="Miniaturas">
         <Still
           id="Mini1-Cumpleanos"
@@ -556,6 +598,10 @@ export const RemotionRoot: React.FC = () => {
           width={1080}
           height={1920}
         />
+        <Still id="MiniML0" component={MiniML0} width={1080} height={1920} />
+        <Still id="MiniML1" component={MiniML1} width={1080} height={1920} />
+        <Still id="MiniML2" component={MiniML2} width={1080} height={1920} />
+        <Still id="MiniML3" component={MiniML3} width={1080} height={1920} />
       </Folder>
     </>
   );

@@ -270,5 +270,37 @@
     "x4": "Para comunicar: una idea por gráfica, la gráfica correcta, y una recomendación clara.",
     "x5": "Y que se pueda repetir: con un notebook y Git, cualquiera reproduce tu análisis. Así Café Datos toma su decisión.",
     "x6": "Y para predecir… se usan modelos. Eso viene en la siguiente serie."
+  },
+  "ml0": {
+    "a1": "Nadie le escribió a tu correo qué es spam. Lo aprendió.",
+    "a2": "Reto: ¿cómo le enseñarías tú a detectarlo?",
+    "a3": "Con reglas: si dice gratis, es spam. Pero los spammers cambian, y las reglas se rompen.",
+    "a4": "El aprendizaje automático no recibe reglas. Recibe ejemplos, y encuentra el patrón solo.",
+    "a5": "Y hay dos caminos: aprender con respuestas, supervisado, o sin respuestas, no supervisado.",
+    "a6": "Esta es la ruta. Primera parada: entrenar y evaluar."
+  },
+  "ml1": {
+    "b1": "Si estudias con el examen, sacas diez… y no aprendiste nada.",
+    "b2": "Reto: ¿le crees a un modelo que se califica con sus propios datos?",
+    "b3": "Café Datos tiene doscientos días de ventas. Separamos: ciento sesenta para entrenar, cuarenta para el examen.",
+    "b4": "El modelo nunca ve esos cuarenta días. Luego predice, y comparamos con lo que pasó de verdad.",
+    "b5": "Resultado: se equivoca por unas ocho tazas al día. Ese número sí es creíble.",
+    "b6": "Siguiente parada: el modelo que acierta todo… y es pésimo."
+  },
+  "ml2": {
+    "c1": "Este modelo acierta el cien por ciento… y es pésimo.",
+    "c2": "Reto: de estas tres curvas, ¿cuál es la mejor?",
+    "c3": "La recta es demasiado simple: no entiende la forma. Se llama subajuste.",
+    "c4": "La curva loca pasa por todos los puntos: error cero. Pero en datos nuevos, se equivoca por casi sesenta. Memorizó.",
+    "c5": "La de en medio gana: entiende el patrón sin memorizar el ruido. Para elegirla, se usa validación cruzada.",
+    "c6": "Siguiente parada: lo que el modelo puede ver."
+  },
+  "ml3": {
+    "d1": "El modelo no ve la lluvia… a menos que se la des.",
+    "d2": "Reto: ¿qué dato le falta a este modelo?",
+    "d3": "Para predecir ventas, le dimos la temperatura y si es fin de semana. Se equivoca por diecinueve tazas.",
+    "d4": "Agregamos una columna: ¿llovió? El error baja a ocho.",
+    "d5": "Los datos de entrada se llaman variables. Elegir y crear buenas variables es uno de los trabajos más importantes.",
+    "d6": "Fin del tronco común. Ahora el camino se divide: primero, el aprendizaje supervisado."
   }
 }

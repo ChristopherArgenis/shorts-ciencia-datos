@@ -15,6 +15,7 @@ Shorts verticales (1080×1920, 30 s) sin cara, hechos con [Remotion](https://rem
 | `Mates1-Mediana` … `Mates8-Gradiente` | Serie "Mates de científico de datos" partes 1–8 (`src/shorts/serie/`, plantilla en `src/kit/serie.tsx`) |
 | `Algo1-Arreglos` … `Algo10-Dinamica` | Serie "Estructuras de Datos y Algoritmos" partes 1–10 (`src/shorts/algoritmos/`) |
 | `Prac1-Ciclo` … `Prac10-Comunicar` | Serie "Programación en Ciencia de Datos" partes 1–10 (`src/shorts/practica/`, caso ficticio Café Datos) |
+| `ML0-Aprender` … `ML3-Variables` | Serie "Aprendizaje Automático": tronco común 0–3 (`src/shorts/ml/`, mapa de metro en `src/kit/ml.tsx`, números de `scripts/ml/tronco.py`) |
 | `Short6-StatsBomb` | StatsBomb: datos de eventos, 360, xG y cómo los usan los analistas (~38 s) |
 
 ## Uso

@@ -6,7 +6,7 @@
   Si hay duda, preguntar antes.
 - Ya aprobadas: Remotion (gratis para 1 persona), Kokoro TTS local (voz `em_alex`),
   Whisper local (faster-whisper / `hyperframes transcribe`), `hyperframes remove-background`
-  (local), ffmpeg, Python (numpy/scipy).
+  (local), ffmpeg, Python (numpy/scipy, scikit-learn).
 - Skills de motion graphics (iart-ai, MIT): `tiktok-video-skills`, `explainer-video-skills`,
   `data-animation-skills`. Sin sus alternativas de pago (transcripción en la nube, After Effects).
 - No usar: ElevenLabs, HeyGen, `hyperframes cloud`/`lambda`, Remotion Lambda, ni servicios de pago.

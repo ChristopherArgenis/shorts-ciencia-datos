@@ -26,6 +26,11 @@ export const SERIE_PRACTICA: SerieInfo = {
   total: 10,
   color: C.green,
 };
+export const SERIE_ML: SerieInfo = {
+  nombre: "APRENDIZAJE AUTOMÁTICO · TRONCO",
+  total: 3,
+  color: "#f2c14e",
+};
 export const SERIE_ALGORITMOS: SerieInfo = {
   nombre: "ESTRUCTURAS Y ALGORITMOS",
   total: 10,

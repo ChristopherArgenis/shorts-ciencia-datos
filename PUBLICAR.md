@@ -375,6 +375,46 @@ Plan: 1 Ciclo · 2 Pregunta · 3 Recolección · 4 Datos ordenados · 5 Limpieza
 
 ---
 
+# Serie: Aprendizaje Automático (20 partes)
+
+Tronco común (4, dorado) → rama Supervisado (8, naranja) y rama No supervisado (7, morado) → Gran Final (1).
+Cada capítulo: reto "Tú vs. el modelo" + mapa de metro al final. Números reales: `python3 scripts/ml/tronco.py` (scikit-learn).
+Playlist principal "Aprendizaje Automático" + una por rama.
+
+## Tronco 0: ¿Qué es aprender?
+**Título:** ¿Qué es aprender? | Aprendizaje automático #0
+**Miniatura:** `MiniML0` → "¿LO APRENDIÓ?"
+**Descripción:**
+> Nadie le escribió a tu correo qué es spam: lo aprendió. Con reglas ("si dice GRATIS, es spam") todo se rompe; el aprendizaje automático no recibe reglas, recibe ejemplos y encuentra el patrón solo. Hay dos caminos: supervisado (con respuestas) y no supervisado (sin respuestas). Arranca la serie: 20 partes en forma de mapa de metro.
+> Tronco común, parte 0 de la serie "Aprendizaje Automático". Café Datos es un caso ficticio; los modelos se entrenaron de verdad.
+**#:** #machinelearning #inteligenciaartificial #cienciadedatos #python #shorts
+
+## Tronco 1: Entrenamiento y prueba
+**Título:** Entrenamiento y prueba | Aprendizaje automático #1
+**Miniatura:** `MiniML1` → "¿HICISTE TRAMPA?"
+**Descripción:**
+> Si estudias con el examen, sacas 10 y no aprendiste nada. Por eso los datos se separan: 160 días de Café Datos para entrenar y 40 que el modelo nunca ve, como examen (train_test_split). Resultado real: se equivoca por unas 8.1 tazas al día. Ese número sí es creíble.
+> Tronco común, parte 1 de la serie "Aprendizaje Automático". Café Datos es un caso ficticio; los modelos se entrenaron de verdad.
+**#:** #machinelearning #cienciadedatos #python #scikitlearn #shorts
+
+## Tronco 2: Sobreajuste
+**Título:** Sobreajuste | Aprendizaje automático #2
+**Miniatura:** `MiniML2` → "100% = PÉSIMO"
+**Descripción:**
+> Tres modelos, mismos datos. La recta es muy simple (subajuste). La curva loca pasa por todos los puntos: error 0.0 en entrenamiento… y 59.7 en datos nuevos: memorizó (sobreajuste). La curva suave gana: 4.0 y 6.9. Para elegirla se usa validación cruzada.
+> Tronco común, parte 2 de la serie "Aprendizaje Automático". Café Datos es un caso ficticio; los modelos se entrenaron de verdad.
+**#:** #machinelearning #cienciadedatos #python #scikitlearn #shorts
+
+## Tronco 3: Variables
+**Título:** Variables | Aprendizaje automático #3
+**Miniatura:** `MiniML3` → "¿Y LA LLUVIA?"
+**Descripción:**
+> El modelo no ve la lluvia a menos que se la des. Con temperatura y fin de semana, se equivoca por 19.1 tazas al día; al agregar "¿llovió?", el error baja a 8.1. Elegir y crear buenas variables (features) es uno de los trabajos más importantes. Siguiente: aprendizaje supervisado.
+> Tronco común, parte 3 de la serie "Aprendizaje Automático". Café Datos es un caso ficticio; los modelos se entrenaron de verdad.
+**#:** #machinelearning #cienciadedatos #python #featureengineering #shorts
+
+---
+
 ## Semana tipo (20–30 h)
 
 Basado en `yt-plan`: un video principal, uno sencillo, y Shorts. Con la plantilla de Remotion ya

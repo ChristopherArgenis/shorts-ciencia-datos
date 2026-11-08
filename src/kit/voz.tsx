@@ -6,10 +6,14 @@ import duraciones from "../voz-duraciones.json";
 export type Linea = { id: string; at: number };
 type Short = keyof typeof duraciones;
 
-const dur = (short: Short, id: string) => (duraciones[short] as Record<string, number>)[id] ?? 0;
+const dur = (short: Short, id: string) =>
+  (duraciones[short] as Record<string, number>)[id] ?? 0;
 
 /** Frases de Alex colocadas en frames absolutos del Short. */
-export const Narracion: React.FC<{ short: Short; lineas: Linea[] }> = ({ short, lineas }) => (
+export const Narracion: React.FC<{ short: Short; lineas: Linea[] }> = ({
+  short,
+  lineas,
+}) => (
   <>
     {lineas.map((l) => (
       <Sequence key={l.id} from={l.at} layout="none" name={`Voz ${l.id}`}>
@@ -20,13 +24,13 @@ export const Narracion: React.FC<{ short: Short; lineas: Linea[] }> = ({ short, 
 );
 
 /** Música que baja mientras habla Alex y se desvanece al final. */
-export const Musica: React.FC<{ src: string; short: Short; lineas: Linea[]; alto?: number; bajo?: number }> = ({
-  src,
-  short,
-  lineas,
-  alto = 0.3,
-  bajo = 0.1,
-}) => {
+export const Musica: React.FC<{
+  src: string;
+  short: Short;
+  lineas: Linea[];
+  alto?: number;
+  bajo?: number;
+}> = ({ src, short, lineas, alto = 0.3, bajo = 0.1 }) => {
   const { fps, durationInFrames } = useVideoConfig();
   return (
     <Audio
@@ -43,10 +47,15 @@ export const Musica: React.FC<{ src: string; short: Short; lineas: Linea[]; alto
           });
           v = Math.min(v, alto - (alto - bajo) * k);
         }
-        const fin = interpolate(f, [durationInFrames - 0.8 * fps, durationInFrames], [1, 0], {
-          extrapolateLeft: "clamp",
-          extrapolateRight: "clamp",
-        });
+        const fin = interpolate(
+          f,
+          [durationInFrames - 0.8 * fps, durationInFrames],
+          [1, 0],
+          {
+            extrapolateLeft: "clamp",
+            extrapolateRight: "clamp",
+          },
+        );
         return v * fin;
       }}
     />

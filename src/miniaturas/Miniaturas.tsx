@@ -1204,3 +1204,101 @@ export const MiniPrac10: React.FC = () => (
     </div>
   </SerieMini>
 );
+
+// ---------- Serie "Aprendizaje Automático" (tronco, dorado) ----------
+const ML = { serie: "APRENDIZAJE AUTOMÁTICO", color: "#f2c14e" };
+
+export const MiniML0: React.FC = () => (
+  <SerieMini n={0} accent="#f2c14e" {...ML}>
+    <Grande size={190}>¿LO</Grande>
+    <Grande size={170} color="#f2c14e">
+      APRENDIÓ?
+    </Grande>
+    <svg width={300} height={225} viewBox="0 0 40 30">
+      <rect x={1} y={1} width={38} height={28} rx={4} fill={C.coral} />
+      <path
+        d="M2 3 L20 17 L38 3"
+        fill="none"
+        stroke="#0b1020"
+        strokeWidth={2.5}
+      />
+    </svg>
+  </SerieMini>
+);
+
+export const MiniML1: React.FC = () => (
+  <SerieMini n={1} accent="#f2c14e" {...ML}>
+    <Grande size={190}>¿HICISTE</Grande>
+    <Grande size={190} color={C.coral}>
+      TRAMPA?
+    </Grande>
+    <div style={{ display: "flex", gap: 14 }}>
+      <div
+        style={{ width: 600, height: 90, borderRadius: 18, background: C.blue }}
+      />
+      <div
+        style={{
+          width: 150,
+          height: 90,
+          borderRadius: 18,
+          background: C.coral,
+        }}
+      />
+    </div>
+  </SerieMini>
+);
+
+export const MiniML2: React.FC = () => (
+  <SerieMini n={2} accent={C.coral} {...ML}>
+    <Grande size={230} color={C.green}>
+      100%
+    </Grande>
+    <Grande size={170} color={C.coral}>
+      = PÉSIMO
+    </Grande>
+    <svg width={760} height={240} viewBox="0 0 760 240">
+      <path
+        d="M20 200 C80 -60 120 260 200 60 S300 260 380 40 S480 260 560 60 S680 240 740 30"
+        fill="none"
+        stroke={C.coral}
+        strokeWidth={12}
+      />
+      {[
+        [40, 150],
+        [200, 60],
+        [380, 40],
+        [560, 60],
+        [740, 30],
+      ].map(([x, y], i) => (
+        <circle key={i} cx={x} cy={y} r={18} fill={C.ink} />
+      ))}
+    </svg>
+  </SerieMini>
+);
+
+export const MiniML3: React.FC = () => (
+  <SerieMini n={3} accent={C.blue} {...ML}>
+    <Grande size={190}>¿Y LA</Grande>
+    <Grande size={190} color={C.blue}>
+      LLUVIA?
+    </Grande>
+    <svg width={340} height={290} viewBox="0 0 100 86">
+      <path
+        d="M20 50 Q10 50 10 40 Q10 28 24 28 Q28 14 44 16 Q56 6 68 18 Q86 16 88 32 Q96 36 94 44 Q92 50 82 50 Z"
+        fill={C.dim}
+      />
+      {[24, 44, 64, 80].map((x, i) => (
+        <line
+          key={i}
+          x1={x}
+          y1={58}
+          x2={x - 6}
+          y2={74}
+          stroke={C.blue}
+          strokeWidth={5}
+          strokeLinecap="round"
+        />
+      ))}
+    </svg>
+  </SerieMini>
+);
