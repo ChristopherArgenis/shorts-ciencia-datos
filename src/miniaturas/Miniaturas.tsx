@@ -1302,3 +1302,117 @@ export const MiniML3: React.FC = () => (
     </svg>
   </SerieMini>
 );
+
+// ---------- Rama "Supervisado" (naranja) ----------
+const SUPM = {
+  serie: "APRENDIZAJE SUPERVISADO",
+  color: "#ff9f43",
+};
+const N = "#ff9f43";
+const Pin: React.FC<{ c: string; s?: number }> = ({ c, s = 200 }) => (
+  <svg width={s} height={s * 1.25} viewBox="0 0 80 100">
+    <ellipse
+      cx={40}
+      cy={58}
+      rx={28}
+      ry={38}
+      fill="#1b2238"
+      stroke={c}
+      strokeWidth={4}
+    />
+    <ellipse cx={40} cy={64} rx={18} ry={28} fill="#f4f6ff" />
+    <circle cx={40} cy={22} r={16} fill="#1b2238" stroke={c} strokeWidth={4} />
+    <path d="M36 27 L44 27 L40 34 Z" fill={C.yellow} />
+  </svg>
+);
+export const MiniSup1: React.FC = () => (
+  <SerieMini n={1} accent={N} {...SUPM}>
+    <Grande size={170}>¿NÚMERO</Grande>
+    <Grande size={170} color={N}>
+      O ESPECIE?
+    </Grande>
+    <Pin c={N} />
+  </SerieMini>
+);
+export const MiniSup2: React.FC = () => (
+  <SerieMini n={2} accent={N} {...SUPM}>
+    <Grande size={150}>¿CON QUIÉN</Grande>
+    <Grande size={150} color={N}>
+      ANDAS?
+    </Grande>
+    <div style={{ display: "flex", gap: 20 }}>
+      {[C.blue, C.blue, N, C.blue, C.blue].map((c, i) => (
+        <div
+          key={i}
+          style={{ width: 100, height: 100, borderRadius: 50, background: c }}
+        />
+      ))}
+    </div>
+  </SerieMini>
+);
+export const MiniSup3: React.FC = () => (
+  <SerieMini n={3} accent={N} {...SUPM}>
+    <Grande size={180}>¿VUELVE?</Grande>
+    <Grande size={240} color={C.green}>
+      93%
+    </Grande>
+  </SerieMini>
+);
+export const MiniSup4: React.FC = () => (
+  <SerieMini n={4} accent={C.green} {...SUPM}>
+    <Grande size={260} color={C.green}>
+      100
+    </Grande>
+    <Grande size={170}>ÁRBOLES</Grande>
+    <div style={{ display: "flex", gap: 10 }}>
+      {Array.from({ length: 8 }).map((_, i) => (
+        <svg key={i} width={90} height={90} viewBox="0 0 40 40">
+          <path d="M20 2 L36 30 L4 30 Z" fill={i % 3 ? C.green : N} />
+        </svg>
+      ))}
+    </div>
+  </SerieMini>
+);
+export const MiniSup5: React.FC = () => (
+  <SerieMini n={5} accent={C.coral} {...SUPM}>
+    <Grande size={220} color={C.green}>
+      99%
+    </Grande>
+    <Grande size={190} color={C.coral}>
+      INÚTIL
+    </Grande>
+  </SerieMini>
+);
+export const MiniSup6: React.FC = () => (
+  <SerieMini n={6} accent={N} {...SUPM}>
+    <Grande size={170}>¿MÁS ES</Grande>
+    <Grande size={190} color={N}>
+      MEJOR?
+    </Grande>
+    <svg width={760} height={220} viewBox="0 0 760 220">
+      <path
+        d="M20 20 C200 150 300 190 420 190 S700 180 740 175"
+        fill="none"
+        stroke={N}
+        strokeWidth={14}
+      />
+    </svg>
+  </SerieMini>
+);
+export const MiniSup7: React.FC = () => (
+  <SerieMini n={7} accent={N} {...SUPM}>
+    <Grande size={260} color={N}>
+      243
+    </Grande>
+    <Grande size={180}>PERILLAS</Grande>
+  </SerieMini>
+);
+export const MiniSup8: React.FC = () => (
+  <SerieMini n={8} accent={N} {...SUPM}>
+    <Grande size={150}>DATOS →</Grande>
+    <Grande size={150} color={N}>
+      PREDICCIÓN
+    </Grande>
+    <Pin c={C.green} s={170} />
+  </SerieMini>
+);

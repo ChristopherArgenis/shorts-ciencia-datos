@@ -31,6 +31,11 @@ export const SERIE_ML: SerieInfo = {
   total: 3,
   color: "#f2c14e",
 };
+export const SERIE_SUP: SerieInfo = {
+  nombre: "APRENDIZAJE AUTOMÁTICO › SUPERVISADO",
+  total: 8,
+  color: "#ff9f43",
+};
 export const SERIE_ALGORITMOS: SerieInfo = {
   nombre: "ESTRUCTURAS Y ALGORITMOS",
   total: 10,
@@ -455,3 +460,16 @@ export const Codigo: React.FC<{
     </div>
   );
 };
+
+/** Duración de una escena en frames, ajustada a la frase de voz (+ margen). */
+export const durVoz = (
+  short: keyof typeof duraciones,
+  id: string,
+  min = 120,
+  extra = 50,
+) =>
+  Math.max(
+    min,
+    Math.round(((duraciones[short] as Record<string, number>)[id] ?? 0) * 30) +
+      extra,
+  );

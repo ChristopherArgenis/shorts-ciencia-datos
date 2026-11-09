@@ -16,6 +16,7 @@ Shorts verticales (1080×1920, 30 s) sin cara, hechos con [Remotion](https://rem
 | `Algo1-Arreglos` … `Algo10-Dinamica` | Serie "Estructuras de Datos y Algoritmos" partes 1–10 (`src/shorts/algoritmos/`) |
 | `Prac1-Ciclo` … `Prac10-Comunicar` | Serie "Programación en Ciencia de Datos" partes 1–10 (`src/shorts/practica/`, caso ficticio Café Datos) |
 | `ML0-Aprender` … `ML3-Variables` | Serie "Aprendizaje Automático": tronco común 0–3 (`src/shorts/ml/`, mapa de metro en `src/kit/ml.tsx`, números de `scripts/ml/tronco.py`) |
+| `SUP1-Tipos` … `SUP8-Proyecto` | Aprendizaje Automático › rama Supervisado 1–8 (`src/shorts/sup/`, números de `scripts/ml/supervisado.py`, pingüinos de Palmer) |
 | `Short6-StatsBomb` | StatsBomb: datos de eventos, 360, xG y cómo los usan los analistas (~38 s) |
 
 ## Uso

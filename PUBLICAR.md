@@ -413,6 +413,73 @@ Playlist principal "Aprendizaje Automático" + una por rama.
 > Tronco común, parte 3 de la serie "Aprendizaje Automático". Café Datos es un caso ficticio; los modelos se entrenaron de verdad.
 **#:** #machinelearning #cienciadedatos #python #featureengineering #shorts
 
+### Rama Supervisado (8, naranja) — playlist "Aprendizaje supervisado"
+Números reales: `python3 scripts/ml/supervisado.py` (scikit-learn + palmerpenguins).
+
+## Supervisado 1: Regresión vs clasificación
+**Título:** Regresión vs clasificación | Aprendizaje supervisado #1
+**Miniatura:** `MiniSup1` → "¿NÚMERO O ESPECIE?"
+**Descripción:**
+> ¿Cuánto pesa este pingüino? ¿De qué especie es? Si la respuesta es un número, es regresión (el modelo falla por ±280 g); si es una categoría, es clasificación (acierta 98.8%). En los dos casos aprendió con respuestas conocidas: eso es aprendizaje supervisado.
+> Datos reales: pingüinos de Palmer (Gorman, Williams & Fraser 2014, Palmer Station LTER). Parte 1 de 8 de la rama Supervisado (serie "Aprendizaje Automático").
+**#:** #machinelearning #cienciadedatos #python #scikitlearn #shorts
+
+## Supervisado 2: K vecinos más cercanos
+**Título:** K vecinos más cercanos | Aprendizaje supervisado #2
+**Miniatura:** `MiniSup2` → "¿CON QUIÉN ANDAS?"
+**Descripción:**
+> Dime con quién andas y te diré qué pingüino eres. K vecinos más cercanos (KNN) busca los 5 pingüinos más parecidos por su pico y los pone a votar: los 5 dicen Barbijo. Con k=1 acierta 94.0%; con k=5, 98.8%.
+> Datos reales: pingüinos de Palmer (Gorman, Williams & Fraser 2014, Palmer Station LTER). Parte 2 de 8 de la rama Supervisado (serie "Aprendizaje Automático").
+**#:** #machinelearning #cienciadedatos #knn #python #shorts
+
+## Supervisado 3: Regresión logística
+**Título:** Regresión logística | Aprendizaje supervisado #3
+**Miniatura:** `MiniSup3` → "¿VUELVE? 93%"
+**Descripción:**
+> ¿Este cliente va a regresar? La regresión logística convierte los datos en una probabilidad: Ana (8 visitas) 93%, Luis (2 visitas) 13%. Con un corte de 50% se decide quién recibe la promoción.
+> Café Datos es un caso ficticio. Modelo entrenado de verdad. Parte 3 de 8 de la rama Supervisado (serie "Aprendizaje Automático").
+**#:** #machinelearning #cienciadedatos #python #regresionlogistica #shorts
+
+## Supervisado 4: Bosques aleatorios
+**Título:** Bosques aleatorios | Aprendizaje supervisado #4
+**Miniatura:** `MiniSup4` → "100 ÁRBOLES"
+**Descripción:**
+> Un árbol de decisión falla en 4 de 84 pingüinos; un bosque aleatorio de 100 árboles que votan falla solo en 2. Además dice qué importa más: el largo del pico (42%) y la aleta (32%).
+> Datos reales: pingüinos de Palmer (Gorman, Williams & Fraser 2014, Palmer Station LTER). Parte 4 de 8 de la rama Supervisado (serie "Aprendizaje Automático").
+**#:** #machinelearning #cienciadedatos #randomforest #python #shorts
+
+## Supervisado 5: Matriz de confusión
+**Título:** Matriz de confusión | Aprendizaje supervisado #5
+**Miniatura:** `MiniSup5` → "99% INÚTIL"
+**Descripción:**
+> Un detector de fraude que siempre dice "no es fraude" acierta 98.9%… y no atrapa ningún fraude. La matriz de confusión lo revela: este modelo atrapa 30 de 33 fraudes (exhaustividad 91%), pero de 213 alarmas solo 30 son reales (precisión 14%).
+> Pagos ficticios; modelos entrenados de verdad. Parte 5 de 8 de la rama Supervisado (serie "Aprendizaje Automático").
+**#:** #machinelearning #cienciadedatos #python #metricas #shorts
+
+## Supervisado 6: Boosting
+**Título:** Boosting | Aprendizaje supervisado #6
+**Miniatura:** `MiniSup6` → "¿MÁS ES MEJOR?"
+**Descripción:**
+> Boosting entrena árboles pequeños en cadena: cada uno corrige los errores del anterior. El primero falla por ±27.2 tazas; con 20 árboles, ±10.4; con 100, ±9.5… y con 200 empeora a ±9.8. Más no siempre es mejor.
+> Café Datos es un caso ficticio. Modelo entrenado de verdad. Parte 6 de 8 de la rama Supervisado (serie "Aprendizaje Automático").
+**#:** #machinelearning #cienciadedatos #boosting #python #shorts
+
+## Supervisado 7: Redes neuronales
+**Título:** Redes neuronales | Aprendizaje supervisado #7
+**Miniatura:** `MiniSup7` → "243 PERILLAS"
+**Descripción:**
+> Una red neuronal con capas 4 → 16 → 8 → 3: entran cuatro medidas de un pingüino y salen tres especies. Sus 243 "perillas" se ajustan solas con descenso de gradiente durante 440 rondas. Resultado: 98.8% de aciertos. Los modelos de lenguaje funcionan igual, con miles de millones de perillas.
+> Datos reales: pingüinos de Palmer (Gorman, Williams & Fraser 2014, Palmer Station LTER). Parte 7 de 8 de la rama Supervisado (serie "Aprendizaje Automático").
+**#:** #machinelearning #redesneuronales #inteligenciaartificial #python #shorts
+
+## Supervisado 8: Proyecto completo
+**Título:** Proyecto completo | Aprendizaje supervisado #8
+**Miniatura:** `MiniSup8` → "DATOS → PREDICCIÓN"
+**Descripción:**
+> De datos crudos a una predicción: cargar 344 pingüinos, limpiar (quedan 333), separar, escalar, entrenar un bosque aleatorio y evaluar: 97.6% en el examen. ¿Y el pingüino que nadie había visto? Papúa. Final de la rama supervisada.
+> Datos reales: pingüinos de Palmer (Gorman, Williams & Fraser 2014, Palmer Station LTER). Parte 8 de 8 de la rama Supervisado (serie "Aprendizaje Automático").
+**#:** #machinelearning #cienciadedatos #python #scikitlearn #shorts
+
 ---
 
 ## Semana tipo (20–30 h)

@@ -302,5 +302,69 @@
     "d4": "Agregamos una columna: ¿llovió? El error baja a ocho.",
     "d5": "Los datos de entrada se llaman variables. Elegir y crear buenas variables es uno de los trabajos más importantes.",
     "d6": "Fin del tronco común. Ahora el camino se divide: primero, el aprendizaje supervisado."
+  },
+  "sup1": {
+    "a1": "¿Cuánto pesa este pingüino? ¿De qué especie es? Dos preguntas, dos tipos de modelo.",
+    "a2": "Reto: ¿cuál de las dos es más fácil de adivinar?",
+    "a3": "Si la respuesta es un número, como el peso, se llama regresión. El modelo falla por unos doscientos ochenta gramos.",
+    "a4": "Si la respuesta es una categoría, como la especie, se llama clasificación. Acierta casi noventa y nueve de cada cien.",
+    "a5": "Son pingüinos reales de la Antártida. Y en los dos casos, el modelo aprendió con respuestas conocidas: eso es aprendizaje supervisado.",
+    "a6": "Siguiente estación: dime con quién andas."
+  },
+  "sup2": {
+    "b1": "Dime con quién andas… y te diré qué pingüino eres.",
+    "b2": "Reto: este pingüino misterioso, ¿de qué especie es?",
+    "b3": "Cada punto es un pingüino real, por el largo y el grosor de su pico.",
+    "b4": "K vecinos más cercanos: busca los cinco pingüinos más parecidos, y votan. Los cinco dicen: barbijo.",
+    "b5": "¿Cuántos vecinos? Con uno, se confunde. Con cinco, acierta casi noventa y nueve por ciento.",
+    "b6": "Siguiente estación: ¿regresará este cliente?"
+  },
+  "sup3": {
+    "c1": "¿Este cliente va a regresar? Adivina.",
+    "c2": "Reto: Ana vino ocho veces este mes. Luis, dos. ¿Quién regresa?",
+    "c3": "La regresión logística convierte los datos en una probabilidad, entre cero y uno.",
+    "c4": "Ana: noventa y tres por ciento. Luis: trece por ciento.",
+    "c5": "Y se elige un corte: arriba de cincuenta por ciento, decimos que sí regresa. Con eso, Café Datos sabe a quién enviarle una promoción.",
+    "c6": "Siguiente estación: cien árboles que votan."
+  },
+  "sup4": {
+    "d1": "Un árbol se equivoca. Cien árboles votan.",
+    "d2": "Reto: ¿quién se equivoca menos, un árbol o un bosque?",
+    "d3": "Un solo árbol de decisión clasifica pingüinos, pero memoriza detalles. Falla en cuatro de ochenta y cuatro.",
+    "d4": "Un bosque aleatorio entrena cien árboles, cada uno con datos un poco distintos. Y votan. Falla solo en dos.",
+    "d5": "Y te dice qué importa más: el largo del pico, y la aleta.",
+    "d6": "Siguiente estación: el modelo que acierta el noventa y nueve por ciento… y no sirve."
+  },
+  "sup5": {
+    "e1": "Un detector de fraude con noventa y nueve por ciento de aciertos… que nunca detecta fraude.",
+    "e2": "Reto: ¿cómo es posible?",
+    "e3": "Solo uno de cada cien pagos es fraude. Si el modelo siempre dice no es fraude, acierta casi el noventa y nueve por ciento. Y no atrapa a nadie.",
+    "e4": "Por eso se usa la matriz de confusión: aciertos y errores, de cada tipo.",
+    "e5": "Este modelo atrapa treinta de treinta y tres fraudes. Pero también marca pagos normales: por cada fraude real, levanta varias falsas alarmas.",
+    "e6": "Siguiente estación: aprender de los errores."
+  },
+  "sup6": {
+    "f1": "Cada modelo nuevo corrige los errores del anterior.",
+    "f2": "Reto: ¿más modelos siempre es mejor?",
+    "f3": "Boosting entrena árboles pequeños en cadena. El primero falla por veintisiete tazas.",
+    "f4": "El segundo aprende de esos errores. Y el siguiente. Con veinte árboles, el error baja a diez.",
+    "f5": "Pero después de cien, ya no mejora: incluso empeora un poco. Más no siempre es mejor.",
+    "f6": "Siguiente estación: redes neuronales."
+  },
+  "sup7": {
+    "g1": "Doscientas cuarenta y tres perillas, que se ajustan solas.",
+    "g2": "Reto: ¿cuántos datos de cada pingüino necesita la red?",
+    "g3": "Una red neuronal tiene capas de neuronas. Entran cuatro medidas, y salen tres especies.",
+    "g4": "Cada conexión es una perilla. Al entrenar, se ajustan poco a poco para bajar el error. El mismo descenso de gradiente de la serie de mates.",
+    "g5": "Resultado: casi noventa y nueve por ciento. Los modelos de lenguaje funcionan igual, pero con miles de millones de perillas.",
+    "g6": "Siguiente estación: un proyecto completo."
+  },
+  "sup8": {
+    "h1": "De datos crudos a una predicción, en cuarenta segundos.",
+    "h2": "Reto: ¿de qué especie es un pingüino que nadie ha visto?",
+    "h3": "Cargamos trescientos cuarenta y cuatro pingüinos. Limpiamos: quedan trescientos treinta y tres.",
+    "h4": "Separamos entrenamiento y prueba. Escalamos las medidas, y entrenamos un bosque aleatorio.",
+    "h5": "En el examen acierta noventa y siete punto seis por ciento. Y para el pingüino nuevo, dice: papúa.",
+    "h6": "Fin de la rama supervisada. Ahora, aprender sin respuestas."
   }
 }

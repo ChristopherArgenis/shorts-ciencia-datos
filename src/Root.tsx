@@ -40,6 +40,14 @@ import { ML0Aprender, TOTAL_ML0 } from "./shorts/ml/ML0Aprender";
 import { ML1Entrenar, TOTAL_ML1 } from "./shorts/ml/ML1Entrenar";
 import { ML2Sobreajuste, TOTAL_ML2 } from "./shorts/ml/ML2Sobreajuste";
 import { ML3Variables, TOTAL_ML3 } from "./shorts/ml/ML3Variables";
+import { Sup1Tipos, TOTAL_SUP1 } from "./shorts/sup/Sup1Tipos";
+import { Sup2KNN, TOTAL_SUP2 } from "./shorts/sup/Sup2KNN";
+import { Sup3Logistica, TOTAL_SUP3 } from "./shorts/sup/Sup3Logistica";
+import { Sup4Bosque, TOTAL_SUP4 } from "./shorts/sup/Sup4Bosque";
+import { Sup5Metricas, TOTAL_SUP5 } from "./shorts/sup/Sup5Metricas";
+import { Sup6Boosting, TOTAL_SUP6 } from "./shorts/sup/Sup6Boosting";
+import { Sup7Red, TOTAL_SUP7 } from "./shorts/sup/Sup7Red";
+import { Sup8Proyecto, TOTAL_SUP8 } from "./shorts/sup/Sup8Proyecto";
 import {
   MiniCumpleanos,
   MiniSimpson,
@@ -79,6 +87,14 @@ import {
   MiniML1,
   MiniML2,
   MiniML3,
+  MiniSup1,
+  MiniSup2,
+  MiniSup3,
+  MiniSup4,
+  MiniSup5,
+  MiniSup6,
+  MiniSup7,
+  MiniSup8,
 } from "./miniaturas/Miniaturas";
 
 export const RemotionRoot: React.FC = () => {
@@ -398,6 +414,72 @@ export const RemotionRoot: React.FC = () => {
           height={1920}
         />
       </Folder>
+      <Folder name="Serie-ML-Supervisado">
+        <Composition
+          id="SUP1-Tipos"
+          component={Sup1Tipos}
+          durationInFrames={TOTAL_SUP1}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="SUP2-KNN"
+          component={Sup2KNN}
+          durationInFrames={TOTAL_SUP2}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="SUP3-Logistica"
+          component={Sup3Logistica}
+          durationInFrames={TOTAL_SUP3}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="SUP4-Bosque"
+          component={Sup4Bosque}
+          durationInFrames={TOTAL_SUP4}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="SUP5-Metricas"
+          component={Sup5Metricas}
+          durationInFrames={TOTAL_SUP5}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="SUP6-Boosting"
+          component={Sup6Boosting}
+          durationInFrames={TOTAL_SUP6}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="SUP7-Red"
+          component={Sup7Red}
+          durationInFrames={TOTAL_SUP7}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="SUP8-Proyecto"
+          component={Sup8Proyecto}
+          durationInFrames={TOTAL_SUP8}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+      </Folder>
       <Folder name="Miniaturas">
         <Still
           id="Mini1-Cumpleanos"
@@ -602,6 +684,14 @@ export const RemotionRoot: React.FC = () => {
         <Still id="MiniML1" component={MiniML1} width={1080} height={1920} />
         <Still id="MiniML2" component={MiniML2} width={1080} height={1920} />
         <Still id="MiniML3" component={MiniML3} width={1080} height={1920} />
+        <Still id="MiniSup1" component={MiniSup1} width={1080} height={1920} />
+        <Still id="MiniSup2" component={MiniSup2} width={1080} height={1920} />
+        <Still id="MiniSup3" component={MiniSup3} width={1080} height={1920} />
+        <Still id="MiniSup4" component={MiniSup4} width={1080} height={1920} />
+        <Still id="MiniSup5" component={MiniSup5} width={1080} height={1920} />
+        <Still id="MiniSup6" component={MiniSup6} width={1080} height={1920} />
+        <Still id="MiniSup7" component={MiniSup7} width={1080} height={1920} />
+        <Still id="MiniSup8" component={MiniSup8} width={1080} height={1920} />
       </Folder>
     </>
   );
