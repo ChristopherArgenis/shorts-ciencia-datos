@@ -480,6 +480,73 @@ Números reales: `python3 scripts/ml/supervisado.py` (scikit-learn + palmerpengu
 > Datos reales: pingüinos de Palmer (Gorman, Williams & Fraser 2014, Palmer Station LTER). Parte 8 de 8 de la rama Supervisado (serie "Aprendizaje Automático").
 **#:** #machinelearning #cienciadedatos #python #scikitlearn #shorts
 
+### Rama No supervisado (7, morado) — playlist "Aprendizaje no supervisado" + Gran Final
+Números reales: `python3 scripts/ml/nosupervisado.py`.
+
+## No supervisado 1: Aprender sin respuestas
+**Título:** Aprender sin respuestas | Aprendizaje no supervisado #1
+**Miniatura:** `MiniNos1` → "SIN RESPUESTAS"
+**Descripción:**
+> Nadie le dijo qué buscar y encontró 3 grupos. En el aprendizaje no supervisado no hay respuestas, solo datos: el modelo agrupa lo que se parece. ¿Coinciden los grupos con las especies reales de pingüinos? Lo revelamos en el Gran Final.
+> Datos reales: pingüinos de Palmer (Gorman, Williams & Fraser 2014, Palmer Station LTER). Parte 1 de 7 de la rama No supervisado (serie "Aprendizaje Automático").
+**#:** #machinelearning #cienciadedatos #clustering #python #shorts
+
+## No supervisado 2: K-means
+**Título:** K-means | Aprendizaje no supervisado #2
+**Miniatura:** `MiniNos2` → "¿QUÉ TIPO DE CLIENTE?"
+**Descripción:**
+> ¿Cuántos tipos de cliente tiene tu café? K-means pone 3 centros, cada cliente se une al más cercano y los centros se mueven al promedio de su grupo hasta que ya no cambian. Resultado: frecuentes (~12 visitas/mes), ocasionales (~3) y de ticket alto (~$140).
+> Clientes ficticios de Café Datos; modelo entrenado de verdad. Parte 2 de 7 de la rama No supervisado (serie "Aprendizaje Automático").
+**#:** #machinelearning #kmeans #cienciadedatos #python #shorts
+
+## No supervisado 3: Método del codo
+**Título:** Método del codo | Aprendizaje no supervisado #3
+**Miniatura:** `MiniNos3` → "¿CUÁNTOS GRUPOS?"
+**Descripción:**
+> Con más grupos el error siempre baja, pero un grupo por cliente no sirve. El método del codo busca dónde la curva deja de bajar rápido: aquí en 3. La silueta lo confirma: 0.77 con 3 grupos, la mejor separación.
+> Clientes ficticios de Café Datos; modelos entrenados de verdad. Parte 3 de 7 de la rama No supervisado (serie "Aprendizaje Automático").
+**#:** #machinelearning #kmeans #cienciadedatos #python #shorts
+
+## No supervisado 4: DBSCAN vs K-means
+**Título:** DBSCAN vs K-means | Aprendizaje no supervisado #4
+**Miniatura:** `MiniNos4` → "K-MEANS FALLA"
+**Descripción:**
+> Dos lunas: K-means busca grupos redondos y las corta a la mitad (23% de acierto). DBSCAN agrupa por densidad, conecta puntos con muchos vecinos cerca y separa las dos lunas perfectamente (100%). Cada algoritmo ve una forma distinta.
+> Datos sintéticos (make_moons); modelos entrenados de verdad. Parte 4 de 7 de la rama No supervisado (serie "Aprendizaje Automático").
+**#:** #machinelearning #clustering #dbscan #python #shorts
+
+## No supervisado 5: PCA
+**Título:** PCA | Aprendizaje no supervisado #5
+**Miniatura:** `MiniNos5` → "4D → 2D"
+**Descripción:**
+> Cada pingüino tiene 4 medidas, imposible de dibujar. PCA busca las direcciones donde los datos cambian más y proyecta todo ahí, como una sombra bien elegida: con 2 ejes conserva el 88% de la información (69% + 19%) y las especies se ven separadas.
+> Datos reales: pingüinos de Palmer (Gorman, Williams & Fraser 2014, Palmer Station LTER). Parte 5 de 7 de la rama No supervisado (serie "Aprendizaje Automático").
+**#:** #machinelearning #pca #cienciadedatos #python #shorts
+
+## No supervisado 6: Detectar anomalías
+**Título:** Detectar anomalías | Aprendizaje no supervisado #6
+**Miniatura:** `MiniNos6` → "12/12 RARAS"
+**Descripción:**
+> ¿Se pueden encontrar fraudes sin ejemplos de fraude? Sí: el bosque de aislamiento hace cortes al azar y lo raro queda solo rápido. Escondimos 12 compras extrañas entre 2,000 (montos enormes de madrugada): el modelo marcó 20 sospechosas y ahí estaban las 12.
+> Transacciones ficticias; modelo entrenado de verdad. Parte 6 de 7 de la rama No supervisado (serie "Aprendizaje Automático").
+**#:** #machinelearning #deteccionanomalias #cienciadedatos #python #shorts
+
+## No supervisado 7: Reglas de asociación
+**Título:** Reglas de asociación | Aprendizaje no supervisado #7
+**Miniatura:** `MiniNos7` → "LATTE + ¿QUÉ?"
+**Descripción:**
+> Quien compra latte, ¿qué más compra? En 1,000 tickets, latte y pan dulce salen juntos en el 21.8% (soporte) y el 49% de quienes piden latte piden pan (confianza): 1.57× más de lo esperado por azar (lift). Así nacen los combos.
+> Tickets ficticios de Café Datos; reglas calculadas de verdad. Parte 7 de 7 de la rama No supervisado (serie "Aprendizaje Automático").
+**#:** #machinelearning #cienciadedatos #analisisdecanasta #python #shorts
+
+## Gran Final: Gran Final
+**Título:** Gran Final | Aprendizaje automático
+**Miniatura:** `MiniFinal` → "GRAN FINAL"
+**Descripción:**
+> Los mismos pingüinos, dos mundos: supervisado (aprendió con la especie) vs no supervisado (nunca la vio). Al comparar los grupos con las especies reales, Papúa queda perfecto y Adelia y Barbijo se mezclan un poco. Sin ver ni una etiqueta coincidió en 91.9%; con etiquetas, 97.6%. Fin de la serie.
+> Datos reales: pingüinos de Palmer (Gorman, Williams & Fraser 2014, Palmer Station LTER). Gran Final de la serie "Aprendizaje Automático".
+**#:** #machinelearning #inteligenciaartificial #cienciadedatos #python #shorts
+
 ---
 
 ## Semana tipo (20–30 h)

@@ -36,6 +36,16 @@ export const SERIE_SUP: SerieInfo = {
   total: 8,
   color: "#ff9f43",
 };
+export const SERIE_NOS: SerieInfo = {
+  nombre: "APRENDIZAJE AUTOMÁTICO › NO SUPERVISADO",
+  total: 7,
+  color: C.purple,
+};
+export const SERIE_FINAL: SerieInfo = {
+  nombre: "APRENDIZAJE AUTOMÁTICO · GRAN FINAL",
+  total: 1,
+  color: C.green,
+};
 export const SERIE_ALGORITMOS: SerieInfo = {
   nombre: "ESTRUCTURAS Y ALGORITMOS",
   total: 10,

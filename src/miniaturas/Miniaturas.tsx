@@ -1416,3 +1416,158 @@ export const MiniSup8: React.FC = () => (
     <Pin c={C.green} s={170} />
   </SerieMini>
 );
+
+// ---------- Rama "No supervisado" (morado) y Gran Final ----------
+const NOSM = { serie: "APRENDIZAJE NO SUPERVISADO", color: C.purple };
+const Puntos3: React.FC<{ cols?: string[] }> = ({
+  cols = [C.coral, C.green, C.blue],
+}) => (
+  <svg width={600} height={260} viewBox="0 0 600 260">
+    {[
+      [120, 90],
+      [300, 190],
+      [470, 80],
+    ].flatMap(([cx, cy], g) =>
+      Array.from({ length: 14 }).map((_, i) => {
+        const a = i * 2.4,
+          r = 18 + (i % 4) * 14;
+        return (
+          <circle
+            key={`${g}-${i}`}
+            cx={cx + r * Math.cos(a)}
+            cy={cy + r * Math.sin(a)}
+            r={12}
+            fill={cols[g % cols.length]}
+          />
+        );
+      }),
+    )}
+  </svg>
+);
+export const MiniNos1: React.FC = () => (
+  <SerieMini n={1} accent={C.purple} {...NOSM}>
+    <Grande size={170}>SIN</Grande>
+    <Grande size={140} color={C.purple}>
+      RESPUESTAS
+    </Grande>
+    <Puntos3 />
+  </SerieMini>
+);
+export const MiniNos2: React.FC = () => (
+  <SerieMini n={2} accent={C.purple} {...NOSM}>
+    <Grande size={160}>¿QUÉ TIPO</Grande>
+    <Grande size={160} color={C.purple}>
+      DE CLIENTE?
+    </Grande>
+    <Puntos3 />
+  </SerieMini>
+);
+export const MiniNos3: React.FC = () => (
+  <SerieMini n={3} accent={C.purple} {...NOSM}>
+    <Grande size={160}>¿CUÁNTOS</Grande>
+    <Grande size={190} color={C.purple}>
+      GRUPOS?
+    </Grande>
+    <svg width={700} height={240} viewBox="0 0 700 240">
+      <polyline
+        points="20,20 120,110 220,200 320,210 420,215 520,218 680,220"
+        fill="none"
+        stroke={C.purple}
+        strokeWidth={14}
+      />
+      <circle
+        cx={220}
+        cy={200}
+        r={34}
+        fill="none"
+        stroke={C.yellow}
+        strokeWidth={8}
+      />
+    </svg>
+  </SerieMini>
+);
+export const MiniNos4: React.FC = () => (
+  <SerieMini n={4} accent={C.coral} {...NOSM}>
+    <Grande size={180}>K-MEANS</Grande>
+    <Grande size={180} color={C.coral}>
+      FALLA
+    </Grande>
+    <svg width={700} height={260} viewBox="0 0 700 260">
+      <path
+        d="M40 200 Q170 -40 330 160"
+        fill="none"
+        stroke={C.coral}
+        strokeWidth={30}
+        strokeLinecap="round"
+      />
+      <path
+        d="M330 80 Q480 320 660 60"
+        fill="none"
+        stroke={C.green}
+        strokeWidth={30}
+        strokeLinecap="round"
+      />
+    </svg>
+  </SerieMini>
+);
+export const MiniNos5: React.FC = () => (
+  <SerieMini n={5} accent={C.purple} {...NOSM}>
+    <Grande size={180}>4D → 2D</Grande>
+    <Grande size={190} color={C.purple}>
+      88%
+    </Grande>
+  </SerieMini>
+);
+export const MiniNos6: React.FC = () => (
+  <SerieMini n={6} accent={C.coral} {...NOSM}>
+    <Grande size={250} color={C.green}>
+      12/12
+    </Grande>
+    <Grande size={170} color={C.coral}>
+      RARAS
+    </Grande>
+  </SerieMini>
+);
+export const MiniNos7: React.FC = () => (
+  <SerieMini n={7} accent={C.purple} {...NOSM}>
+    <Grande size={180}>LATTE +</Grande>
+    <Grande size={180} color={C.purple}>
+      ¿QUÉ?
+    </Grande>
+    <Grande size={150} color={C.yellow}>
+      1.57×
+    </Grande>
+  </SerieMini>
+);
+export const MiniFinal: React.FC = () => (
+  <Fondo accent={C.green}>
+    <div
+      style={{
+        fontFamily: FONT,
+        fontWeight: 900,
+        fontSize: 44,
+        color: C.ink,
+        border: `4px solid ${C.green}`,
+        borderRadius: 40,
+        padding: "10px 28px",
+      }}
+    >
+      APRENDIZAJE AUTOMÁTICO
+    </div>
+    <Grande size={200} color={C.green}>
+      GRAN
+    </Grande>
+    <Grande size={200} color={C.green}>
+      FINAL
+    </Grande>
+    <div style={{ display: "flex", gap: 30 }}>
+      <Grande size={130} color="#ff9f43">
+        98%
+      </Grande>
+      <Grande size={130}>vs</Grande>
+      <Grande size={130} color={C.purple}>
+        92%
+      </Grande>
+    </div>
+  </Fondo>
+);

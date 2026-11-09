@@ -366,5 +366,69 @@
     "h4": "Separamos entrenamiento y prueba. Escalamos las medidas, y entrenamos un bosque aleatorio.",
     "h5": "En el examen acierta noventa y siete punto seis por ciento. Y para el pingüino nuevo, dice: papúa.",
     "h6": "Fin de la rama supervisada. Ahora, aprender sin respuestas."
+  },
+  "nos1": {
+    "a1": "Nadie le dijo qué buscar… y encontró tres grupos.",
+    "a2": "Reto: sin saber la especie, ¿cuántos grupos de pingüinos ves?",
+    "a3": "En el aprendizaje no supervisado no hay respuestas. Solo datos.",
+    "a4": "El modelo busca qué datos se parecen entre sí, y los agrupa. Encontró tres grupos.",
+    "a5": "¿Coinciden con las especies reales? Lo revelamos en el gran final.",
+    "a6": "Siguiente estación: k means."
+  },
+  "nos2": {
+    "b1": "¿Cuántos tipos de cliente tiene tu café?",
+    "b2": "Reto: mira los clientes. ¿Ves los grupos?",
+    "b3": "K means pone tres centros al azar. Cada cliente se une al centro más cercano.",
+    "b4": "Luego cada centro se mueve al promedio de su grupo. Y se repite, hasta que ya no se mueven.",
+    "b5": "Resultado: clientes ocasionales, frecuentes, y los de ticket alto. Cada grupo recibe una promoción distinta.",
+    "b6": "Siguiente estación: ¿cuántos grupos?"
+  },
+  "nos3": {
+    "c1": "¿Dos grupos, tres, o diez? ¿Quién decide?",
+    "c2": "Reto: ¿cuántos grupos de clientes hay de verdad?",
+    "c3": "Con más grupos, el error siempre baja. Con un grupo por cliente, sería cero. Pero no sirve.",
+    "c4": "El método del codo: busca dónde la curva deja de bajar rápido. Aquí, en tres.",
+    "c5": "Y la silueta lo confirma: tres grupos es la mejor separación.",
+    "c6": "Siguiente estación: cuando k means falla."
+  },
+  "nos4": {
+    "c1": "K means falla aquí. Mira.",
+    "c2": "Reto: ¿cuántos grupos ves? Dos lunas.",
+    "c3": "K means busca grupos redondos. Corta las lunas por la mitad. Apenas acierta veintitrés por ciento.",
+    "c4": "DBSCAN agrupa por densidad: puntos con muchos vecinos cerca, se conectan.",
+    "c5": "Y separa las dos lunas perfectamente. Cada algoritmo ve una forma distinta.",
+    "c6": "Siguiente estación: reducir dimensiones."
+  },
+  "nos5": {
+    "e1": "Tu sombra es un resumen de ti, en dos dimensiones.",
+    "e2": "Reto: ¿se puede ver algo de cuatro dimensiones en una pantalla?",
+    "e3": "Cada pingüino tiene cuatro medidas. No podemos dibujar cuatro dimensiones.",
+    "e4": "PCA busca las direcciones donde los datos cambian más, y proyecta todo ahí. Como una sombra bien elegida.",
+    "e5": "Con solo dos ejes, conservamos el ochenta y ocho por ciento de la información. Y las especies se ven separadas.",
+    "e6": "Siguiente estación: detectar anomalías."
+  },
+  "nos6": {
+    "f1": "Una compra rara entre dos mil. Y nadie la marcó.",
+    "f2": "Reto: ¿puede un modelo encontrar fraudes sin ejemplos de fraude?",
+    "f3": "Sí. El bosque de aislamiento hace cortes al azar. Lo normal tarda en quedar solo. Lo raro, se aísla rápido.",
+    "f4": "Escondimos doce compras extrañas: montos enormes a las tres de la mañana.",
+    "f5": "El modelo marcó veinte sospechosas. Y ahí estaban las doce.",
+    "f6": "Siguiente estación: quien compra latte, ¿qué más compra?"
+  },
+  "nos7": {
+    "g1": "Quien compra latte… ¿qué más compra?",
+    "g2": "Reto: ¿qué producto acompaña más al latte?",
+    "g3": "Revisamos mil tickets de Café Datos, buscando productos que aparecen juntos.",
+    "g4": "Latte y pan dulce salen juntos en el veintidós por ciento de los tickets. Y casi la mitad de quienes piden latte, piden pan.",
+    "g5": "Es una vez y media más de lo esperado por azar. Así nacen los combos, y el clásico: ¿le agrego algo más?",
+    "g6": "Siguiente estación: el gran final."
+  },
+  "nosF": {
+    "h1": "Los mismos pingüinos. Dos mundos.",
+    "h2": "Reto: sin etiquetas, ¿cuántos pingüinos agrupó bien?",
+    "h3": "A la izquierda, aprendizaje supervisado: aprendió con la especie. A la derecha, no supervisado: nunca la vio.",
+    "h4": "Comparamos los grupos con las especies reales. Papúa: perfecto. Adelia y barbijo se mezclan un poco.",
+    "h5": "Sin ver ni una respuesta, coincidió en el noventa y dos por ciento. Con respuestas, noventa y ocho.",
+    "h6": "Fin de la serie. ¿Qué tema quieres que exploremos ahora?"
   }
 }

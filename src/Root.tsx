@@ -48,6 +48,14 @@ import { Sup5Metricas, TOTAL_SUP5 } from "./shorts/sup/Sup5Metricas";
 import { Sup6Boosting, TOTAL_SUP6 } from "./shorts/sup/Sup6Boosting";
 import { Sup7Red, TOTAL_SUP7 } from "./shorts/sup/Sup7Red";
 import { Sup8Proyecto, TOTAL_SUP8 } from "./shorts/sup/Sup8Proyecto";
+import { Nos1Grupos, TOTAL_NOS1 } from "./shorts/nos/Nos1Grupos";
+import { Nos2KMeans, TOTAL_NOS2 } from "./shorts/nos/Nos2KMeans";
+import { Nos3Codo, TOTAL_NOS3 } from "./shorts/nos/Nos3Codo";
+import { Nos4DBSCAN, TOTAL_NOS4 } from "./shorts/nos/Nos4DBSCAN";
+import { Nos5PCA, TOTAL_NOS5 } from "./shorts/nos/Nos5PCA";
+import { Nos6Anomalias, TOTAL_NOS6 } from "./shorts/nos/Nos6Anomalias";
+import { Nos7Asociacion, TOTAL_NOS7 } from "./shorts/nos/Nos7Asociacion";
+import { GranFinal, TOTAL_FINAL } from "./shorts/nos/GranFinal";
 import {
   MiniCumpleanos,
   MiniSimpson,
@@ -95,6 +103,14 @@ import {
   MiniSup6,
   MiniSup7,
   MiniSup8,
+  MiniNos1,
+  MiniNos2,
+  MiniNos3,
+  MiniNos4,
+  MiniNos5,
+  MiniNos6,
+  MiniNos7,
+  MiniFinal,
 } from "./miniaturas/Miniaturas";
 
 export const RemotionRoot: React.FC = () => {
@@ -480,6 +496,72 @@ export const RemotionRoot: React.FC = () => {
           height={1920}
         />
       </Folder>
+      <Folder name="Serie-ML-NoSupervisado">
+        <Composition
+          id="NOS1-Grupos"
+          component={Nos1Grupos}
+          durationInFrames={TOTAL_NOS1}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="NOS2-KMeans"
+          component={Nos2KMeans}
+          durationInFrames={TOTAL_NOS2}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="NOS3-Codo"
+          component={Nos3Codo}
+          durationInFrames={TOTAL_NOS3}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="NOS4-DBSCAN"
+          component={Nos4DBSCAN}
+          durationInFrames={TOTAL_NOS4}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="NOS5-PCA"
+          component={Nos5PCA}
+          durationInFrames={TOTAL_NOS5}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="NOS6-Anomalias"
+          component={Nos6Anomalias}
+          durationInFrames={TOTAL_NOS6}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="NOS7-Asociacion"
+          component={Nos7Asociacion}
+          durationInFrames={TOTAL_NOS7}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="ML-GranFinal"
+          component={GranFinal}
+          durationInFrames={TOTAL_FINAL}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+      </Folder>
       <Folder name="Miniaturas">
         <Still
           id="Mini1-Cumpleanos"
@@ -692,6 +774,19 @@ export const RemotionRoot: React.FC = () => {
         <Still id="MiniSup6" component={MiniSup6} width={1080} height={1920} />
         <Still id="MiniSup7" component={MiniSup7} width={1080} height={1920} />
         <Still id="MiniSup8" component={MiniSup8} width={1080} height={1920} />
+        <Still id="MiniNos1" component={MiniNos1} width={1080} height={1920} />
+        <Still id="MiniNos2" component={MiniNos2} width={1080} height={1920} />
+        <Still id="MiniNos3" component={MiniNos3} width={1080} height={1920} />
+        <Still id="MiniNos4" component={MiniNos4} width={1080} height={1920} />
+        <Still id="MiniNos5" component={MiniNos5} width={1080} height={1920} />
+        <Still id="MiniNos6" component={MiniNos6} width={1080} height={1920} />
+        <Still id="MiniNos7" component={MiniNos7} width={1080} height={1920} />
+        <Still
+          id="MiniFinal"
+          component={MiniFinal}
+          width={1080}
+          height={1920}
+        />
       </Folder>
     </>
   );
