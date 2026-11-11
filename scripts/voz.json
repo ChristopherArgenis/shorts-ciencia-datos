@@ -430,5 +430,32 @@
     "h4": "Comparamos los grupos con las especies reales. Papúa: perfecto. Adelia y barbijo se mezclan un poco.",
     "h5": "Sin ver ni una respuesta, coincidió en el noventa y dos por ciento. Con respuestas, noventa y ocho.",
     "h6": "Fin de la serie. ¿Qué tema quieres que exploremos ahora?"
+  },
+  "simfut": {
+    "a1": "Este delantero tiene mejor efectividad… y aun así es peor.",
+    "a2": "Tú eres el director deportivo. ¿A quién fichas?",
+    "a3": "En total, A convierte el veinte por ciento de sus tiros. B, solo el quince. Fichamos a A… ¿verdad?",
+    "a4": "Pero separa los tiros. Dentro del área: A, treinta por ciento. B, treinta y tres.",
+    "a5": "Fuera del área: A, cinco por ciento. B, casi doce. B gana en los dos.",
+    "a6": "¿El truco? A tira casi siempre desde cerca, donde es fácil anotar. B tira de lejos.",
+    "a7": "Se llama paradoja de Simpson. Antes de fichar, pregunta: ¿desde dónde tiró?"
+  },
+  "pitf1": {
+    "b1": "Una parada en boxes dura unos segundos. Y una sola falla la arruina.",
+    "b2": "Reto: si cada tarea sale bien el noventa y nueve por ciento de las veces, ¿qué tan seguido sale perfecta?",
+    "b3": "En este ejemplo, veinte tareas deben salir bien al mismo tiempo. Las probabilidades se multiplican.",
+    "b4": "Con noventa y nueve por ciento: solo ochenta y dos de cada cien paradas son perfectas.",
+    "b5": "Con noventa y nueve punto nueve: noventa y ocho de cada cien. Por eso los equipos ensayan tanto.",
+    "b6": "Y decidir cuándo parar también es probabilidad. Si hay treinta por ciento de que salga el auto de seguridad, y eso te ahorra diez segundos, esperar vale tres segundos en promedio.",
+    "b7": "Si parar ahora te da menos de tres, conviene esperar. No es suerte: es probabilidad."
+  },
+  "matriz": {
+    "c1": "Tus gustos caben en una tabla. Y con ella, la app adivina lo que no has escuchado.",
+    "c2": "Reto: nunca escuchaste la canción dos. ¿Te va a gustar?",
+    "c3": "Cada fila es una persona. Cada columna, una canción. Los números, sus calificaciones.",
+    "c4": "El truco: partir esa tabla en dos tablas pequeñas. Una de personas, y una de canciones.",
+    "c5": "Tú eres uno de pop, y cero punto uno de rock. La canción dos tiene cuatro punto siete de pop. Multiplicas, sumas… cuatro punto siete.",
+    "c6": "En cambio, la canción tres te da apenas uno. Esa no te la recomienda.",
+    "c7": "Las apps reales usan millones de filas, y cientos de gustos ocultos. Pero la idea es esta multiplicación."
   }
 }

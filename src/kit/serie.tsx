@@ -3,7 +3,7 @@ import { AbsoluteFill, interpolate, Sequence, useCurrentFrame } from "remotion";
 import { TransitionSeries, linearTiming } from "@remotion/transitions";
 import { slide } from "@remotion/transitions/slide";
 import { Narracion, Musica, type Linea } from "./voz";
-import { Bg, Sfx, Stage, Sticker, Words, useIn } from "./kit";
+import { Bg, Handle, Sfx, Stage, Sticker, Words, useIn } from "./kit";
 import { C, FONT, HANDLE, MONO } from "./theme";
 import duraciones from "../voz-duraciones.json";
 
@@ -215,7 +215,15 @@ export const Capitulo: React.FC<{
   escenas: Escena[];
   acento?: string;
   serie?: SerieInfo;
-}> = ({ parte, short, escenas, acento = C.blue, serie = SERIE_MATES }) => {
+  suelto?: boolean;
+}> = ({
+  parte,
+  short,
+  escenas,
+  acento = C.blue,
+  serie = SERIE_MATES,
+  suelto = false,
+}) => {
   const inicios: number[] = [];
   let t = 0;
   escenas.forEach((e) => {
@@ -254,7 +262,7 @@ export const Capitulo: React.FC<{
             ];
           })}
         </TransitionSeries>
-        <Etiqueta parte={parte} />
+        {suelto ? <Handle /> : <Etiqueta parte={parte} />}
         <Narracion short={short} lineas={voz} />
         <Sequence layout="none" name="Música">
           <Musica src="music-explica.wav" short={short} lineas={voz} />

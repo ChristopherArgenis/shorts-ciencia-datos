@@ -56,6 +56,12 @@ import { Nos5PCA, TOTAL_NOS5 } from "./shorts/nos/Nos5PCA";
 import { Nos6Anomalias, TOTAL_NOS6 } from "./shorts/nos/Nos6Anomalias";
 import { Nos7Asociacion, TOTAL_NOS7 } from "./shorts/nos/Nos7Asociacion";
 import { GranFinal, TOTAL_FINAL } from "./shorts/nos/GranFinal";
+import { SimpsonFutbol, TOTAL_SIMFUT } from "./shorts/sueltos/SimpsonFutbol";
+import { ParadaF1, TOTAL_PITF1 } from "./shorts/sueltos/ParadaF1";
+import {
+  MatrizRecomienda,
+  TOTAL_MATRIZ,
+} from "./shorts/sueltos/MatrizRecomienda";
 import {
   MiniCumpleanos,
   MiniSimpson,
@@ -111,6 +117,9 @@ import {
   MiniNos6,
   MiniNos7,
   MiniFinal,
+  Mini7SimpsonFutbol,
+  Mini8ParadaF1,
+  Mini9Matriz,
 } from "./miniaturas/Miniaturas";
 
 export const RemotionRoot: React.FC = () => {
@@ -562,6 +571,32 @@ export const RemotionRoot: React.FC = () => {
           height={1920}
         />
       </Folder>
+      <Folder name="Sueltos-2">
+        <Composition
+          id="Short7-SimpsonFutbol"
+          component={SimpsonFutbol}
+          durationInFrames={TOTAL_SIMFUT}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="Short8-ParadaF1"
+          component={ParadaF1}
+          durationInFrames={TOTAL_PITF1}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="Short9-Matriz"
+          component={MatrizRecomienda}
+          durationInFrames={TOTAL_MATRIZ}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+      </Folder>
       <Folder name="Miniaturas">
         <Still
           id="Mini1-Cumpleanos"
@@ -784,6 +819,24 @@ export const RemotionRoot: React.FC = () => {
         <Still
           id="MiniFinal"
           component={MiniFinal}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="Mini7-SimpsonFutbol"
+          component={Mini7SimpsonFutbol}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="Mini8-ParadaF1"
+          component={Mini8ParadaF1}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="Mini9-Matriz"
+          component={Mini9Matriz}
           width={1080}
           height={1920}
         />

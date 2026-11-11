@@ -128,6 +128,36 @@ ilustrativos y así lo dice en pantalla. No usa datos de StatsBomb ni su logo.
 
 ---
 
+## Short 7: 20% vs 15%: el delantero "mejor" es peor
+**Título:** 20% vs 15%: el delantero "mejor" es peor
+**Miniatura:** `Mini7-SimpsonFutbol` → "¿A QUIÉN FICHAS?"
+**Descripción:**
+> El delantero A convierte el 20% de sus tiros y B solo el 15%… pero B es mejor dentro del área (33.3% vs 30%) y fuera (11.8% vs 5%). ¿El truco? A casi siempre tira desde cerca. Es la paradoja de Simpson: antes de fichar, pregunta desde dónde tiró.
+> Ejemplo simplificado con tiros ficticios.
+**#:** #futbol #cienciadedatos #estadistica #paradojadesimpson #shorts
+
+---
+
+## Short 8: La parada perfecta en F1 es pura probabilidad
+**Título:** La parada perfecta en F1 es pura probabilidad
+**Miniatura:** `Mini8ParadaF1` → "¿99% BASTA?"
+**Descripción:**
+> Si 20 tareas deben salir bien al mismo tiempo y cada una acierta 99%, solo 81.8% de las paradas son perfectas (0.99²⁰); con 99.9%, 98%. Y decidir cuándo parar también es probabilidad: con 30% de auto de seguridad que ahorra 10 s, esperar vale 3 s en promedio (valor esperado).
+> Ejemplo simplificado: tareas, probabilidades y tiempos ilustrativos.
+**#:** #f1 #formula1 #probabilidad #cienciadedatos #shorts
+
+---
+
+## Short 9: Spotify te recomienda con 2 matrices
+**Título:** Spotify te recomienda con 2 matrices
+**Miniatura:** `Mini9Matriz` → "TÚ × CANCIÓN"
+**Descripción:**
+> Tus gustos caben en una tabla de personas × canciones. La factorización de matrices la parte en dos tablas pequeñas de gustos ocultos (R ≈ U × Vᵀ) y multiplica para llenar los huecos: Tú × Canción 2 = 4.7, te la recomienda; Canción 3 = 0.96, no.
+> Ejemplo simplificado: es la idea base, no el sistema interno de ninguna app.
+**#:** #cienciadedatos #algebralineal #machinelearning #spotify #shorts
+
+---
+
 # Serie: Matemáticas que sí usa un científico de datos (8 partes)
 
 Plantilla: `src/kit/serie.tsx` (etiqueta "Parte N/8", fórmula, avance). Ritmo sugerido: 2 por semana.

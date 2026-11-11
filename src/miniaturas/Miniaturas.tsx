@@ -1571,3 +1571,78 @@ export const MiniFinal: React.FC = () => (
     </div>
   </Fondo>
 );
+
+// ---------- Sueltos 7-9 ----------
+export const Mini7SimpsonFutbol: React.FC = () => (
+  <Fondo accent={C.green}>
+    <Grande size={190}>¿A QUIÉN</Grande>
+    <Grande size={190} color={C.green}>
+      FICHAS?
+    </Grande>
+    <div
+      style={{
+        display: "flex",
+        gap: 40,
+        fontFamily: FONT,
+        fontWeight: 900,
+        fontSize: 120,
+      }}
+    >
+      <span style={{ color: C.blue }}>A</span>
+      <span style={{ color: C.dim }}>vs</span>
+      <span style={{ color: C.purple }}>B</span>
+    </div>
+  </Fondo>
+);
+export const Mini8ParadaF1: React.FC = () => (
+  <Fondo accent={C.coral}>
+    <Grande size={220}>¿99%</Grande>
+    <Grande size={220} color={C.coral}>
+      BASTA?
+    </Grande>
+    <div
+      style={{
+        fontFamily: MONO,
+        fontWeight: 700,
+        fontSize: 90,
+        color: C.yellow,
+      }}
+    >
+      0.99²⁰ = 82%
+    </div>
+  </Fondo>
+);
+export const Mini9Matriz: React.FC = () => (
+  <Fondo accent={C.purple}>
+    <Grande size={200}>TÚ ×</Grande>
+    <Grande size={200} color={C.purple}>
+      CANCIÓN
+    </Grande>
+    <div
+      style={{
+        display: "grid",
+        gridTemplateColumns: "repeat(4, 150px)",
+        gap: 10,
+      }}
+    >
+      {["5", "4.7", "1", "?", "4", "5", "1", "0"].map((v, i) => (
+        <div
+          key={i}
+          style={{
+            height: 120,
+            borderRadius: 16,
+            background: i === 1 ? C.green : C.bg2,
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            fontFamily: MONO,
+            fontSize: 56,
+            color: i === 1 ? C.bg : C.ink,
+          }}
+        >
+          {v}
+        </div>
+      ))}
+    </div>
+  </Fondo>
+);
