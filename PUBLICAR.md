@@ -168,6 +168,19 @@ Primera prueba con las reglas de retención (cuadro 0 lleno, sin serie ni reto, 
 
 ---
 
+# Serie: cómo ve una computadora (lista de reproducción, sin números en los videos)
+Orden: 1 = Short 10 (6 millones de números). Guiones en `docs/serie-vision-guiones.md`.
+
+## Visión 2: El amarillo de tu pantalla no existe
+**Título:** El amarillo de tu pantalla no existe
+**Miniatura:** `MiniVision2-Amarillo` → "SOLO 3 LUCES"
+**Descripción:**
+> Tu pantalla no tiene luz amarilla: cada píxel solo tiene luz roja, verde y azul, cada una del 0 al 255. Con rojo y verde a tope y azul en cero, tu ojo se inventa el amarillo.
+> 256 × 256 × 256 = 16,777,216 colores salen de solo 3 números. Ejemplo simplificado: subpíxeles en tiras (hay pantallas con otros arreglos).
+**#:** #cienciadedatos #vision #colores #python #shorts
+
+---
+
 # Serie: Matemáticas que sí usa un científico de datos (8 partes)
 
 Plantilla: `src/kit/serie.tsx` (etiqueta "Parte N/8", fórmula, avance). Ritmo sugerido: 2 por semana.

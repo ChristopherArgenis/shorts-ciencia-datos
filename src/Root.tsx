@@ -60,6 +60,10 @@ import { SimpsonFutbol, TOTAL_SIMFUT } from "./shorts/sueltos/SimpsonFutbol";
 import { ParadaF1, TOTAL_PITF1 } from "./shorts/sueltos/ParadaF1";
 import { ImagenNumeros, TOTAL_IMG } from "./shorts/sueltos/ImagenNumeros";
 import {
+  AmarilloNoExiste,
+  TOTAL_COLOR,
+} from "./shorts/vision/AmarilloNoExiste";
+import {
   MatrizRecomienda,
   TOTAL_MATRIZ,
 } from "./shorts/sueltos/MatrizRecomienda";
@@ -122,6 +126,7 @@ import {
   Mini8ParadaF1,
   Mini9Matriz,
   Mini10Imagen,
+  MiniVision2,
 } from "./miniaturas/Miniaturas";
 
 export const RemotionRoot: React.FC = () => {
@@ -607,6 +612,16 @@ export const RemotionRoot: React.FC = () => {
           height={1920}
         />
       </Folder>
+      <Folder name="Vision">
+        <Composition
+          id="Vision2-Amarillo"
+          component={AmarilloNoExiste}
+          durationInFrames={TOTAL_COLOR}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+      </Folder>
       <Folder name="Miniaturas">
         <Still
           id="Mini1-Cumpleanos"
@@ -853,6 +868,12 @@ export const RemotionRoot: React.FC = () => {
         <Still
           id="Mini10-Imagen"
           component={Mini10Imagen}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniVision2-Amarillo"
+          component={MiniVision2}
           width={1080}
           height={1920}
         />

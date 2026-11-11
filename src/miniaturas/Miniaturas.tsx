@@ -2,6 +2,7 @@ import React from "react";
 import { AbsoluteFill } from "remotion";
 import { C, FONT, HANDLE, MONO } from "../kit/theme";
 import { BalonMitad } from "../shorts/sueltos/ImagenNumeros";
+import { Lupa } from "../shorts/vision/AmarilloNoExiste";
 
 // Miniaturas verticales 1080×1920 para los Shorts.
 // Regla: máximo 3 palabras, distintas al título, legibles al tamaño del feed.
@@ -1655,5 +1656,25 @@ export const Mini10Imagen: React.FC = () => (
     <Grande size={170} color={C.yellow}>
       CERO MAGIA
     </Grande>
+  </Fondo>
+);
+
+export const MiniVision2: React.FC = () => (
+  <Fondo accent="#ffff00">
+    <Grande size={220} color="#ffff00">
+      SOLO
+    </Grande>
+    <div
+      style={{
+        position: "relative",
+        width: 760,
+        height: 620,
+        borderRadius: 40,
+        background: "rgb(255,255,0)",
+      }}
+    >
+      <Lupa x={380} y={300} d={480} />
+    </div>
+    <Grande size={200}>3 LUCES</Grande>
   </Fondo>
 );

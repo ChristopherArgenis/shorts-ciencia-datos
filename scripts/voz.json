@@ -465,5 +465,14 @@
   "i4": "En color son tres tablas: rojo, verde y azul.",
   "i5": "Por eso un filtro es pura resta: doscientos cincuenta y cinco menos cada número… y se invierte.",
   "i6": "Ahora multiplica: mil ochenta, por mil novecientos veinte, por tres colores…"
+ },
+ "color": {
+  "c1": "Ese amarillo no existe en tu pantalla.",
+  "c2": "Crees que hay una lucecita de cada color.",
+  "c3": "Solo hay tres: roja, verde y azul.",
+  "c4": "Roja y verde a tope, azul en cero…",
+  "c5": "y tu ojo se inventa el amarillo.",
+  "c6": "Doscientos cincuenta y seis, por doscientos cincuenta y seis, por doscientos cincuenta y seis…",
+  "c7": "Dieciséis millones de colores, de solo tres luces. Y ese amarillo…"
  }
 }
