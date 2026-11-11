@@ -1,461 +1,469 @@
 {
-  "_nota": "Frases cortas de Alex (Kokoro em_alex). Números escritos con letra para que se pronuncien bien.",
-  "cumple": {
-    "c1": "¿Cuántas personas necesitas, para que dos cumplan años el mismo día?",
-    "c2": "Solo veintitrés.",
-    "c3": "Y ya es más de la mitad.",
-    "c4": "Porque se comparan todas las parejas.",
-    "c5": "Tu intuición falla. Los datos, no."
-  },
-  "simpson": {
-    "s1": "Este tratamiento gana en todos los grupos… y pierde en el total.",
-    "s2": "B parece mejor.",
-    "s3": "Pero en piedras pequeñas, gana A.",
-    "s4": "Y en grandes, también.",
-    "s5": "A se llevó los casos difíciles.",
-    "s6": "Se llama paradoja de Simpson."
-  },
-  "netflix": {
-    "n1": "¿Cómo sabe Netflix qué vas a ver? No adivina: te compara.",
-    "n2": "¿A quién te pareces?",
-    "n3": "A Ana le encantó Marte dos. Entonces, te la recomienda.",
-    "n4": "Esto se llama filtrado colaborativo.",
-    "n5": "Tu próxima serie la eligió alguien que ni conoces."
-  },
-  "f1": {
-    "f1": "Este piloto entró a boxes primero… y por eso ganó.",
-    "f2": "Cada auto lleva unos trescientos sensores.",
-    "f3": "Con llantas nuevas, B gana un segundo y medio por vuelta.",
-    "f4": "Cuando A por fin para… B ya va adelante.",
-    "f5": "Se llama undercut. Y se decide con datos."
-  },
-  "claude": {
-    "k1": "Claude no lee palabras. Lee esto.",
-    "k2": "Tu texto se corta en pedacitos llamados tokens. Y cada uno se vuelve números.",
-    "k3": "Luego, cada token mira a los demás, para entender el contexto. Se llama atención.",
-    "k4": "Y al final, hace una sola cosa: predecir el siguiente token.",
-    "k5": "Lo agrega, y repite. Token por token.",
-    "k6": "¿Cómo aprendió? Leyendo muchísimo texto. Y después, lo entrenaron para ser útil, honesto e inofensivo.",
-    "k7": "No es magia. Es predicción."
-  },
-  "statsbomb": {
-    "b1": "Un partido de fútbol tiene unos tres mil trescientos datos.",
-    "b2": "Los recolecta StatsBomb, una empresa que nació como un blog en dos mil trece.",
-    "b3": "Cada pase, presión o tiro se guarda con su ubicación y su momento.",
-    "b4": "Y en cada evento, congelan la posición de los jugadores visibles.",
-    "b5": "Con eso calculan qué tan probable era el gol. Se llama xG.",
-    "b6": "Hoy los analistas lo usan para fichar, estudiar al rival y medir el rendimiento.",
-    "b7": "Y parte de sus datos son gratis, para que aprendas."
-  },
-  "mates1": {
-    "m1": "Nueve personas en un café. Cada una gana unos quince mil pesos al mes.",
-    "m2": "El promedio: sumas todo y divides. Quince mil.",
-    "m3": "Entra un multimillonario… y el promedio sube a más de quinientos mil.",
-    "m4": "La mediana ordena los datos y toma el del medio. Sigue en quince mil.",
-    "m5": "Por eso, muchos reportes de sueldos y de precios de casas usan la mediana.",
-    "m6": "Pero, ¿qué tan dispersos están los datos? En la parte dos."
-  },
-  "mates2": {
-    "d1": "Dos repartidores tardan treinta minutos en promedio. Solo en uno puedes confiar.",
-    "d2": "Mira sus entregas. Mismo promedio, historias muy distintas.",
-    "d3": "La desviación estándar mide qué tan lejos caen los datos del promedio.",
-    "d4": "Repartidor A: menos de un minuto. Repartidor B: casi dieciséis.",
-    "d5": "Con ella, las empresas miden qué tan confiable es un servicio.",
-    "d6": "¿Y si un dato cae muy, muy lejos? En la parte tres."
-  },
-  "mates3": {
-    "z1": "Tu banco sabe que esta compra no la hiciste tú.",
-    "z2": "Muchos datos forman una campana. Se llama distribución normal.",
-    "z3": "Casi todo cae a menos de tres desviaciones del promedio.",
-    "z4": "El puntaje z dice cuántas desviaciones te alejas. Una compra de trescientos ochenta: z de cero punto dos cinco.",
-    "z5": "Una de nueve mil quinientos: z de setenta y seis. Alerta.",
-    "z6": "¿Y cómo sabe tu correo qué es spam? En la parte cuatro."
-  },
-  "mates4": {
-    "p1": "¿Cómo sabe tu correo que esto es spam?",
-    "p2": "De cada cien correos, treinta son spam. Treinta por ciento.",
-    "p3": "Pero este dice gratis. Y gratis aparece en dieciocho spam, y solo en siete normales.",
-    "p4": "Mira solo los que dicen gratis. Dieciocho de veinticinco: setenta y dos por ciento.",
-    "p5": "Eso es Bayes. Los filtros de spam lo repiten con cada palabra.",
-    "p6": "Y en la parte cinco: por qué el helado no causa ahogados."
-  },
-  "mates5": {
-    "c1": "Cuando suben las ventas de helado, suben los ahogados. ¿El helado es peligroso?",
-    "c2": "Si los graficas, casi forman una línea. Correlación de cero punto nueve dos.",
-    "c3": "La correlación va de menos uno a uno. Solo mide si dos cosas se mueven juntas.",
-    "c4": "Pero hay una tercera variable escondida: el calor. Más calor, más helados, y más gente nadando.",
-    "c5": "Por eso, antes de decidir, las empresas hacen experimentos, como las pruebas A B.",
-    "c6": "En la parte seis: una línea para predecir el futuro."
-  },
-  "mates6": {
-    "r1": "Con una línea puedes adivinar el precio de una casa.",
-    "r2": "Cada punto es una casa: su tamaño y su precio.",
-    "r3": "La regresión lineal busca la recta que pasa lo más cerca de todos los puntos.",
-    "r4": "Mide qué tan lejos queda cada punto, y elige la recta con el menor error.",
-    "r5": "Con ella predices: una casa de ciento treinta metros, unos dos millones seiscientos cincuenta mil.",
-    "r6": "En la parte siete: tus gustos, convertidos en flechas."
-  },
-  "mates7": {
-    "v1": "Para tu app de música, tú eres una flecha.",
-    "v2": "Cada eje es un gusto: cuánto rock escuchas, y cuánto reguetón.",
-    "v3": "Si dos flechas apuntan hacia el mismo lado, sus gustos se parecen.",
-    "v4": "La similitud coseno mide ese ángulo. Tú y Ana: cero punto nueve nueve. Tú y Luis: cero punto tres cinco.",
-    "v5": "Las apps usan cientos de dimensiones, para recomendarte canciones y encontrar cosas parecidas.",
-    "v6": "En la parte ocho, la última: cómo aprende una inteligencia artificial."
-  },
-  "mates8": {
-    "g1": "Así aprende una inteligencia artificial: bajando una montaña con los ojos vendados.",
-    "g2": "La montaña es el error del modelo. Queremos llegar a lo más bajo.",
-    "g3": "La derivada es la pendiente: te dice hacia dónde baja el terreno.",
-    "g4": "Das un paso en esa dirección. Y otro. Y otro. Con cada paso, el error baja.",
-    "g5": "Eso es el descenso de gradiente. Así se entrenan muchísimos modelos, incluidos los de lenguaje como Claude.",
-    "g6": "Fin de la serie. ¿Qué matemáticas quieres que expliquemos después?"
-  },
-  "algo1": {
-    "a1": "Tu playlist es una estructura de datos. Se llama arreglo.",
-    "a2": "Cada canción vive en una cajita con un número. Y se empieza a contar desde cero.",
-    "a3": "¿Quieres la canción tres? Saltas directo a esa cajita. Al instante.",
-    "a4": "Pero si metes una canción al inicio, todas las demás se recorren un lugar.",
-    "a5": "Cada columna de una tabla es un arreglo. Por eso un científico de datos puede sumar millones de números de un solo golpe.",
-    "a6": "En la parte dos: por qué un código tarda un segundo, y otro casi tres horas."
-  },
-  "algo2": {
-    "b1": "El mismo problema: un código tarda menos de un segundo, y otro casi tres horas.",
-    "b2": "Buscar correos repetidos en cien mil filas. Opción uno: comparar cada correo con todos los demás.",
-    "b3": "Cien mil por cien mil: diez mil millones de pasos. Se escribe O de n al cuadrado.",
-    "b4": "Opción dos: revisar cada correo una sola vez. Cien mil pasos. O de n.",
-    "b5": "La notación Big O dice cómo crece el tiempo cuando crecen los datos. Es la diferencia entre esperar segundos, o días.",
-    "b6": "En la parte tres: encontrar uno entre un millón, en veinte intentos."
-  },
-  "algo3": {
-    "c1": "Piensa un número del uno al millón. Lo adivino en veinte intentos o menos.",
-    "c2": "Primer intento: la mitad. ¿Es más alto, o más bajo?",
-    "c3": "Cada respuesta descarta la mitad. Un millón, quinientos mil, doscientos cincuenta mil…",
-    "c4": "En veinte pasos queda uno solo. Eso es búsqueda binaria. Pero solo funciona si los datos están ordenados.",
-    "c5": "Un científico de datos la usa para buscar en datos ordenados, como fechas o identificadores, sin revisar fila por fila.",
-    "c6": "En la parte cuatro: cómo una app te encuentra entre millones, al instante."
-  },
-  "algo4": {
-    "d1": "¿Cómo encuentra una app tu usuario entre millones, al instante?",
-    "d2": "Piensa en un guardarropa. Entregas tu abrigo, y te dan una ficha con un número.",
-    "d3": "Una función hash convierte tu nombre en un número de casillero. Siempre el mismo.",
-    "d4": "Para encontrarte, no revisa todo: calcula el número, y va directo.",
-    "d5": "En Python son los diccionarios y los conjuntos. Con ellos un científico de datos cuenta, quita duplicados y une tablas.",
-    "d6": "En la parte cinco: Control Z, y la fila del banco."
-  },
-  "algo5": {
-    "e1": "Control Z y la fila del banco son lo mismo… pero al revés.",
-    "e2": "Una pila es como una torre de platos: el último que pones es el primero que sacas.",
-    "e3": "Por eso, Control Z deshace primero lo último que hiciste.",
-    "e4": "Una cola es como la fila del banco: el primero que llega es el primero que atienden.",
-    "e5": "Los científicos de datos usan colas para procesar datos en el orden en que llegan: pedidos, mensajes o lecturas de sensores.",
-    "e6": "En la parte seis: cómo ordenar mil exámenes sin volverte loco."
-  },
-  "algo6": {
-    "f1": "Mil exámenes desordenados. ¿Cómo los ordenas sin volverte loco?",
-    "f2": "Si buscas el menor una y otra vez, son casi quinientas mil comparaciones.",
-    "f3": "Merge sort: divide la pila a la mitad, una y otra vez, hasta tener exámenes sueltos.",
-    "f4": "Luego junta pares ya ordenados, y así hasta arriba. Solo unas diez mil comparaciones.",
-    "f5": "Ordenar es la base de los rankings, del top de ventas, y hasta de la mediana. Python usa un algoritmo basado en merge sort.",
-    "f6": "En la parte siete: las carpetas de tu compu son un árbol."
-  },
-  "algo7": {
-    "g1": "Las carpetas de tu computadora son un árbol.",
-    "g2": "Hay una raíz, ramas que se dividen, y hojas al final.",
-    "g3": "Para llegar a un archivo no revisas todo: bajas por la rama correcta.",
-    "g4": "Un árbol de decisión hace lo mismo, pero con preguntas. ¿Ingreso alto? ¿Pagos atrasados? Y llega a una respuesta.",
-    "g5": "Los científicos de datos los entrenan para aprobar créditos, detectar fraudes, o predecir si un cliente se va.",
-    "g6": "En la parte ocho: tú y tus amigos, como un grafo."
-  },
-  "algo8": {
-    "h1": "Tú, tus amigos, y los amigos de tus amigos forman un grafo.",
-    "h2": "Cada persona es un nodo. Cada amistad es una arista.",
-    "h3": "Sara no es tu amiga, pero tiene dos amigos en común contigo.",
-    "h4": "Por eso una red social te la sugeriría, como alguien que quizás conozcas.",
-    "h5": "Los científicos de datos usan grafos para recomendar, y para detectar fraudes: cuentas distintas conectadas por la misma tarjeta.",
-    "h6": "En la parte nueve: cómo se encuentra la ruta más rápida."
-  },
-  "algo9": {
-    "i1": "¿Cómo encuentra una app de mapas la ruta más rápida?",
-    "i2": "Las calles son un grafo. Cada tramo tiene un tiempo, en minutos.",
-    "i3": "La ruta que parece directa toma dieciocho minutos.",
-    "i4": "El algoritmo de Dijkstra explora desde tu casa, siempre por lo más cercano primero. Y encuentra una de trece.",
-    "i5": "Los científicos de datos lo usan en logística: rutas de reparto, tiempos de entrega y cadenas de suministro.",
-    "i6": "En la parte diez, la última: cómo saber que gatp era gato."
-  },
-  "algo10": {
-    "j1": "¿Cómo saber que gatp, en realidad, era gato?",
-    "j2": "Se mide cuántos cambios separan dos palabras. Se llama distancia de edición.",
-    "j3": "En vez de probar todas las combinaciones, se llena una tabla: resuelves problemas pequeños y guardas las respuestas.",
-    "j4": "Gatp y gato: un solo cambio. Es la palabra más cercana. Eso es programación dinámica.",
-    "j5": "Los científicos de datos la usan para limpiar datos: saber que José Pérez, con acentos y sin acentos, es la misma persona.",
-    "j6": "Fin de la serie. ¿Qué tema quieres que expliquemos después?"
-  },
-  "prac1": {
-    "k1": "Hay un dicho entre científicos de datos: la mayor parte del trabajo no son los modelos.",
-    "k2": "Café Datos quiere vender más. Vamos a seguir su proyecto paso a paso.",
-    "k3": "Primero, la pregunta. Luego, conseguir los datos, y limpiarlos.",
-    "k4": "Después, explorar, analizar, y al final, comunicar para tomar una decisión.",
-    "k5": "Y casi nunca es una línea recta: muchas veces regresas a un paso anterior.",
-    "k6": "En la parte dos: por qué quiero vender más, no es una pregunta de datos."
-  },
-  "prac2": {
-    "l1": "Quiero vender más, no es una pregunta de datos.",
-    "l2": "Es un deseo. No dice qué medir, ni cuándo, ni comparado con qué.",
-    "l3": "Una buena pregunta tiene tres cosas: qué se mide, en qué grupo, y en qué tiempo.",
-    "l4": "Por ejemplo: ¿qué producto se vende menos por las tardes, entre semana, en el último mes?",
-    "l5": "Con una pregunta así, ya sabes qué datos necesitas, y cuándo terminaste.",
-    "l6": "En la parte tres: de dónde salen los datos."
-  },
-  "prac3": {
-    "n1": "Cada vez que pagas en un café, generas una fila de datos.",
-    "n2": "Café Datos tiene varias fuentes: la caja registradora, el inventario y las reseñas.",
-    "n3": "Pueden vivir en una base de datos, en archivos de Excel o C S V, o llegar desde una A P I.",
-    "n4": "Con pandas, el científico de datos las carga en una tabla con una sola línea.",
-    "n5": "Y siempre con permiso: los datos personales se protegen, y se usan solo para lo que se pidió.",
-    "n6": "En la parte cuatro: una tabla mal hecha que no se nota."
-  },
-  "prac4": {
-    "o1": "Esta tabla está mal hecha… y no se nota.",
-    "o2": "Cada columna es un mes. Se ve bonita, pero es difícil de analizar.",
-    "o3": "En datos ordenados, cada fila es una observación, y cada columna una variable.",
-    "o4": "Y cada variable tiene su tipo: número, categoría, fecha o texto.",
-    "o5": "Con melt, pandas convierte la tabla ancha en una larga, lista para analizar.",
-    "o6": "En la parte cinco: limpiar los datos."
-  },
-  "prac5": {
-    "q1": "C D M X, Ciudad de México y cdmx… son el mismo lugar.",
-    "q2": "Para la computadora son tres lugares distintos. Y eso arruina cualquier conteo.",
-    "q3": "Limpiar es revisar cuatro cosas: datos faltantes, duplicados, formatos distintos y errores de captura.",
-    "q4": "En Café Datos, después de limpiar, Ciudad de México pasa de tres grupos a uno solo.",
-    "q5": "Por eso se dice que limpiar datos es de lo que más tiempo toma en un proyecto.",
-    "q6": "En la parte seis: un café de quince mil pesos. ¿Error, o el cliente del año?"
-  },
-  "prac6": {
-    "r1": "Un café de quince mil pesos. ¿Error… o el cliente del año?",
-    "r2": "Un dato atípico es uno que queda muy lejos de los demás.",
-    "r3": "Una regla común: el rango intercuartílico. Tomas el cincuenta por ciento central de los datos, y le das un margen.",
-    "r4": "En Café Datos, todo lo que pase de ciento cuarenta y cuatro pesos se revisa. Y quince mil queda muy fuera.",
-    "r5": "Revisar no es borrar. Si fue un cero de más, se corrige. Si fue un pedido real para una boda, es un hallazgo.",
-    "r6": "En la parte siete: responder lo que tu jefe pregunta, con tres comandos."
-  },
-  "prac7": {
-    "s1": "Con tres comandos respondes lo que tu jefe pregunta.",
-    "s2": "¿Qué día vendemos más? La tabla tiene miles de tickets, uno por fila.",
-    "s3": "Primero filtras: solo las ventas de este mes.",
-    "s4": "Luego agrupas por día de la semana, y sumas. El sábado gana.",
-    "s5": "Y si unes con la tabla de inventario, sabes qué día se acaba el pan. Filtrar, agrupar y unir: el día a día de un científico de datos.",
-    "s6": "En la parte ocho: antes de concluir, mira tus datos."
-  },
-  "prac8": {
-    "u1": "Antes de concluir, mira tus datos.",
-    "u2": "El análisis exploratorio es hacerle preguntas a los datos, con gráficas.",
-    "u3": "Un histograma muestra cómo se reparten los tickets: la mayoría entre cincuenta y cien pesos.",
-    "u4": "Y al cruzar producto y día, aparece algo: los lunes casi no se vende pan dulce.",
-    "u5": "Explorar no da respuestas finales. Da buenas preguntas. ¿Por qué los lunes?",
-    "u6": "En la parte nueve: los cuatro tipos de análisis."
-  },
-  "prac9": {
-    "w1": "Un café. Cuatro preguntas. Cuatro tipos de análisis.",
-    "w2": "Descriptivo: ¿qué pasó? Las ventas bajaron quince por ciento la semana pasada.",
-    "w3": "Diagnóstico: ¿por qué pasó? Llovió cinco días, y llegó menos gente.",
-    "w4": "Predictivo: ¿qué pasará? Se espera lluvia otra vez la próxima semana.",
-    "w5": "Prescriptivo: ¿qué hago? Promoción de chocolate caliente, y más pedidos a domicilio.",
-    "w6": "Cada tipo es más difícil, y aporta más valor. En la parte diez: comunicarlo."
-  },
-  "prac10": {
-    "x1": "Un análisis que nadie entiende, no sirve.",
-    "x2": "Mira esta gráfica: parece que las ventas se dispararon.",
-    "x3": "Pero el eje empieza en cuatro mil. Desde cero, el cambio es pequeño.",
-    "x4": "Para comunicar: una idea por gráfica, la gráfica correcta, y una recomendación clara.",
-    "x5": "Y que se pueda repetir: con un notebook y Git, cualquiera reproduce tu análisis. Así Café Datos toma su decisión.",
-    "x6": "Y para predecir… se usan modelos. Eso viene en la siguiente serie."
-  },
-  "ml0": {
-    "a1": "Nadie le escribió a tu correo qué es spam. Lo aprendió.",
-    "a2": "Reto: ¿cómo le enseñarías tú a detectarlo?",
-    "a3": "Con reglas: si dice gratis, es spam. Pero los spammers cambian, y las reglas se rompen.",
-    "a4": "El aprendizaje automático no recibe reglas. Recibe ejemplos, y encuentra el patrón solo.",
-    "a5": "Y hay dos caminos: aprender con respuestas, supervisado, o sin respuestas, no supervisado.",
-    "a6": "Esta es la ruta. Primera parada: entrenar y evaluar."
-  },
-  "ml1": {
-    "b1": "Si estudias con el examen, sacas diez… y no aprendiste nada.",
-    "b2": "Reto: ¿le crees a un modelo que se califica con sus propios datos?",
-    "b3": "Café Datos tiene doscientos días de ventas. Separamos: ciento sesenta para entrenar, cuarenta para el examen.",
-    "b4": "El modelo nunca ve esos cuarenta días. Luego predice, y comparamos con lo que pasó de verdad.",
-    "b5": "Resultado: se equivoca por unas ocho tazas al día. Ese número sí es creíble.",
-    "b6": "Siguiente parada: el modelo que acierta todo… y es pésimo."
-  },
-  "ml2": {
-    "c1": "Este modelo acierta el cien por ciento… y es pésimo.",
-    "c2": "Reto: de estas tres curvas, ¿cuál es la mejor?",
-    "c3": "La recta es demasiado simple: no entiende la forma. Se llama subajuste.",
-    "c4": "La curva loca pasa por todos los puntos: error cero. Pero en datos nuevos, se equivoca por casi sesenta. Memorizó.",
-    "c5": "La de en medio gana: entiende el patrón sin memorizar el ruido. Para elegirla, se usa validación cruzada.",
-    "c6": "Siguiente parada: lo que el modelo puede ver."
-  },
-  "ml3": {
-    "d1": "El modelo no ve la lluvia… a menos que se la des.",
-    "d2": "Reto: ¿qué dato le falta a este modelo?",
-    "d3": "Para predecir ventas, le dimos la temperatura y si es fin de semana. Se equivoca por diecinueve tazas.",
-    "d4": "Agregamos una columna: ¿llovió? El error baja a ocho.",
-    "d5": "Los datos de entrada se llaman variables. Elegir y crear buenas variables es uno de los trabajos más importantes.",
-    "d6": "Fin del tronco común. Ahora el camino se divide: primero, el aprendizaje supervisado."
-  },
-  "sup1": {
-    "a1": "¿Cuánto pesa este pingüino? ¿De qué especie es? Dos preguntas, dos tipos de modelo.",
-    "a2": "Reto: ¿cuál de las dos es más fácil de adivinar?",
-    "a3": "Si la respuesta es un número, como el peso, se llama regresión. El modelo falla por unos doscientos ochenta gramos.",
-    "a4": "Si la respuesta es una categoría, como la especie, se llama clasificación. Acierta casi noventa y nueve de cada cien.",
-    "a5": "Son pingüinos reales de la Antártida. Y en los dos casos, el modelo aprendió con respuestas conocidas: eso es aprendizaje supervisado.",
-    "a6": "Siguiente estación: dime con quién andas."
-  },
-  "sup2": {
-    "b1": "Dime con quién andas… y te diré qué pingüino eres.",
-    "b2": "Reto: este pingüino misterioso, ¿de qué especie es?",
-    "b3": "Cada punto es un pingüino real, por el largo y el grosor de su pico.",
-    "b4": "K vecinos más cercanos: busca los cinco pingüinos más parecidos, y votan. Los cinco dicen: barbijo.",
-    "b5": "¿Cuántos vecinos? Con uno, se confunde. Con cinco, acierta casi noventa y nueve por ciento.",
-    "b6": "Siguiente estación: ¿regresará este cliente?"
-  },
-  "sup3": {
-    "c1": "¿Este cliente va a regresar? Adivina.",
-    "c2": "Reto: Ana vino ocho veces este mes. Luis, dos. ¿Quién regresa?",
-    "c3": "La regresión logística convierte los datos en una probabilidad, entre cero y uno.",
-    "c4": "Ana: noventa y tres por ciento. Luis: trece por ciento.",
-    "c5": "Y se elige un corte: arriba de cincuenta por ciento, decimos que sí regresa. Con eso, Café Datos sabe a quién enviarle una promoción.",
-    "c6": "Siguiente estación: cien árboles que votan."
-  },
-  "sup4": {
-    "d1": "Un árbol se equivoca. Cien árboles votan.",
-    "d2": "Reto: ¿quién se equivoca menos, un árbol o un bosque?",
-    "d3": "Un solo árbol de decisión clasifica pingüinos, pero memoriza detalles. Falla en cuatro de ochenta y cuatro.",
-    "d4": "Un bosque aleatorio entrena cien árboles, cada uno con datos un poco distintos. Y votan. Falla solo en dos.",
-    "d5": "Y te dice qué importa más: el largo del pico, y la aleta.",
-    "d6": "Siguiente estación: el modelo que acierta el noventa y nueve por ciento… y no sirve."
-  },
-  "sup5": {
-    "e1": "Un detector de fraude con noventa y nueve por ciento de aciertos… que nunca detecta fraude.",
-    "e2": "Reto: ¿cómo es posible?",
-    "e3": "Solo uno de cada cien pagos es fraude. Si el modelo siempre dice no es fraude, acierta casi el noventa y nueve por ciento. Y no atrapa a nadie.",
-    "e4": "Por eso se usa la matriz de confusión: aciertos y errores, de cada tipo.",
-    "e5": "Este modelo atrapa treinta de treinta y tres fraudes. Pero también marca pagos normales: por cada fraude real, levanta varias falsas alarmas.",
-    "e6": "Siguiente estación: aprender de los errores."
-  },
-  "sup6": {
-    "f1": "Cada modelo nuevo corrige los errores del anterior.",
-    "f2": "Reto: ¿más modelos siempre es mejor?",
-    "f3": "Boosting entrena árboles pequeños en cadena. El primero falla por veintisiete tazas.",
-    "f4": "El segundo aprende de esos errores. Y el siguiente. Con veinte árboles, el error baja a diez.",
-    "f5": "Pero después de cien, ya no mejora: incluso empeora un poco. Más no siempre es mejor.",
-    "f6": "Siguiente estación: redes neuronales."
-  },
-  "sup7": {
-    "g1": "Doscientas cuarenta y tres perillas, que se ajustan solas.",
-    "g2": "Reto: ¿cuántos datos de cada pingüino necesita la red?",
-    "g3": "Una red neuronal tiene capas de neuronas. Entran cuatro medidas, y salen tres especies.",
-    "g4": "Cada conexión es una perilla. Al entrenar, se ajustan poco a poco para bajar el error. El mismo descenso de gradiente de la serie de mates.",
-    "g5": "Resultado: casi noventa y nueve por ciento. Los modelos de lenguaje funcionan igual, pero con miles de millones de perillas.",
-    "g6": "Siguiente estación: un proyecto completo."
-  },
-  "sup8": {
-    "h1": "De datos crudos a una predicción, en cuarenta segundos.",
-    "h2": "Reto: ¿de qué especie es un pingüino que nadie ha visto?",
-    "h3": "Cargamos trescientos cuarenta y cuatro pingüinos. Limpiamos: quedan trescientos treinta y tres.",
-    "h4": "Separamos entrenamiento y prueba. Escalamos las medidas, y entrenamos un bosque aleatorio.",
-    "h5": "En el examen acierta noventa y siete punto seis por ciento. Y para el pingüino nuevo, dice: papúa.",
-    "h6": "Fin de la rama supervisada. Ahora, aprender sin respuestas."
-  },
-  "nos1": {
-    "a1": "Nadie le dijo qué buscar… y encontró tres grupos.",
-    "a2": "Reto: sin saber la especie, ¿cuántos grupos de pingüinos ves?",
-    "a3": "En el aprendizaje no supervisado no hay respuestas. Solo datos.",
-    "a4": "El modelo busca qué datos se parecen entre sí, y los agrupa. Encontró tres grupos.",
-    "a5": "¿Coinciden con las especies reales? Lo revelamos en el gran final.",
-    "a6": "Siguiente estación: k means."
-  },
-  "nos2": {
-    "b1": "¿Cuántos tipos de cliente tiene tu café?",
-    "b2": "Reto: mira los clientes. ¿Ves los grupos?",
-    "b3": "K means pone tres centros al azar. Cada cliente se une al centro más cercano.",
-    "b4": "Luego cada centro se mueve al promedio de su grupo. Y se repite, hasta que ya no se mueven.",
-    "b5": "Resultado: clientes ocasionales, frecuentes, y los de ticket alto. Cada grupo recibe una promoción distinta.",
-    "b6": "Siguiente estación: ¿cuántos grupos?"
-  },
-  "nos3": {
-    "c1": "¿Dos grupos, tres, o diez? ¿Quién decide?",
-    "c2": "Reto: ¿cuántos grupos de clientes hay de verdad?",
-    "c3": "Con más grupos, el error siempre baja. Con un grupo por cliente, sería cero. Pero no sirve.",
-    "c4": "El método del codo: busca dónde la curva deja de bajar rápido. Aquí, en tres.",
-    "c5": "Y la silueta lo confirma: tres grupos es la mejor separación.",
-    "c6": "Siguiente estación: cuando k means falla."
-  },
-  "nos4": {
-    "c1": "K means falla aquí. Mira.",
-    "c2": "Reto: ¿cuántos grupos ves? Dos lunas.",
-    "c3": "K means busca grupos redondos. Corta las lunas por la mitad. Apenas acierta veintitrés por ciento.",
-    "c4": "DBSCAN agrupa por densidad: puntos con muchos vecinos cerca, se conectan.",
-    "c5": "Y separa las dos lunas perfectamente. Cada algoritmo ve una forma distinta.",
-    "c6": "Siguiente estación: reducir dimensiones."
-  },
-  "nos5": {
-    "e1": "Tu sombra es un resumen de ti, en dos dimensiones.",
-    "e2": "Reto: ¿se puede ver algo de cuatro dimensiones en una pantalla?",
-    "e3": "Cada pingüino tiene cuatro medidas. No podemos dibujar cuatro dimensiones.",
-    "e4": "PCA busca las direcciones donde los datos cambian más, y proyecta todo ahí. Como una sombra bien elegida.",
-    "e5": "Con solo dos ejes, conservamos el ochenta y ocho por ciento de la información. Y las especies se ven separadas.",
-    "e6": "Siguiente estación: detectar anomalías."
-  },
-  "nos6": {
-    "f1": "Una compra rara entre dos mil. Y nadie la marcó.",
-    "f2": "Reto: ¿puede un modelo encontrar fraudes sin ejemplos de fraude?",
-    "f3": "Sí. El bosque de aislamiento hace cortes al azar. Lo normal tarda en quedar solo. Lo raro, se aísla rápido.",
-    "f4": "Escondimos doce compras extrañas: montos enormes a las tres de la mañana.",
-    "f5": "El modelo marcó veinte sospechosas. Y ahí estaban las doce.",
-    "f6": "Siguiente estación: quien compra latte, ¿qué más compra?"
-  },
-  "nos7": {
-    "g1": "Quien compra latte… ¿qué más compra?",
-    "g2": "Reto: ¿qué producto acompaña más al latte?",
-    "g3": "Revisamos mil tickets de Café Datos, buscando productos que aparecen juntos.",
-    "g4": "Latte y pan dulce salen juntos en el veintidós por ciento de los tickets. Y casi la mitad de quienes piden latte, piden pan.",
-    "g5": "Es una vez y media más de lo esperado por azar. Así nacen los combos, y el clásico: ¿le agrego algo más?",
-    "g6": "Siguiente estación: el gran final."
-  },
-  "nosF": {
-    "h1": "Los mismos pingüinos. Dos mundos.",
-    "h2": "Reto: sin etiquetas, ¿cuántos pingüinos agrupó bien?",
-    "h3": "A la izquierda, aprendizaje supervisado: aprendió con la especie. A la derecha, no supervisado: nunca la vio.",
-    "h4": "Comparamos los grupos con las especies reales. Papúa: perfecto. Adelia y barbijo se mezclan un poco.",
-    "h5": "Sin ver ni una respuesta, coincidió en el noventa y dos por ciento. Con respuestas, noventa y ocho.",
-    "h6": "Fin de la serie. ¿Qué tema quieres que exploremos ahora?"
-  },
-  "simfut": {
-    "a1": "Este delantero tiene mejor efectividad… y aun así es peor.",
-    "a2": "Tú eres el director deportivo. ¿A quién fichas?",
-    "a3": "En total, A convierte el veinte por ciento de sus tiros. B, solo el quince. Fichamos a A… ¿verdad?",
-    "a4": "Pero separa los tiros. Dentro del área: A, treinta por ciento. B, treinta y tres.",
-    "a5": "Fuera del área: A, cinco por ciento. B, casi doce. B gana en los dos.",
-    "a6": "¿El truco? A tira casi siempre desde cerca, donde es fácil anotar. B tira de lejos.",
-    "a7": "Se llama paradoja de Simpson. Antes de fichar, pregunta: ¿desde dónde tiró?"
-  },
-  "pitf1": {
-    "b1": "Una parada en boxes dura unos segundos. Y una sola falla la arruina.",
-    "b2": "Reto: si cada tarea sale bien el noventa y nueve por ciento de las veces, ¿qué tan seguido sale perfecta?",
-    "b3": "En este ejemplo, veinte tareas deben salir bien al mismo tiempo. Las probabilidades se multiplican.",
-    "b4": "Con noventa y nueve por ciento: solo ochenta y dos de cada cien paradas son perfectas.",
-    "b5": "Con noventa y nueve punto nueve: noventa y ocho de cada cien. Por eso los equipos ensayan tanto.",
-    "b6": "Y decidir cuándo parar también es probabilidad. Si hay treinta por ciento de que salga el auto de seguridad, y eso te ahorra diez segundos, esperar vale tres segundos en promedio.",
-    "b7": "Si parar ahora te da menos de tres, conviene esperar. No es suerte: es probabilidad."
-  },
-  "matriz": {
-    "c1": "Tus gustos caben en una tabla. Y con ella, la app adivina lo que no has escuchado.",
-    "c2": "Reto: nunca escuchaste la canción dos. ¿Te va a gustar?",
-    "c3": "Cada fila es una persona. Cada columna, una canción. Los números, sus calificaciones.",
-    "c4": "El truco: partir esa tabla en dos tablas pequeñas. Una de personas, y una de canciones.",
-    "c5": "Tú eres uno de pop, y cero punto uno de rock. La canción dos tiene cuatro punto siete de pop. Multiplicas, sumas… cuatro punto siete.",
-    "c6": "En cambio, la canción tres te da apenas uno. Esa no te la recomienda.",
-    "c7": "Las apps reales usan millones de filas, y cientos de gustos ocultos. Pero la idea es esta multiplicación."
-  }
+ "_nota": "Frases cortas de Alex (Kokoro em_alex). Números escritos con letra para que se pronuncien bien.",
+ "cumple": {
+  "c1": "¿Cuántas personas necesitas, para que dos cumplan años el mismo día?",
+  "c2": "Solo veintitrés.",
+  "c3": "Y ya es más de la mitad.",
+  "c4": "Porque se comparan todas las parejas.",
+  "c5": "Tu intuición falla. Los datos, no."
+ },
+ "simpson": {
+  "s1": "Este tratamiento gana en todos los grupos… y pierde en el total.",
+  "s2": "B parece mejor.",
+  "s3": "Pero en piedras pequeñas, gana A.",
+  "s4": "Y en grandes, también.",
+  "s5": "A se llevó los casos difíciles.",
+  "s6": "Se llama paradoja de Simpson."
+ },
+ "netflix": {
+  "n1": "¿Cómo sabe Netflix qué vas a ver? No adivina: te compara.",
+  "n2": "¿A quién te pareces?",
+  "n3": "A Ana le encantó Marte dos. Entonces, te la recomienda.",
+  "n4": "Esto se llama filtrado colaborativo.",
+  "n5": "Tu próxima serie la eligió alguien que ni conoces."
+ },
+ "f1": {
+  "f1": "Este piloto entró a boxes primero… y por eso ganó.",
+  "f2": "Cada auto lleva unos trescientos sensores.",
+  "f3": "Con llantas nuevas, B gana un segundo y medio por vuelta.",
+  "f4": "Cuando A por fin para… B ya va adelante.",
+  "f5": "Se llama undercut. Y se decide con datos."
+ },
+ "claude": {
+  "k1": "Claude no lee palabras. Lee esto.",
+  "k2": "Tu texto se corta en pedacitos llamados tokens. Y cada uno se vuelve números.",
+  "k3": "Luego, cada token mira a los demás, para entender el contexto. Se llama atención.",
+  "k4": "Y al final, hace una sola cosa: predecir el siguiente token.",
+  "k5": "Lo agrega, y repite. Token por token.",
+  "k6": "¿Cómo aprendió? Leyendo muchísimo texto. Y después, lo entrenaron para ser útil, honesto e inofensivo.",
+  "k7": "No es magia. Es predicción."
+ },
+ "statsbomb": {
+  "b1": "Un partido de fútbol tiene unos tres mil trescientos datos.",
+  "b2": "Los recolecta StatsBomb, una empresa que nació como un blog en dos mil trece.",
+  "b3": "Cada pase, presión o tiro se guarda con su ubicación y su momento.",
+  "b4": "Y en cada evento, congelan la posición de los jugadores visibles.",
+  "b5": "Con eso calculan qué tan probable era el gol. Se llama xG.",
+  "b6": "Hoy los analistas lo usan para fichar, estudiar al rival y medir el rendimiento.",
+  "b7": "Y parte de sus datos son gratis, para que aprendas."
+ },
+ "mates1": {
+  "m1": "Nueve personas en un café. Cada una gana unos quince mil pesos al mes.",
+  "m2": "El promedio: sumas todo y divides. Quince mil.",
+  "m3": "Entra un multimillonario… y el promedio sube a más de quinientos mil.",
+  "m4": "La mediana ordena los datos y toma el del medio. Sigue en quince mil.",
+  "m5": "Por eso, muchos reportes de sueldos y de precios de casas usan la mediana.",
+  "m6": "Pero, ¿qué tan dispersos están los datos? En la parte dos."
+ },
+ "mates2": {
+  "d1": "Dos repartidores tardan treinta minutos en promedio. Solo en uno puedes confiar.",
+  "d2": "Mira sus entregas. Mismo promedio, historias muy distintas.",
+  "d3": "La desviación estándar mide qué tan lejos caen los datos del promedio.",
+  "d4": "Repartidor A: menos de un minuto. Repartidor B: casi dieciséis.",
+  "d5": "Con ella, las empresas miden qué tan confiable es un servicio.",
+  "d6": "¿Y si un dato cae muy, muy lejos? En la parte tres."
+ },
+ "mates3": {
+  "z1": "Tu banco sabe que esta compra no la hiciste tú.",
+  "z2": "Muchos datos forman una campana. Se llama distribución normal.",
+  "z3": "Casi todo cae a menos de tres desviaciones del promedio.",
+  "z4": "El puntaje z dice cuántas desviaciones te alejas. Una compra de trescientos ochenta: z de cero punto dos cinco.",
+  "z5": "Una de nueve mil quinientos: z de setenta y seis. Alerta.",
+  "z6": "¿Y cómo sabe tu correo qué es spam? En la parte cuatro."
+ },
+ "mates4": {
+  "p1": "¿Cómo sabe tu correo que esto es spam?",
+  "p2": "De cada cien correos, treinta son spam. Treinta por ciento.",
+  "p3": "Pero este dice gratis. Y gratis aparece en dieciocho spam, y solo en siete normales.",
+  "p4": "Mira solo los que dicen gratis. Dieciocho de veinticinco: setenta y dos por ciento.",
+  "p5": "Eso es Bayes. Los filtros de spam lo repiten con cada palabra.",
+  "p6": "Y en la parte cinco: por qué el helado no causa ahogados."
+ },
+ "mates5": {
+  "c1": "Cuando suben las ventas de helado, suben los ahogados. ¿El helado es peligroso?",
+  "c2": "Si los graficas, casi forman una línea. Correlación de cero punto nueve dos.",
+  "c3": "La correlación va de menos uno a uno. Solo mide si dos cosas se mueven juntas.",
+  "c4": "Pero hay una tercera variable escondida: el calor. Más calor, más helados, y más gente nadando.",
+  "c5": "Por eso, antes de decidir, las empresas hacen experimentos, como las pruebas A B.",
+  "c6": "En la parte seis: una línea para predecir el futuro."
+ },
+ "mates6": {
+  "r1": "Con una línea puedes adivinar el precio de una casa.",
+  "r2": "Cada punto es una casa: su tamaño y su precio.",
+  "r3": "La regresión lineal busca la recta que pasa lo más cerca de todos los puntos.",
+  "r4": "Mide qué tan lejos queda cada punto, y elige la recta con el menor error.",
+  "r5": "Con ella predices: una casa de ciento treinta metros, unos dos millones seiscientos cincuenta mil.",
+  "r6": "En la parte siete: tus gustos, convertidos en flechas."
+ },
+ "mates7": {
+  "v1": "Para tu app de música, tú eres una flecha.",
+  "v2": "Cada eje es un gusto: cuánto rock escuchas, y cuánto reguetón.",
+  "v3": "Si dos flechas apuntan hacia el mismo lado, sus gustos se parecen.",
+  "v4": "La similitud coseno mide ese ángulo. Tú y Ana: cero punto nueve nueve. Tú y Luis: cero punto tres cinco.",
+  "v5": "Las apps usan cientos de dimensiones, para recomendarte canciones y encontrar cosas parecidas.",
+  "v6": "En la parte ocho, la última: cómo aprende una inteligencia artificial."
+ },
+ "mates8": {
+  "g1": "Así aprende una inteligencia artificial: bajando una montaña con los ojos vendados.",
+  "g2": "La montaña es el error del modelo. Queremos llegar a lo más bajo.",
+  "g3": "La derivada es la pendiente: te dice hacia dónde baja el terreno.",
+  "g4": "Das un paso en esa dirección. Y otro. Y otro. Con cada paso, el error baja.",
+  "g5": "Eso es el descenso de gradiente. Así se entrenan muchísimos modelos, incluidos los de lenguaje como Claude.",
+  "g6": "Fin de la serie. ¿Qué matemáticas quieres que expliquemos después?"
+ },
+ "algo1": {
+  "a1": "Tu playlist es una estructura de datos. Se llama arreglo.",
+  "a2": "Cada canción vive en una cajita con un número. Y se empieza a contar desde cero.",
+  "a3": "¿Quieres la canción tres? Saltas directo a esa cajita. Al instante.",
+  "a4": "Pero si metes una canción al inicio, todas las demás se recorren un lugar.",
+  "a5": "Cada columna de una tabla es un arreglo. Por eso un científico de datos puede sumar millones de números de un solo golpe.",
+  "a6": "En la parte dos: por qué un código tarda un segundo, y otro casi tres horas."
+ },
+ "algo2": {
+  "b1": "El mismo problema: un código tarda menos de un segundo, y otro casi tres horas.",
+  "b2": "Buscar correos repetidos en cien mil filas. Opción uno: comparar cada correo con todos los demás.",
+  "b3": "Cien mil por cien mil: diez mil millones de pasos. Se escribe O de n al cuadrado.",
+  "b4": "Opción dos: revisar cada correo una sola vez. Cien mil pasos. O de n.",
+  "b5": "La notación Big O dice cómo crece el tiempo cuando crecen los datos. Es la diferencia entre esperar segundos, o días.",
+  "b6": "En la parte tres: encontrar uno entre un millón, en veinte intentos."
+ },
+ "algo3": {
+  "c1": "Piensa un número del uno al millón. Lo adivino en veinte intentos o menos.",
+  "c2": "Primer intento: la mitad. ¿Es más alto, o más bajo?",
+  "c3": "Cada respuesta descarta la mitad. Un millón, quinientos mil, doscientos cincuenta mil…",
+  "c4": "En veinte pasos queda uno solo. Eso es búsqueda binaria. Pero solo funciona si los datos están ordenados.",
+  "c5": "Un científico de datos la usa para buscar en datos ordenados, como fechas o identificadores, sin revisar fila por fila.",
+  "c6": "En la parte cuatro: cómo una app te encuentra entre millones, al instante."
+ },
+ "algo4": {
+  "d1": "¿Cómo encuentra una app tu usuario entre millones, al instante?",
+  "d2": "Piensa en un guardarropa. Entregas tu abrigo, y te dan una ficha con un número.",
+  "d3": "Una función hash convierte tu nombre en un número de casillero. Siempre el mismo.",
+  "d4": "Para encontrarte, no revisa todo: calcula el número, y va directo.",
+  "d5": "En Python son los diccionarios y los conjuntos. Con ellos un científico de datos cuenta, quita duplicados y une tablas.",
+  "d6": "En la parte cinco: Control Z, y la fila del banco."
+ },
+ "algo5": {
+  "e1": "Control Z y la fila del banco son lo mismo… pero al revés.",
+  "e2": "Una pila es como una torre de platos: el último que pones es el primero que sacas.",
+  "e3": "Por eso, Control Z deshace primero lo último que hiciste.",
+  "e4": "Una cola es como la fila del banco: el primero que llega es el primero que atienden.",
+  "e5": "Los científicos de datos usan colas para procesar datos en el orden en que llegan: pedidos, mensajes o lecturas de sensores.",
+  "e6": "En la parte seis: cómo ordenar mil exámenes sin volverte loco."
+ },
+ "algo6": {
+  "f1": "Mil exámenes desordenados. ¿Cómo los ordenas sin volverte loco?",
+  "f2": "Si buscas el menor una y otra vez, son casi quinientas mil comparaciones.",
+  "f3": "Merge sort: divide la pila a la mitad, una y otra vez, hasta tener exámenes sueltos.",
+  "f4": "Luego junta pares ya ordenados, y así hasta arriba. Solo unas diez mil comparaciones.",
+  "f5": "Ordenar es la base de los rankings, del top de ventas, y hasta de la mediana. Python usa un algoritmo basado en merge sort.",
+  "f6": "En la parte siete: las carpetas de tu compu son un árbol."
+ },
+ "algo7": {
+  "g1": "Las carpetas de tu computadora son un árbol.",
+  "g2": "Hay una raíz, ramas que se dividen, y hojas al final.",
+  "g3": "Para llegar a un archivo no revisas todo: bajas por la rama correcta.",
+  "g4": "Un árbol de decisión hace lo mismo, pero con preguntas. ¿Ingreso alto? ¿Pagos atrasados? Y llega a una respuesta.",
+  "g5": "Los científicos de datos los entrenan para aprobar créditos, detectar fraudes, o predecir si un cliente se va.",
+  "g6": "En la parte ocho: tú y tus amigos, como un grafo."
+ },
+ "algo8": {
+  "h1": "Tú, tus amigos, y los amigos de tus amigos forman un grafo.",
+  "h2": "Cada persona es un nodo. Cada amistad es una arista.",
+  "h3": "Sara no es tu amiga, pero tiene dos amigos en común contigo.",
+  "h4": "Por eso una red social te la sugeriría, como alguien que quizás conozcas.",
+  "h5": "Los científicos de datos usan grafos para recomendar, y para detectar fraudes: cuentas distintas conectadas por la misma tarjeta.",
+  "h6": "En la parte nueve: cómo se encuentra la ruta más rápida."
+ },
+ "algo9": {
+  "i1": "¿Cómo encuentra una app de mapas la ruta más rápida?",
+  "i2": "Las calles son un grafo. Cada tramo tiene un tiempo, en minutos.",
+  "i3": "La ruta que parece directa toma dieciocho minutos.",
+  "i4": "El algoritmo de Dijkstra explora desde tu casa, siempre por lo más cercano primero. Y encuentra una de trece.",
+  "i5": "Los científicos de datos lo usan en logística: rutas de reparto, tiempos de entrega y cadenas de suministro.",
+  "i6": "En la parte diez, la última: cómo saber que gatp era gato."
+ },
+ "algo10": {
+  "j1": "¿Cómo saber que gatp, en realidad, era gato?",
+  "j2": "Se mide cuántos cambios separan dos palabras. Se llama distancia de edición.",
+  "j3": "En vez de probar todas las combinaciones, se llena una tabla: resuelves problemas pequeños y guardas las respuestas.",
+  "j4": "Gatp y gato: un solo cambio. Es la palabra más cercana. Eso es programación dinámica.",
+  "j5": "Los científicos de datos la usan para limpiar datos: saber que José Pérez, con acentos y sin acentos, es la misma persona.",
+  "j6": "Fin de la serie. ¿Qué tema quieres que expliquemos después?"
+ },
+ "prac1": {
+  "k1": "Hay un dicho entre científicos de datos: la mayor parte del trabajo no son los modelos.",
+  "k2": "Café Datos quiere vender más. Vamos a seguir su proyecto paso a paso.",
+  "k3": "Primero, la pregunta. Luego, conseguir los datos, y limpiarlos.",
+  "k4": "Después, explorar, analizar, y al final, comunicar para tomar una decisión.",
+  "k5": "Y casi nunca es una línea recta: muchas veces regresas a un paso anterior.",
+  "k6": "En la parte dos: por qué quiero vender más, no es una pregunta de datos."
+ },
+ "prac2": {
+  "l1": "Quiero vender más, no es una pregunta de datos.",
+  "l2": "Es un deseo. No dice qué medir, ni cuándo, ni comparado con qué.",
+  "l3": "Una buena pregunta tiene tres cosas: qué se mide, en qué grupo, y en qué tiempo.",
+  "l4": "Por ejemplo: ¿qué producto se vende menos por las tardes, entre semana, en el último mes?",
+  "l5": "Con una pregunta así, ya sabes qué datos necesitas, y cuándo terminaste.",
+  "l6": "En la parte tres: de dónde salen los datos."
+ },
+ "prac3": {
+  "n1": "Cada vez que pagas en un café, generas una fila de datos.",
+  "n2": "Café Datos tiene varias fuentes: la caja registradora, el inventario y las reseñas.",
+  "n3": "Pueden vivir en una base de datos, en archivos de Excel o C S V, o llegar desde una A P I.",
+  "n4": "Con pandas, el científico de datos las carga en una tabla con una sola línea.",
+  "n5": "Y siempre con permiso: los datos personales se protegen, y se usan solo para lo que se pidió.",
+  "n6": "En la parte cuatro: una tabla mal hecha que no se nota."
+ },
+ "prac4": {
+  "o1": "Esta tabla está mal hecha… y no se nota.",
+  "o2": "Cada columna es un mes. Se ve bonita, pero es difícil de analizar.",
+  "o3": "En datos ordenados, cada fila es una observación, y cada columna una variable.",
+  "o4": "Y cada variable tiene su tipo: número, categoría, fecha o texto.",
+  "o5": "Con melt, pandas convierte la tabla ancha en una larga, lista para analizar.",
+  "o6": "En la parte cinco: limpiar los datos."
+ },
+ "prac5": {
+  "q1": "C D M X, Ciudad de México y cdmx… son el mismo lugar.",
+  "q2": "Para la computadora son tres lugares distintos. Y eso arruina cualquier conteo.",
+  "q3": "Limpiar es revisar cuatro cosas: datos faltantes, duplicados, formatos distintos y errores de captura.",
+  "q4": "En Café Datos, después de limpiar, Ciudad de México pasa de tres grupos a uno solo.",
+  "q5": "Por eso se dice que limpiar datos es de lo que más tiempo toma en un proyecto.",
+  "q6": "En la parte seis: un café de quince mil pesos. ¿Error, o el cliente del año?"
+ },
+ "prac6": {
+  "r1": "Un café de quince mil pesos. ¿Error… o el cliente del año?",
+  "r2": "Un dato atípico es uno que queda muy lejos de los demás.",
+  "r3": "Una regla común: el rango intercuartílico. Tomas el cincuenta por ciento central de los datos, y le das un margen.",
+  "r4": "En Café Datos, todo lo que pase de ciento cuarenta y cuatro pesos se revisa. Y quince mil queda muy fuera.",
+  "r5": "Revisar no es borrar. Si fue un cero de más, se corrige. Si fue un pedido real para una boda, es un hallazgo.",
+  "r6": "En la parte siete: responder lo que tu jefe pregunta, con tres comandos."
+ },
+ "prac7": {
+  "s1": "Con tres comandos respondes lo que tu jefe pregunta.",
+  "s2": "¿Qué día vendemos más? La tabla tiene miles de tickets, uno por fila.",
+  "s3": "Primero filtras: solo las ventas de este mes.",
+  "s4": "Luego agrupas por día de la semana, y sumas. El sábado gana.",
+  "s5": "Y si unes con la tabla de inventario, sabes qué día se acaba el pan. Filtrar, agrupar y unir: el día a día de un científico de datos.",
+  "s6": "En la parte ocho: antes de concluir, mira tus datos."
+ },
+ "prac8": {
+  "u1": "Antes de concluir, mira tus datos.",
+  "u2": "El análisis exploratorio es hacerle preguntas a los datos, con gráficas.",
+  "u3": "Un histograma muestra cómo se reparten los tickets: la mayoría entre cincuenta y cien pesos.",
+  "u4": "Y al cruzar producto y día, aparece algo: los lunes casi no se vende pan dulce.",
+  "u5": "Explorar no da respuestas finales. Da buenas preguntas. ¿Por qué los lunes?",
+  "u6": "En la parte nueve: los cuatro tipos de análisis."
+ },
+ "prac9": {
+  "w1": "Un café. Cuatro preguntas. Cuatro tipos de análisis.",
+  "w2": "Descriptivo: ¿qué pasó? Las ventas bajaron quince por ciento la semana pasada.",
+  "w3": "Diagnóstico: ¿por qué pasó? Llovió cinco días, y llegó menos gente.",
+  "w4": "Predictivo: ¿qué pasará? Se espera lluvia otra vez la próxima semana.",
+  "w5": "Prescriptivo: ¿qué hago? Promoción de chocolate caliente, y más pedidos a domicilio.",
+  "w6": "Cada tipo es más difícil, y aporta más valor. En la parte diez: comunicarlo."
+ },
+ "prac10": {
+  "x1": "Un análisis que nadie entiende, no sirve.",
+  "x2": "Mira esta gráfica: parece que las ventas se dispararon.",
+  "x3": "Pero el eje empieza en cuatro mil. Desde cero, el cambio es pequeño.",
+  "x4": "Para comunicar: una idea por gráfica, la gráfica correcta, y una recomendación clara.",
+  "x5": "Y que se pueda repetir: con un notebook y Git, cualquiera reproduce tu análisis. Así Café Datos toma su decisión.",
+  "x6": "Y para predecir… se usan modelos. Eso viene en la siguiente serie."
+ },
+ "ml0": {
+  "a1": "Nadie le escribió a tu correo qué es spam. Lo aprendió.",
+  "a2": "Reto: ¿cómo le enseñarías tú a detectarlo?",
+  "a3": "Con reglas: si dice gratis, es spam. Pero los spammers cambian, y las reglas se rompen.",
+  "a4": "El aprendizaje automático no recibe reglas. Recibe ejemplos, y encuentra el patrón solo.",
+  "a5": "Y hay dos caminos: aprender con respuestas, supervisado, o sin respuestas, no supervisado.",
+  "a6": "Esta es la ruta. Primera parada: entrenar y evaluar."
+ },
+ "ml1": {
+  "b1": "Si estudias con el examen, sacas diez… y no aprendiste nada.",
+  "b2": "Reto: ¿le crees a un modelo que se califica con sus propios datos?",
+  "b3": "Café Datos tiene doscientos días de ventas. Separamos: ciento sesenta para entrenar, cuarenta para el examen.",
+  "b4": "El modelo nunca ve esos cuarenta días. Luego predice, y comparamos con lo que pasó de verdad.",
+  "b5": "Resultado: se equivoca por unas ocho tazas al día. Ese número sí es creíble.",
+  "b6": "Siguiente parada: el modelo que acierta todo… y es pésimo."
+ },
+ "ml2": {
+  "c1": "Este modelo acierta el cien por ciento… y es pésimo.",
+  "c2": "Reto: de estas tres curvas, ¿cuál es la mejor?",
+  "c3": "La recta es demasiado simple: no entiende la forma. Se llama subajuste.",
+  "c4": "La curva loca pasa por todos los puntos: error cero. Pero en datos nuevos, se equivoca por casi sesenta. Memorizó.",
+  "c5": "La de en medio gana: entiende el patrón sin memorizar el ruido. Para elegirla, se usa validación cruzada.",
+  "c6": "Siguiente parada: lo que el modelo puede ver."
+ },
+ "ml3": {
+  "d1": "El modelo no ve la lluvia… a menos que se la des.",
+  "d2": "Reto: ¿qué dato le falta a este modelo?",
+  "d3": "Para predecir ventas, le dimos la temperatura y si es fin de semana. Se equivoca por diecinueve tazas.",
+  "d4": "Agregamos una columna: ¿llovió? El error baja a ocho.",
+  "d5": "Los datos de entrada se llaman variables. Elegir y crear buenas variables es uno de los trabajos más importantes.",
+  "d6": "Fin del tronco común. Ahora el camino se divide: primero, el aprendizaje supervisado."
+ },
+ "sup1": {
+  "a1": "¿Cuánto pesa este pingüino? ¿De qué especie es? Dos preguntas, dos tipos de modelo.",
+  "a2": "Reto: ¿cuál de las dos es más fácil de adivinar?",
+  "a3": "Si la respuesta es un número, como el peso, se llama regresión. El modelo falla por unos doscientos ochenta gramos.",
+  "a4": "Si la respuesta es una categoría, como la especie, se llama clasificación. Acierta casi noventa y nueve de cada cien.",
+  "a5": "Son pingüinos reales de la Antártida. Y en los dos casos, el modelo aprendió con respuestas conocidas: eso es aprendizaje supervisado.",
+  "a6": "Siguiente estación: dime con quién andas."
+ },
+ "sup2": {
+  "b1": "Dime con quién andas… y te diré qué pingüino eres.",
+  "b2": "Reto: este pingüino misterioso, ¿de qué especie es?",
+  "b3": "Cada punto es un pingüino real, por el largo y el grosor de su pico.",
+  "b4": "K vecinos más cercanos: busca los cinco pingüinos más parecidos, y votan. Los cinco dicen: barbijo.",
+  "b5": "¿Cuántos vecinos? Con uno, se confunde. Con cinco, acierta casi noventa y nueve por ciento.",
+  "b6": "Siguiente estación: ¿regresará este cliente?"
+ },
+ "sup3": {
+  "c1": "¿Este cliente va a regresar? Adivina.",
+  "c2": "Reto: Ana vino ocho veces este mes. Luis, dos. ¿Quién regresa?",
+  "c3": "La regresión logística convierte los datos en una probabilidad, entre cero y uno.",
+  "c4": "Ana: noventa y tres por ciento. Luis: trece por ciento.",
+  "c5": "Y se elige un corte: arriba de cincuenta por ciento, decimos que sí regresa. Con eso, Café Datos sabe a quién enviarle una promoción.",
+  "c6": "Siguiente estación: cien árboles que votan."
+ },
+ "sup4": {
+  "d1": "Un árbol se equivoca. Cien árboles votan.",
+  "d2": "Reto: ¿quién se equivoca menos, un árbol o un bosque?",
+  "d3": "Un solo árbol de decisión clasifica pingüinos, pero memoriza detalles. Falla en cuatro de ochenta y cuatro.",
+  "d4": "Un bosque aleatorio entrena cien árboles, cada uno con datos un poco distintos. Y votan. Falla solo en dos.",
+  "d5": "Y te dice qué importa más: el largo del pico, y la aleta.",
+  "d6": "Siguiente estación: el modelo que acierta el noventa y nueve por ciento… y no sirve."
+ },
+ "sup5": {
+  "e1": "Un detector de fraude con noventa y nueve por ciento de aciertos… que nunca detecta fraude.",
+  "e2": "Reto: ¿cómo es posible?",
+  "e3": "Solo uno de cada cien pagos es fraude. Si el modelo siempre dice no es fraude, acierta casi el noventa y nueve por ciento. Y no atrapa a nadie.",
+  "e4": "Por eso se usa la matriz de confusión: aciertos y errores, de cada tipo.",
+  "e5": "Este modelo atrapa treinta de treinta y tres fraudes. Pero también marca pagos normales: por cada fraude real, levanta varias falsas alarmas.",
+  "e6": "Siguiente estación: aprender de los errores."
+ },
+ "sup6": {
+  "f1": "Cada modelo nuevo corrige los errores del anterior.",
+  "f2": "Reto: ¿más modelos siempre es mejor?",
+  "f3": "Boosting entrena árboles pequeños en cadena. El primero falla por veintisiete tazas.",
+  "f4": "El segundo aprende de esos errores. Y el siguiente. Con veinte árboles, el error baja a diez.",
+  "f5": "Pero después de cien, ya no mejora: incluso empeora un poco. Más no siempre es mejor.",
+  "f6": "Siguiente estación: redes neuronales."
+ },
+ "sup7": {
+  "g1": "Doscientas cuarenta y tres perillas, que se ajustan solas.",
+  "g2": "Reto: ¿cuántos datos de cada pingüino necesita la red?",
+  "g3": "Una red neuronal tiene capas de neuronas. Entran cuatro medidas, y salen tres especies.",
+  "g4": "Cada conexión es una perilla. Al entrenar, se ajustan poco a poco para bajar el error. El mismo descenso de gradiente de la serie de mates.",
+  "g5": "Resultado: casi noventa y nueve por ciento. Los modelos de lenguaje funcionan igual, pero con miles de millones de perillas.",
+  "g6": "Siguiente estación: un proyecto completo."
+ },
+ "sup8": {
+  "h1": "De datos crudos a una predicción, en cuarenta segundos.",
+  "h2": "Reto: ¿de qué especie es un pingüino que nadie ha visto?",
+  "h3": "Cargamos trescientos cuarenta y cuatro pingüinos. Limpiamos: quedan trescientos treinta y tres.",
+  "h4": "Separamos entrenamiento y prueba. Escalamos las medidas, y entrenamos un bosque aleatorio.",
+  "h5": "En el examen acierta noventa y siete punto seis por ciento. Y para el pingüino nuevo, dice: papúa.",
+  "h6": "Fin de la rama supervisada. Ahora, aprender sin respuestas."
+ },
+ "nos1": {
+  "a1": "Nadie le dijo qué buscar… y encontró tres grupos.",
+  "a2": "Reto: sin saber la especie, ¿cuántos grupos de pingüinos ves?",
+  "a3": "En el aprendizaje no supervisado no hay respuestas. Solo datos.",
+  "a4": "El modelo busca qué datos se parecen entre sí, y los agrupa. Encontró tres grupos.",
+  "a5": "¿Coinciden con las especies reales? Lo revelamos en el gran final.",
+  "a6": "Siguiente estación: k means."
+ },
+ "nos2": {
+  "b1": "¿Cuántos tipos de cliente tiene tu café?",
+  "b2": "Reto: mira los clientes. ¿Ves los grupos?",
+  "b3": "K means pone tres centros al azar. Cada cliente se une al centro más cercano.",
+  "b4": "Luego cada centro se mueve al promedio de su grupo. Y se repite, hasta que ya no se mueven.",
+  "b5": "Resultado: clientes ocasionales, frecuentes, y los de ticket alto. Cada grupo recibe una promoción distinta.",
+  "b6": "Siguiente estación: ¿cuántos grupos?"
+ },
+ "nos3": {
+  "c1": "¿Dos grupos, tres, o diez? ¿Quién decide?",
+  "c2": "Reto: ¿cuántos grupos de clientes hay de verdad?",
+  "c3": "Con más grupos, el error siempre baja. Con un grupo por cliente, sería cero. Pero no sirve.",
+  "c4": "El método del codo: busca dónde la curva deja de bajar rápido. Aquí, en tres.",
+  "c5": "Y la silueta lo confirma: tres grupos es la mejor separación.",
+  "c6": "Siguiente estación: cuando k means falla."
+ },
+ "nos4": {
+  "c1": "K means falla aquí. Mira.",
+  "c2": "Reto: ¿cuántos grupos ves? Dos lunas.",
+  "c3": "K means busca grupos redondos. Corta las lunas por la mitad. Apenas acierta veintitrés por ciento.",
+  "c4": "DBSCAN agrupa por densidad: puntos con muchos vecinos cerca, se conectan.",
+  "c5": "Y separa las dos lunas perfectamente. Cada algoritmo ve una forma distinta.",
+  "c6": "Siguiente estación: reducir dimensiones."
+ },
+ "nos5": {
+  "e1": "Tu sombra es un resumen de ti, en dos dimensiones.",
+  "e2": "Reto: ¿se puede ver algo de cuatro dimensiones en una pantalla?",
+  "e3": "Cada pingüino tiene cuatro medidas. No podemos dibujar cuatro dimensiones.",
+  "e4": "PCA busca las direcciones donde los datos cambian más, y proyecta todo ahí. Como una sombra bien elegida.",
+  "e5": "Con solo dos ejes, conservamos el ochenta y ocho por ciento de la información. Y las especies se ven separadas.",
+  "e6": "Siguiente estación: detectar anomalías."
+ },
+ "nos6": {
+  "f1": "Una compra rara entre dos mil. Y nadie la marcó.",
+  "f2": "Reto: ¿puede un modelo encontrar fraudes sin ejemplos de fraude?",
+  "f3": "Sí. El bosque de aislamiento hace cortes al azar. Lo normal tarda en quedar solo. Lo raro, se aísla rápido.",
+  "f4": "Escondimos doce compras extrañas: montos enormes a las tres de la mañana.",
+  "f5": "El modelo marcó veinte sospechosas. Y ahí estaban las doce.",
+  "f6": "Siguiente estación: quien compra latte, ¿qué más compra?"
+ },
+ "nos7": {
+  "g1": "Quien compra latte… ¿qué más compra?",
+  "g2": "Reto: ¿qué producto acompaña más al latte?",
+  "g3": "Revisamos mil tickets de Café Datos, buscando productos que aparecen juntos.",
+  "g4": "Latte y pan dulce salen juntos en el veintidós por ciento de los tickets. Y casi la mitad de quienes piden latte, piden pan.",
+  "g5": "Es una vez y media más de lo esperado por azar. Así nacen los combos, y el clásico: ¿le agrego algo más?",
+  "g6": "Siguiente estación: el gran final."
+ },
+ "nosF": {
+  "h1": "Los mismos pingüinos. Dos mundos.",
+  "h2": "Reto: sin etiquetas, ¿cuántos pingüinos agrupó bien?",
+  "h3": "A la izquierda, aprendizaje supervisado: aprendió con la especie. A la derecha, no supervisado: nunca la vio.",
+  "h4": "Comparamos los grupos con las especies reales. Papúa: perfecto. Adelia y barbijo se mezclan un poco.",
+  "h5": "Sin ver ni una respuesta, coincidió en el noventa y dos por ciento. Con respuestas, noventa y ocho.",
+  "h6": "Fin de la serie. ¿Qué tema quieres que exploremos ahora?"
+ },
+ "simfut": {
+  "a1": "Este delantero tiene mejor efectividad… y aun así es peor.",
+  "a2": "Tú eres el director deportivo. ¿A quién fichas?",
+  "a3": "En total, A convierte el veinte por ciento de sus tiros. B, solo el quince. Fichamos a A… ¿verdad?",
+  "a4": "Pero separa los tiros. Dentro del área: A, treinta por ciento. B, treinta y tres.",
+  "a5": "Fuera del área: A, cinco por ciento. B, casi doce. B gana en los dos.",
+  "a6": "¿El truco? A tira casi siempre desde cerca, donde es fácil anotar. B tira de lejos.",
+  "a7": "Se llama paradoja de Simpson. Antes de fichar, pregunta: ¿desde dónde tiró?"
+ },
+ "pitf1": {
+  "b1": "Una parada en boxes dura unos segundos. Y una sola falla la arruina.",
+  "b2": "Reto: si cada tarea sale bien el noventa y nueve por ciento de las veces, ¿qué tan seguido sale perfecta?",
+  "b3": "En este ejemplo, veinte tareas deben salir bien al mismo tiempo. Las probabilidades se multiplican.",
+  "b4": "Con noventa y nueve por ciento: solo ochenta y dos de cada cien paradas son perfectas.",
+  "b5": "Con noventa y nueve punto nueve: noventa y ocho de cada cien. Por eso los equipos ensayan tanto.",
+  "b6": "Y decidir cuándo parar también es probabilidad. Si hay treinta por ciento de que salga el auto de seguridad, y eso te ahorra diez segundos, esperar vale tres segundos en promedio.",
+  "b7": "Si parar ahora te da menos de tres, conviene esperar. No es suerte: es probabilidad."
+ },
+ "matriz": {
+  "c1": "Tus gustos caben en una tabla. Y con ella, la app adivina lo que no has escuchado.",
+  "c2": "Reto: nunca escuchaste la canción dos. ¿Te va a gustar?",
+  "c3": "Cada fila es una persona. Cada columna, una canción. Los números, sus calificaciones.",
+  "c4": "El truco: partir esa tabla en dos tablas pequeñas. Una de personas, y una de canciones.",
+  "c5": "Tú eres uno de pop, y cero punto uno de rock. La canción dos tiene cuatro punto siete de pop. Multiplicas, sumas… cuatro punto siete.",
+  "c6": "En cambio, la canción tres te da apenas uno. Esa no te la recomienda.",
+  "c7": "Las apps reales usan millones de filas, y cientos de gustos ocultos. Pero la idea es esta multiplicación."
+ },
+ "img": {
+  "i1": "Esto que ves ahora mismo son seis millones de números.",
+  "i2": "Cada cuadrito es un píxel: un número del cero al doscientos cincuenta y cinco.",
+  "i3": "Cero es negro; doscientos cincuenta y cinco, blanco. La foto es solo una tabla: una matriz.",
+  "i4": "En color son tres tablas: rojo, verde y azul.",
+  "i5": "Por eso un filtro es pura resta: doscientos cincuenta y cinco menos cada número… y se invierte.",
+  "i6": "Ahora multiplica: mil ochenta, por mil novecientos veinte, por tres colores…"
+ }
 }

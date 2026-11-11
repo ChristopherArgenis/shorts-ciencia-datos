@@ -58,6 +58,7 @@ import { Nos7Asociacion, TOTAL_NOS7 } from "./shorts/nos/Nos7Asociacion";
 import { GranFinal, TOTAL_FINAL } from "./shorts/nos/GranFinal";
 import { SimpsonFutbol, TOTAL_SIMFUT } from "./shorts/sueltos/SimpsonFutbol";
 import { ParadaF1, TOTAL_PITF1 } from "./shorts/sueltos/ParadaF1";
+import { ImagenNumeros, TOTAL_IMG } from "./shorts/sueltos/ImagenNumeros";
 import {
   MatrizRecomienda,
   TOTAL_MATRIZ,
@@ -120,6 +121,7 @@ import {
   Mini7SimpsonFutbol,
   Mini8ParadaF1,
   Mini9Matriz,
+  Mini10Imagen,
 } from "./miniaturas/Miniaturas";
 
 export const RemotionRoot: React.FC = () => {
@@ -596,6 +598,14 @@ export const RemotionRoot: React.FC = () => {
           width={1080}
           height={1920}
         />
+        <Composition
+          id="Short10-ImagenNumeros"
+          component={ImagenNumeros}
+          durationInFrames={TOTAL_IMG}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
       </Folder>
       <Folder name="Miniaturas">
         <Still
@@ -837,6 +847,12 @@ export const RemotionRoot: React.FC = () => {
         <Still
           id="Mini9-Matriz"
           component={Mini9Matriz}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="Mini10-Imagen"
+          component={Mini10Imagen}
           width={1080}
           height={1920}
         />

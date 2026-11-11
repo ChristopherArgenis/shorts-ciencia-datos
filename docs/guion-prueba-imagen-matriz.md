@@ -54,3 +54,7 @@ Un Short vertical mide 1080 × 1920 píxeles. Cada píxel guarda 3 números (roj
 - **Se quedaron viendo:** meta > 50 % (canal hoy: 23.7 %; StatsBomb: 57.8 %)
 - **Porcentaje medio visto:** meta > 80 % o > 100 % si hay bucle
 - Si funciona, este formato reemplaza a la plantilla de serie actual.
+
+## Producido (Short10-ImagenNumeros, 29.5 s)
+Frases recortadas para no pasar de 30 s (ver `scripts/voz.json` → `img`). Miniatura final: "6,220,800 · CERO MAGIA"
+(se cambió "¿LO VES?" porque repetía "ves" del título).

@@ -156,6 +156,16 @@ ilustrativos y así lo dice en pantalla. No usa datos de StatsBomb ni su logo.
 > Ejemplo simplificado: es la idea base, no el sistema interno de ninguna app.
 **#:** #cienciadedatos #algebralineal #machinelearning #spotify #shorts
 
+## Short 10: Esto que ves son 6 millones de números
+Primera prueba con las reglas de retención (cuadro 0 lleno, sin serie ni reto, cierre en bucle). 29.5 s.
+**Título:** Esto que ves son 6 millones de números
+**Miniatura:** `Mini10-Imagen` → "6,220,800 · CERO MAGIA"
+**Descripción:**
+> Una imagen es una matriz de números: cada píxel guarda 3 valores (rojo, verde y azul) del 0 al 255. Un Short vertical mide 1080 × 1920 píxeles, así que cada cuadro son 6,220,800 números.
+> Por eso un filtro es pura matemática: 255 menos cada número invierte la foto (en Python, negativo = 255 - foto). El balón de 16 × 16 píxeles es un ejemplo simplificado.
+**#:** #cienciadedatos #python #inteligenciaartificial #matematicas #shorts
+**Medir en Studio:** "Se quedaron viendo" > 50 % (canal: 23.7 %) · porcentaje medio visto > 80 %.
+
 ---
 
 # Serie: Matemáticas que sí usa un científico de datos (8 partes)

@@ -1,6 +1,7 @@
 import React from "react";
 import { AbsoluteFill } from "remotion";
 import { C, FONT, HANDLE, MONO } from "../kit/theme";
+import { BalonMitad } from "../shorts/sueltos/ImagenNumeros";
 
 // Miniaturas verticales 1080×1920 para los Shorts.
 // Regla: máximo 3 palabras, distintas al título, legibles al tamaño del feed.
@@ -1644,5 +1645,15 @@ export const Mini9Matriz: React.FC = () => (
         </div>
       ))}
     </div>
+  </Fondo>
+);
+
+export const Mini10Imagen: React.FC = () => (
+  <Fondo accent={C.yellow}>
+    <Grande size={190}>6,220,800</Grande>
+    <BalonMitad lado={52} />
+    <Grande size={170} color={C.yellow}>
+      CERO MAGIA
+    </Grande>
   </Fondo>
 );

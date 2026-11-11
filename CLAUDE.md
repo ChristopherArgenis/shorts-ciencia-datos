@@ -28,6 +28,20 @@ Mejor caso: StatsBomb (57.8 %), que abría con un número grande y una cancha ll
 - Títulos de curiosidad, no de tema: "Por qué casi todo mide lo mismo (y tú eres el raro)",
   no "Distribución normal | Mates #3". El linter de títulos mide forma, no curiosidad.
 
+### Plantilla fija de guion (aportes del dueño del canal)
+1. **Primera frase = conflicto o paradoja:** [premisa común que parece lógica] + [dato real que la
+   contradice]. Prohibido contextualizar ("En el fútbol moderno, los datos…") o anunciar ("Hoy veremos…").
+2. **Micro-recompensas cada 5–7 s** (evita el bache entre los segundos 10 y 20):
+   0–3 s enigma · 4–10 s por qué falla la intuición · 11–18 s giro ("y no es por lo que crees") ·
+   19–30 s revelación visual o conclusión práctica.
+3. **Guion en tabla de tres columnas:** Tiempo | Voz (máx. 2 palabras por segundo) | En pantalla.
+   Nunca más de 4 s sin un cambio visual (zoom, texto de impacto, gráfico, corte).
+4. **Bucle sin costura:** la última frase se completa gramaticalmente con la primera
+   ("…por tres colores" → "Esto que ves son seis millones de números"). Sin despedidas ni llamados a la acción.
+- Lenguaje de 6.º grado: cero tecnicismos sin metáfora visual inmediata. Sin saludos ni presentación.
+- En Remotion: no usar la plantilla `Capitulo` (etiqueta de serie + transiciones lentas) para estos
+  Shorts; ejemplo de referencia: `src/shorts/sueltos/ImagenNumeros.tsx`.
+
 ## Entrega de cada video nuevo
 Al terminar cada video, entregar SIEMPRE en el chat, listo para copiar a YouTube:
 - **Título** (≤ 60 caracteres, verificado con `yt-package/title.py`)
