@@ -15,6 +15,19 @@
 - Vertical 1080×1920, ~30 s, sin cara. Voz: Alex (Kokoro), solo frases clave.
 - Datos reales con fuente en pantalla; ejemplos ilustrativos marcados como "Ejemplo simplificado".
 
+## Retención (datos de YouTube Studio, nov 2026)
+Promedio "Se quedaron viendo": 23.7 %. Meta: >70 %. Porcentaje medio visto: 35–45 %. Meta: >80 %.
+Mejor caso: StatsBomb (57.8 %), que abría con un número grande y una cancha llenándose desde el cuadro 0.
+- Cuadro 0 lleno: nada de textos que entran desde opacidad 0. El primer cuadro ya muestra el dato
+  contraintuitivo o la imagen que lo prueba.
+- Prohibido abrir con definición, presentación del concepto, etiqueta de serie grande o pausa de "reto".
+  El reto, si existe, va dentro del gancho, no como escena aparte.
+- Estructura: resultado sorprendente → por qué → giro. Nunca definición → funcionamiento → ejemplo.
+- 20–30 s máximo. Una sola idea.
+- Cierre en bucle: la última frase completa la primera. Sin "síguenos", "fin" ni avance de la siguiente parte.
+- Títulos de curiosidad, no de tema: "Por qué casi todo mide lo mismo (y tú eres el raro)",
+  no "Distribución normal | Mates #3". El linter de títulos mide forma, no curiosidad.
+
 ## Entrega de cada video nuevo
 Al terminar cada video, entregar SIEMPRE en el chat, listo para copiar a YouTube:
 - **Título** (≤ 60 caracteres, verificado con `yt-package/title.py`)
