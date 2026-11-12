@@ -187,6 +187,14 @@ Orden: 1 = Short 10 (6 millones de números). Guiones en `docs/serie-vision-guio
 > Por eso bajar el brillo después no recupera las nubes, solo deja un gris liso. En Python: np.clip(foto + 50, 0, 255). Ejemplo simplificado.
 **#:** #cienciadedatos #python #fotografia #vision #shorts
 
+## Visión 4: La pantalla verde es una sola línea de código
+**Título:** La pantalla verde es una sola línea de código
+**Miniatura:** `MiniVision4-Verde` → "UN SOLO IF"
+**Descripción:**
+> La pantalla verde funciona con una sola pregunta por píxel: si el verde es mayor que el rojo y el azul juntos (G > R + B), ese píxel se cambia por el fondo nuevo.
+> Se usa verde porque casi ningún tono de piel lo cumple, así que la persona se queda. Son 2,073,600 preguntas por cuadro. Ejemplo simplificado: el cine real además suaviza los bordes.
+**#:** #cienciadedatos #python #cine #vision #shorts
+
 ---
 
 # Serie: Matemáticas que sí usa un científico de datos (8 partes)

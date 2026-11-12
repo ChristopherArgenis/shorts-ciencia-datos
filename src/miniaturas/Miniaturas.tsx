@@ -4,6 +4,7 @@ import { C, FONT, HANDLE, MONO } from "../kit/theme";
 import { BalonMitad } from "../shorts/sueltos/ImagenNumeros";
 import { Lupa } from "../shorts/vision/AmarilloNoExiste";
 import { FotoQuemada } from "../shorts/vision/BrilloBorra";
+import { VerdeMitad } from "../shorts/vision/PantallaVerde";
 
 // Miniaturas verticales 1080×1920 para los Shorts.
 // Regla: máximo 3 palabras, distintas al título, legibles al tamaño del feed.
@@ -1689,5 +1690,15 @@ export const MiniVision3: React.FC = () => (
     <Grande size={200} color={C.coral}>
       = ADIÓS
     </Grande>
+  </Fondo>
+);
+
+export const MiniVision4: React.FC = () => (
+  <Fondo accent={C.green}>
+    <Grande size={210} color={C.green}>
+      UN SOLO
+    </Grande>
+    <VerdeMitad lado={44} />
+    <Grande size={260}>IF</Grande>
   </Fondo>
 );

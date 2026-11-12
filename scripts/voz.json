@@ -483,5 +483,14 @@
   "b5": "Nubes y cielo se vuelven el mismo número.",
   "b6": "Y al bajar el brillo, ya no regresan.",
   "b7": "Porque cuando subiste el brillo…"
+ },
+ "verde": {
+  "v1": "La pantalla verde de las películas es una sola pregunta.",
+  "v2": "Parece magia de cine.",
+  "v3": "Pero la computadora no ve a la persona. Solo ve números.",
+  "v4": "La pregunta: ¿el verde gana a rojo y azul juntos?",
+  "v5": "Sí: se cambia por el fondo. No: es piel, ropa, persona.",
+  "v6": "Y se usa verde porque casi nada en la piel es tan verde.",
+  "v7": "Dos millones de veces por cuadro. Eso es todo lo que hay detrás de…"
  }
 }
