@@ -5,6 +5,7 @@ import { BalonMitad } from "../shorts/sueltos/ImagenNumeros";
 import { Lupa } from "../shorts/vision/AmarilloNoExiste";
 import { FotoQuemada } from "../shorts/vision/BrilloBorra";
 import { VerdeMitad } from "../shorts/vision/PantallaVerde";
+import { BorrosoMitad } from "../shorts/vision/Borroso";
 
 // Miniaturas verticales 1080×1920 para los Shorts.
 // Regla: máximo 3 palabras, distintas al título, legibles al tamaño del feed.
@@ -1700,5 +1701,14 @@ export const MiniVision4: React.FC = () => (
     </Grande>
     <VerdeMitad lado={44} />
     <Grande size={260}>IF</Grande>
+  </Fondo>
+);
+
+export const MiniVision5: React.FC = () => (
+  <Fondo accent={C.yellow}>
+    <BorrosoMitad lado={50} />
+    <Grande size={330} color={C.yellow}>
+      ÷ 9
+    </Grande>
   </Fondo>
 );

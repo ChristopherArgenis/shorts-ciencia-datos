@@ -195,6 +195,14 @@ Orden: 1 = Short 10 (6 millones de números). Guiones en `docs/serie-vision-guio
 > Se usa verde porque casi ningún tono de piel lo cumple, así que la persona se queda. Son 2,073,600 preguntas por cuadro. Ejemplo simplificado: el cine real además suaviza los bordes.
 **#:** #cienciadedatos #python #cine #vision #shorts
 
+## Visión 5: Desenfocar una foto es sacar promedios
+**Título:** Desenfocar una foto es sacar promedios
+**Miniatura:** `MiniVision5-Borroso` → "÷ 9"
+**Descripción:**
+> El desenfoque reemplaza cada píxel por el promedio de sus 9 vecinos. Esa ventanita de 3 × 3 se llama filtro (convolución), y si cambias sus números la misma operación afila la foto en vez de borrarla.
+> Es la pieza base de las redes neuronales convolucionales, las IA que ven imágenes. Ejemplo simplificado: balón de 16 × 16 píxeles, convolución calculada de verdad.
+**#:** #cienciadedatos #python #inteligenciaartificial #vision #shorts
+
 ---
 
 # Serie: Matemáticas que sí usa un científico de datos (8 partes)

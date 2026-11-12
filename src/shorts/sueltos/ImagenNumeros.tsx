@@ -35,10 +35,10 @@ const INICIO: number[] = [];
 }
 export const TOTAL_IMG = INICIO[5] + Math.ceil(D.i6 * 30) + 8;
 
-type RGB = [number, number, number];
+export type RGB = [number, number, number];
 
 /** Balón en pixel art, generado con geometría simple (círculo + parches). */
-const BALON: RGB[][] = (() => {
+export const BALON: RGB[][] = (() => {
   const c = 7.5;
   const parches: [number, number, number][] = [[7.5, 7.8, 1.9]];
   for (let k = 0; k < 5; k++) {
@@ -57,7 +57,8 @@ const BALON: RGB[][] = (() => {
   );
 })();
 
-const gris = ([r, g, b]: RGB) => Math.round(0.299 * r + 0.587 * g + 0.114 * b);
+export const gris = ([r, g, b]: RGB) =>
+  Math.round(0.299 * r + 0.587 * g + 0.114 * b);
 const css = ([r, g, b]: RGB) => `rgb(${r},${g},${b})`;
 const inv = ([r, g, b]: RGB): RGB => [255 - r, 255 - g, 255 - b];
 
