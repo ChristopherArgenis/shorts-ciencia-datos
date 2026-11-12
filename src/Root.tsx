@@ -63,6 +63,7 @@ import {
   AmarilloNoExiste,
   TOTAL_COLOR,
 } from "./shorts/vision/AmarilloNoExiste";
+import { BrilloBorra, TOTAL_BRILLO } from "./shorts/vision/BrilloBorra";
 import {
   MatrizRecomienda,
   TOTAL_MATRIZ,
@@ -127,6 +128,7 @@ import {
   Mini9Matriz,
   Mini10Imagen,
   MiniVision2,
+  MiniVision3,
 } from "./miniaturas/Miniaturas";
 
 export const RemotionRoot: React.FC = () => {
@@ -621,6 +623,14 @@ export const RemotionRoot: React.FC = () => {
           width={1080}
           height={1920}
         />
+        <Composition
+          id="Vision3-Brillo"
+          component={BrilloBorra}
+          durationInFrames={TOTAL_BRILLO}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
       </Folder>
       <Folder name="Miniaturas">
         <Still
@@ -874,6 +884,12 @@ export const RemotionRoot: React.FC = () => {
         <Still
           id="MiniVision2-Amarillo"
           component={MiniVision2}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniVision3-Brillo"
+          component={MiniVision3}
           width={1080}
           height={1920}
         />

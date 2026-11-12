@@ -179,6 +179,14 @@ Orden: 1 = Short 10 (6 millones de números). Guiones en `docs/serie-vision-guio
 > 256 × 256 × 256 = 16,777,216 colores salen de solo 3 números. Ejemplo simplificado: subpíxeles en tiras (hay pantallas con otros arreglos).
 **#:** #cienciadedatos #vision #colores #python #shorts
 
+## Visión 3: Subir el brillo borra tu foto para siempre
+**Título:** Subir el brillo borra tu foto para siempre
+**Miniatura:** `MiniVision3-Brillo` → "+50 = ADIÓS"
+**Descripción:**
+> Subir el brillo es sumar a cada número de la imagen, pero ningún píxel pasa de 255: el cielo y las nubes se vuelven el mismo blanco y esa información se pierde para siempre.
+> Por eso bajar el brillo después no recupera las nubes, solo deja un gris liso. En Python: np.clip(foto + 50, 0, 255). Ejemplo simplificado.
+**#:** #cienciadedatos #python #fotografia #vision #shorts
+
 ---
 
 # Serie: Matemáticas que sí usa un científico de datos (8 partes)
