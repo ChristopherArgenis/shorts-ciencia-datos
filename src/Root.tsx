@@ -66,6 +66,7 @@ import {
 import { BrilloBorra, TOTAL_BRILLO } from "./shorts/vision/BrilloBorra";
 import { PantallaVerde, TOTAL_VERDE } from "./shorts/vision/PantallaVerde";
 import { Borroso, TOTAL_BORROSO } from "./shorts/vision/Borroso";
+import { CarasRestas, TOTAL_CARAS } from "./shorts/vision/CarasRestas";
 import {
   MatrizRecomienda,
   TOTAL_MATRIZ,
@@ -133,6 +134,7 @@ import {
   MiniVision3,
   MiniVision4,
   MiniVision5,
+  MiniVision6,
 } from "./miniaturas/Miniaturas";
 
 export const RemotionRoot: React.FC = () => {
@@ -651,6 +653,14 @@ export const RemotionRoot: React.FC = () => {
           width={1080}
           height={1920}
         />
+        <Composition
+          id="Vision6-Caras"
+          component={CarasRestas}
+          durationInFrames={TOTAL_CARAS}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
       </Folder>
       <Folder name="Miniaturas">
         <Still
@@ -922,6 +932,12 @@ export const RemotionRoot: React.FC = () => {
         <Still
           id="MiniVision5-Borroso"
           component={MiniVision5}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniVision6-Caras"
+          component={MiniVision6}
           width={1080}
           height={1920}
         />

@@ -203,6 +203,14 @@ Orden: 1 = Short 10 (6 millones de números). Guiones en `docs/serie-vision-guio
 > Es la pieza base de las redes neuronales convolucionales, las IA que ven imágenes. Ejemplo simplificado: balón de 16 × 16 píxeles, convolución calculada de verdad.
 **#:** #cienciadedatos #python #inteligenciaartificial #vision #shorts
 
+## Visión 6: Tu celular no ve caras: ve restas
+**Título:** Tu celular no ve caras: ve restas
+**Miniatura:** `MiniVision6-Caras` → "CLARO − OSCURO"
+**Descripción:**
+> Para encontrar una cara, la computadora resta píxeles vecinos: donde la diferencia salta hay un borde. El método clásico de Viola y Jones (2001) detecta caras con restas de zonas claras y oscuras, como las mejillas contra la banda de los ojos.
+> Fuente: Viola & Jones, "Rapid Object Detection using a Boosted Cascade of Simple Features", CVPR 2001. Ejemplo simplificado: cara de 18 × 18 píxeles, bordes calculados de verdad.
+**#:** #cienciadedatos #vision #inteligenciaartificial #python #shorts
+
 ---
 
 # Serie: Matemáticas que sí usa un científico de datos (8 partes)

@@ -501,5 +501,14 @@
   "d5": "y es la misma pieza que usa una IA para ver.",
   "d6": "Cambia los números de la ventana… y en vez de borrar, afila.",
   "d7": "Con nueves borra, con otros pesos afila. Porque en el fondo…"
+ },
+ "caras": {
+  "r1": "Tu celular no ve tu cara. Ve restas.",
+  "r2": "Crees que busca ojos y nariz.",
+  "r3": "Primero busca dónde cambian los números.",
+  "r4": "Donde la resta da cero, no hay nada. Donde salta, hay un borde.",
+  "r5": "Así detectaba caras el método de Viola y Jones, en dos mil uno: zona clara menos zona oscura.",
+  "r6": "Miles de restas en milisegundos… y aparece el cuadrito.",
+  "r7": "Y así, aunque parezca que te mira…"
  }
 }

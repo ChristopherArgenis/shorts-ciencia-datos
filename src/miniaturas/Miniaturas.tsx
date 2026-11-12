@@ -6,6 +6,7 @@ import { Lupa } from "../shorts/vision/AmarilloNoExiste";
 import { FotoQuemada } from "../shorts/vision/BrilloBorra";
 import { VerdeMitad } from "../shorts/vision/PantallaVerde";
 import { BorrosoMitad } from "../shorts/vision/Borroso";
+import { CaraMitad } from "../shorts/vision/CarasRestas";
 
 // Miniaturas verticales 1080×1920 para los Shorts.
 // Regla: máximo 3 palabras, distintas al título, legibles al tamaño del feed.
@@ -1709,6 +1710,16 @@ export const MiniVision5: React.FC = () => (
     <BorrosoMitad lado={50} />
     <Grande size={330} color={C.yellow}>
       ÷ 9
+    </Grande>
+  </Fondo>
+);
+
+export const MiniVision6: React.FC = () => (
+  <Fondo accent={C.blue}>
+    <Grande size={190}>CLARO</Grande>
+    <CaraMitad lado={42} />
+    <Grande size={170} color={C.blue}>
+      − OSCURO
     </Grande>
   </Fondo>
 );
