@@ -68,6 +68,8 @@ import { PantallaVerde, TOTAL_VERDE } from "./shorts/vision/PantallaVerde";
 import { Borroso, TOTAL_BORROSO } from "./shorts/vision/Borroso";
 import { CarasRestas, TOTAL_CARAS } from "./shorts/vision/CarasRestas";
 import { MitadColor, TOTAL_CROMA } from "./shorts/vision/MitadColor";
+import { IA224, TOTAL_IA224 } from "./shorts/vision/IA224";
+import { Digito64, TOTAL_DIGITOS } from "./shorts/vision/Digito64";
 import {
   MatrizRecomienda,
   TOTAL_MATRIZ,
@@ -137,6 +139,8 @@ import {
   MiniVision5,
   MiniVision6,
   MiniVision7,
+  MiniVision8,
+  MiniVision9,
 } from "./miniaturas/Miniaturas";
 
 export const RemotionRoot: React.FC = () => {
@@ -671,6 +675,22 @@ export const RemotionRoot: React.FC = () => {
           width={1080}
           height={1920}
         />
+        <Composition
+          id="Vision8-IA224"
+          component={IA224}
+          durationInFrames={TOTAL_IA224}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="Vision9-Digito"
+          component={Digito64}
+          durationInFrames={TOTAL_DIGITOS}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
       </Folder>
       <Folder name="Miniaturas">
         <Still
@@ -954,6 +974,18 @@ export const RemotionRoot: React.FC = () => {
         <Still
           id="MiniVision7-Color"
           component={MiniVision7}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniVision8-IA224"
+          component={MiniVision8}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniVision9-Digito"
+          component={MiniVision9}
           width={1080}
           height={1920}
         />

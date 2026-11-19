@@ -19,6 +19,8 @@ Shorts verticales (1080×1920, 30 s) sin cara, hechos con [Remotion](https://rem
 | `SUP1-Tipos` … `SUP8-Proyecto` | Aprendizaje Automático › rama Supervisado 1–8 (`src/shorts/sup/`, números de `scripts/ml/supervisado.py`, pingüinos de Palmer) |
 | `NOS1-Grupos` … `NOS7-Asociacion`, `ML-GranFinal` | Aprendizaje Automático › rama No supervisado 1–7 y Gran Final (`src/shorts/nos/`, números de `scripts/ml/nosupervisado.py`) |
 | `Short7-SimpsonFutbol`, `Short8-ParadaF1`, `Short9-Matriz`, `Short10-ImagenNumeros` | Sueltos: Simpson en fútbol, parada en F1 con probabilidad, recomendaciones con matrices, una imagen son 6 millones de números (`src/shorts/sueltos/`) |
+| `Vision9-Digito` | Serie cómo ve una computadora: un 7 son 64 números (datos reales, `scripts/ml/digitos.py`) |
+| `Vision8-IA224` | Serie cómo ve una computadora: la IA mira en 224 × 224 (`src/shorts/vision/`) |
 | `Vision7-Color` | Serie cómo ve una computadora: la mitad del color, 4:2:0 (`src/shorts/vision/`) |
 | `Vision6-Caras` | Serie cómo ve una computadora: tu celular ve restas (`src/shorts/vision/`) |
 | `Vision5-Borroso` | Serie cómo ve una computadora: desenfocar es sacar promedios (`src/shorts/vision/`) |

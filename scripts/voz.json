@@ -519,5 +519,23 @@
   "k5": "pero un solo color por cada cuatro píxeles.",
   "k6": "Brillo completo, color en cuartos: la mitad de los datos.",
   "k7": "Y aunque no lo notes…"
+ },
+ "ia224": {
+  "a1": "Antes de mirarte, la IA tira el noventa y siete por ciento de tu foto.",
+  "a2": "Pensarías que más píxeles es mejor.",
+  "a3": "Pero muchos modelos famosos solo miran doscientos veinticuatro por doscientos veinticuatro.",
+  "a4": "Y no es por flojera: con menos números aprende más rápido.",
+  "a5": "Para saber si hay un perro, sobran.",
+  "a6": "Seis millones entran. Ciento cincuenta mil se quedan.",
+  "a7": "Por eso, siempre…"
+ },
+ "digitos": {
+  "g1": "Este siete son solo sesenta y cuatro números.",
+  "g2": "Parece que hay que explicarle qué es un siete.",
+  "g3": "No. Le das más de mil trescientos ejemplos con su respuesta.",
+  "g4": "Y no aprende formas…",
+  "g5": "aprende qué casillas suelen encenderse en cada número.",
+  "g6": "Con dígitos que nunca vio, acierta cuatrocientos treinta y uno de cuatrocientos cincuenta.",
+  "g7": "Sin saber qué es un número. Porque para ella…"
  }
 }

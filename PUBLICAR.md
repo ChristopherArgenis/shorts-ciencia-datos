@@ -219,6 +219,22 @@ Orden: 1 = Short 10 (6 millones de números). Guiones en `docs/serie-vision-guio
 > Es el formato habitual de H.264, VP9 y AV1, los que usa YouTube. Ejemplo simplificado: la conversión YCbCr y los bloques se calcularon de verdad.
 **#:** #cienciadedatos #video #youtube #vision #shorts
 
+## Visión 8: La IA tira el 97 % de tu foto (y acierta)
+**Título:** La IA tira el 97 % de tu foto (y acierta)
+**Miniatura:** `MiniVision8-IA224` → "224 × 224"
+**Descripción:**
+> Muchos modelos de IA que reconocen imágenes, como ResNet, reciben fotos de 224 × 224 píxeles: 150,528 números, solo el 2.4 % de un cuadro de 1080 × 1920. Antes de mirar tu foto, la reducen.
+> Con menos números aprenden más rápido, y para saber si hay un perro alcanza. Fuente: He et al., 2015, "Deep Residual Learning for Image Recognition". Ilustración propia.
+**#:** #inteligenciaartificial #cienciadedatos #deeplearning #vision #shorts
+
+## Visión 9: Para una IA, este 7 son solo 64 números
+**Título:** Para una IA, este 7 son solo 64 números
+**Miniatura:** `MiniVision9-Digito` → "8 × 8"
+**Descripción:**
+> Un dígito escrito a mano de 8 × 8 píxeles son 64 números del 0 al 16. Una regresión logística entrenada con 1,347 ejemplos con su respuesta reconoce 431 de 450 dígitos que nunca vio: 95.8 %.
+> No aprende formas, aprende qué casillas suelen encenderse en cada número. Datos reales: conjunto Digits (UCI) en scikit-learn, modelo entrenado de verdad (scripts/ml/digitos.py).
+**#:** #machinelearning #cienciadedatos #python #inteligenciaartificial #shorts
+
 ---
 
 # Serie: Matemáticas que sí usa un científico de datos (8 partes)

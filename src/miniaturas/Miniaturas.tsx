@@ -8,6 +8,8 @@ import { VerdeMitad } from "../shorts/vision/PantallaVerde";
 import { BorrosoMitad } from "../shorts/vision/Borroso";
 import { CaraMitad } from "../shorts/vision/CarasRestas";
 import { ParIgual } from "../shorts/vision/MitadColor";
+import { PerroPar } from "../shorts/vision/IA224";
+import { SieteReal } from "../shorts/vision/Digito64";
 
 // Miniaturas verticales 1080×1920 para los Shorts.
 // Regla: máximo 3 palabras, distintas al título, legibles al tamaño del feed.
@@ -1732,5 +1734,23 @@ export const MiniVision7: React.FC = () => (
     <Grande size={200} color={C.yellow}>
       ALGO?
     </Grande>
+  </Fondo>
+);
+
+export const MiniVision8: React.FC = () => (
+  <Fondo accent={C.yellow}>
+    <PerroPar />
+    <Grande size={190} color={C.yellow}>
+      224 × 224
+    </Grande>
+  </Fondo>
+);
+
+export const MiniVision9: React.FC = () => (
+  <Fondo accent={C.green}>
+    <Grande size={260} color={C.green}>
+      8 × 8
+    </Grande>
+    <SieteReal lado={100} />
   </Fondo>
 );
