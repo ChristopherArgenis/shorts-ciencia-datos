@@ -70,6 +70,7 @@ import { CarasRestas, TOTAL_CARAS } from "./shorts/vision/CarasRestas";
 import { MitadColor, TOTAL_CROMA } from "./shorts/vision/MitadColor";
 import { IA224, TOTAL_IA224 } from "./shorts/vision/IA224";
 import { Digito64, TOTAL_DIGITOS } from "./shorts/vision/Digito64";
+import { PandaGibon, TOTAL_PANDA } from "./shorts/vision/PandaGibon";
 import {
   MatrizRecomienda,
   TOTAL_MATRIZ,
@@ -141,6 +142,7 @@ import {
   MiniVision7,
   MiniVision8,
   MiniVision9,
+  MiniVision10,
 } from "./miniaturas/Miniaturas";
 
 export const RemotionRoot: React.FC = () => {
@@ -691,6 +693,14 @@ export const RemotionRoot: React.FC = () => {
           width={1080}
           height={1920}
         />
+        <Composition
+          id="Vision10-Panda"
+          component={PandaGibon}
+          durationInFrames={TOTAL_PANDA}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
       </Folder>
       <Folder name="Miniaturas">
         <Still
@@ -986,6 +996,12 @@ export const RemotionRoot: React.FC = () => {
         <Still
           id="MiniVision9-Digito"
           component={MiniVision9}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniVision10-Panda"
+          component={MiniVision10}
           width={1080}
           height={1920}
         />

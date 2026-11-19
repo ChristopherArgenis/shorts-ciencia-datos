@@ -537,5 +537,14 @@
   "g5": "aprende qué casillas suelen encenderse en cada número.",
   "g6": "Con dígitos que nunca vio, acierta cuatrocientos treinta y uno de cuatrocientos cincuenta.",
   "g7": "Sin saber qué es un número. Porque para ella…"
+ },
+ "panda": {
+  "p1": "Para ti, estas dos fotos son iguales. Para la IA, una es un gibón.",
+  "p2": "Creemos que una IA ve como nosotros.",
+  "p3": "Pero solo ve números.",
+  "p4": "Le sumaron un ruido diminuto, menos del uno por ciento…",
+  "p5": "calculado justo para engañarla.",
+  "p6": "Mismo panda para ti. Gibón, con noventa y nueve por ciento de seguridad.",
+  "p7": "Cambiaron apenas unos números, y por eso…"
  }
 }

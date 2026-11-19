@@ -10,6 +10,7 @@ import { CaraMitad } from "../shorts/vision/CarasRestas";
 import { ParIgual } from "../shorts/vision/MitadColor";
 import { PerroPar } from "../shorts/vision/IA224";
 import { SieteReal } from "../shorts/vision/Digito64";
+import { DosPandas } from "../shorts/vision/PandaGibon";
 
 // Miniaturas verticales 1080×1920 para los Shorts.
 // Regla: máximo 3 palabras, distintas al título, legibles al tamaño del feed.
@@ -1752,5 +1753,14 @@ export const MiniVision9: React.FC = () => (
       8 × 8
     </Grande>
     <SieteReal lado={100} />
+  </Fondo>
+);
+
+export const MiniVision10: React.FC = () => (
+  <Fondo accent={C.coral}>
+    <Grande size={190} color={C.coral}>
+      ¿PANDA?
+    </Grande>
+    <DosPandas lado={23} />
   </Fondo>
 );

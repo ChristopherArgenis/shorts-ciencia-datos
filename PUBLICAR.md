@@ -235,6 +235,14 @@ Orden: 1 = Short 10 (6 millones de números). Guiones en `docs/serie-vision-guio
 > No aprende formas, aprende qué casillas suelen encenderse en cada número. Datos reales: conjunto Digits (UCI) en scikit-learn, modelo entrenado de verdad (scripts/ml/digitos.py).
 **#:** #machinelearning #cienciadedatos #python #inteligenciaartificial #shorts
 
+## Visión 10: Un ruido invisible engaña a la IA al 99 %
+**Título:** Un ruido invisible engaña a la IA al 99 %
+**Miniatura:** `MiniVision10-Panda` → "¿PANDA?"
+**Descripción:**
+> Un ruido invisible, menos del 1 % en cada número de la imagen, hizo que una red neuronal pasara de ver un panda (57.7 %) a ver un gibón con 99.3 % de seguridad. Se llama ejemplo adversario y el ruido se calcula para engañarla.
+> Fuente: Goodfellow, Shlens y Szegedy (2015), "Explaining and Harnessing Adversarial Examples". Ilustración propia: el ruido del video es ilustrativo.
+**#:** #inteligenciaartificial #cienciadedatos #deeplearning #ciberseguridad #shorts
+
 ---
 
 # Serie: Matemáticas que sí usa un científico de datos (8 partes)
