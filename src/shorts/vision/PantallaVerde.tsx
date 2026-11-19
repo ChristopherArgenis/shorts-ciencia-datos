@@ -56,7 +56,7 @@ const verde = (x: number, y: number): RGB => [
   196 + ((x + y) % 2) * 8,
   64,
 ];
-const FOTO: RGB[][] = MAPA.map((fila, y) =>
+export const FOTO: RGB[][] = MAPA.map((fila, y) =>
   fila.split("").map((ch, x) => PALETA[ch] ?? verde(x, y)),
 );
 

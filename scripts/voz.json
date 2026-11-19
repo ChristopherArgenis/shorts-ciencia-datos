@@ -510,5 +510,14 @@
   "r5": "Así detectaba caras el método de Viola y Jones, en dos mil uno: zona clara menos zona oscura.",
   "r6": "Miles de restas en milisegundos… y aparece el cuadrito.",
   "r7": "Y así, aunque parezca que te mira…"
+ },
+ "croma": {
+  "k1": "Este video tiene la mitad de los números que te dije.",
+  "k2": "Tu ojo nota mucho mejor la luz que el color.",
+  "k3": "Y los videos lo aprovechan.",
+  "k4": "Guardan el brillo de cada píxel…",
+  "k5": "pero un solo color por cada cuatro píxeles.",
+  "k6": "Brillo completo, color en cuartos: la mitad de los datos.",
+  "k7": "Y aunque no lo notes…"
  }
 }

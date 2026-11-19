@@ -211,6 +211,14 @@ Orden: 1 = Short 10 (6 millones de números). Guiones en `docs/serie-vision-guio
 > Fuente: Viola & Jones, "Rapid Object Detection using a Boosted Cascade of Simple Features", CVPR 2001. Ejemplo simplificado: cara de 18 × 18 píxeles, bordes calculados de verdad.
 **#:** #cienciadedatos #vision #inteligenciaartificial #python #shorts
 
+## Visión 7: Este video tiene la mitad del color que crees
+**Título:** Este video tiene la mitad del color que crees
+**Miniatura:** `MiniVision7-Color` → "¿NOTAS ALGO?"
+**Descripción:**
+> Los videos usan submuestreo de color 4:2:0: guardan el brillo de cada píxel pero un solo color por cada bloque de 4, porque tu ojo distingue mucho mejor la luz que el color. Un cuadro de 1080 × 1920 pasa de 6,220,800 a 3,110,400 números.
+> Es el formato habitual de H.264, VP9 y AV1, los que usa YouTube. Ejemplo simplificado: la conversión YCbCr y los bloques se calcularon de verdad.
+**#:** #cienciadedatos #video #youtube #vision #shorts
+
 ---
 
 # Serie: Matemáticas que sí usa un científico de datos (8 partes)
