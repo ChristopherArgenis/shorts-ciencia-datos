@@ -71,6 +71,8 @@ import { MitadColor, TOTAL_CROMA } from "./shorts/vision/MitadColor";
 import { IA224, TOTAL_IA224 } from "./shorts/vision/IA224";
 import { Digito64, TOTAL_DIGITOS } from "./shorts/vision/Digito64";
 import { PandaGibon, TOTAL_PANDA } from "./shorts/vision/PandaGibon";
+import { Federer, TOTAL_FEDERER } from "./shorts/deporte/Federer";
+import { PorteroQuieto, TOTAL_PORTERO } from "./shorts/deporte/Portero";
 import {
   MatrizRecomienda,
   TOTAL_MATRIZ,
@@ -143,6 +145,8 @@ import {
   MiniVision8,
   MiniVision9,
   MiniVision10,
+  MiniDeporte1,
+  MiniDeporte2,
 } from "./miniaturas/Miniaturas";
 
 export const RemotionRoot: React.FC = () => {
@@ -702,6 +706,24 @@ export const RemotionRoot: React.FC = () => {
           height={1920}
         />
       </Folder>
+      <Folder name="Deporte">
+        <Composition
+          id="Deporte1-Federer"
+          component={Federer}
+          durationInFrames={TOTAL_FEDERER}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="Deporte2-Portero"
+          component={PorteroQuieto}
+          durationInFrames={TOTAL_PORTERO}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+      </Folder>
       <Folder name="Miniaturas">
         <Still
           id="Mini1-Cumpleanos"
@@ -1002,6 +1024,18 @@ export const RemotionRoot: React.FC = () => {
         <Still
           id="MiniVision10-Panda"
           component={MiniVision10}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniDeporte1-Federer"
+          component={MiniDeporte1}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniDeporte2-Portero"
+          component={MiniDeporte2}
           width={1080}
           height={1920}
         />

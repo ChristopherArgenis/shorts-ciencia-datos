@@ -11,6 +11,8 @@ import { ParIgual } from "../shorts/vision/MitadColor";
 import { PerroPar } from "../shorts/vision/IA224";
 import { SieteReal } from "../shorts/vision/Digito64";
 import { DosPandas } from "../shorts/vision/PandaGibon";
+import { PuntosFinal } from "../shorts/deporte/Federer";
+import { PorteriaQuieta } from "../shorts/deporte/Portero";
 
 // Miniaturas verticales 1080×1920 para los Shorts.
 // Regla: máximo 3 palabras, distintas al título, legibles al tamaño del feed.
@@ -1762,5 +1764,23 @@ export const MiniVision10: React.FC = () => (
       ¿PANDA?
     </Grande>
     <DosPandas lado={23} />
+  </Fondo>
+);
+
+export const MiniDeporte1: React.FC = () => (
+  <Fondo accent={C.blue}>
+    <Grande size={210} color={C.yellow}>
+      218 &gt; 204
+    </Grande>
+    <PuntosFinal />
+  </Fondo>
+);
+
+export const MiniDeporte2: React.FC = () => (
+  <Fondo accent={C.green}>
+    <Grande size={220} color={C.green}>
+      ¡QUIETO!
+    </Grande>
+    <PorteriaQuieta />
   </Fondo>
 );

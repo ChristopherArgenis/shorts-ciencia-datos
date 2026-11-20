@@ -245,6 +245,27 @@ Orden: 1 = Short 10 (6 millones de números). Guiones en `docs/serie-vision-guio
 
 ---
 
+# Serie: El marcador miente (deporte con datos · lista de reproducción, sin números en los videos)
+Propuesta completa en `docs/propuesta-serie-deporte.md`; guiones en `docs/guiones-deporte-1-2.md`.
+
+## Deporte 1: Federer ganó más puntos… y perdió la final
+**Título:** Federer ganó más puntos… y perdió la final
+**Miniatura:** `MiniDeporte1-Federer` → "218 > 204"
+**Descripción:**
+> En la final de Wimbledon 2019, Federer ganó 218 puntos y Djokovic 204, pero Djokovic se llevó el título: ganó los tres desempates y salvó dos puntos de campeonato con 8-7 y 40-15 en el quinto set. En tenis los puntos se agrupan en juegos y sets, y no todos valen lo mismo.
+> Fue la final individual más larga en la historia de Wimbledon: 4 h 57 min. Fuente: estadísticas oficiales del partido. Ilustración propia.
+**#:** #tenis #cienciadedatos #estadistica #deportes #shorts
+
+## Deporte 2: El portero que no se mueve ataja más
+**Título:** El portero que no se mueve ataja más
+**Miniatura:** `MiniDeporte2-Portero` → "¡QUIETO!"
+**Descripción:**
+> En 286 penaltis de ligas de primer nivel, los porteros se lanzaron a un lado el 93.7 % de las veces. Pero quedándose al centro atajaron el 33.3 %, contra 14.2 % y 12.6 % lanzándose. Se llama sesgo de acción: preferimos fallar haciendo algo.
+> Fuente: Bar-Eli et al. (2007), Journal of Economic Psychology. Si todos se quedaran al centro, los tiradores cambiarían de estrategia. Ilustración propia.
+**#:** #futbol #penales #cienciadedatos #estadistica #shorts
+
+---
+
 # Serie: Matemáticas que sí usa un científico de datos (8 partes)
 
 Plantilla: `src/kit/serie.tsx` (etiqueta "Parte N/8", fórmula, avance). Ritmo sugerido: 2 por semana.

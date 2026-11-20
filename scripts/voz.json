@@ -546,5 +546,23 @@
   "p5": "calculado justo para engañarla.",
   "p6": "Mismo panda para ti. Gibón, con noventa y nueve por ciento de seguridad.",
   "p7": "Cambiaron apenas unos números, y por eso…"
+ },
+ "federer": {
+  "f1": "Federer ganó más puntos que su rival. Y perdió la final.",
+  "f2": "Creemos que gana quien suma más.",
+  "f3": "En tenis, no: los puntos forman juegos, y los juegos, sets.",
+  "f4": "Y no todos valen igual.",
+  "f5": "Djokovic ganó los tres desempates…",
+  "f6": "y salvó dos puntos de campeonato.",
+  "f7": "Casi cinco horas. Y en ellas…"
+ },
+ "portero": {
+  "q1": "El portero que se queda quieto ataja más del doble. Y casi ninguno lo hace.",
+  "q2": "En doscientos ochenta y seis penaltis…",
+  "q3": "se lanzaron a un lado noventa y cuatro de cada cien veces.",
+  "q4": "Lanzándose, atajaron uno de cada siete. Quietos, uno de cada tres.",
+  "q5": "¿Por qué saltan? Porque si te meten gol quieto… parece que no hiciste nada.",
+  "q6": "Se llama sesgo de acción: preferimos fallar moviéndonos.",
+  "q7": "Y por eso…"
  }
 }
