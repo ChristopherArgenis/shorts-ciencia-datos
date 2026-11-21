@@ -266,6 +266,27 @@ Propuesta completa en `docs/propuesta-serie-deporte.md`; guiones en `docs/guione
 
 ---
 
+# Serie: Cómo leemos el universo (astronomía con datos · lista de reproducción, sin números en los videos)
+Plan en `docs/plan-serie-astronomia.md`; guiones en `docs/guiones-astro-1-2.md`.
+
+## Astro 1: El Sol que ves es de hace 8 minutos
+**Título:** El Sol que ves es de hace 8 minutos
+**Miniatura:** `MiniAstro1-LuzSol` → "LUZ VIEJA"
+**Descripción:**
+> La luz del Sol tarda 8 minutos y 19 segundos en llegar a la Tierra: el Sol que ves es el de hace 8 minutos. A la Luna son 1.28 segundos, a la estrella más cercana más de 4 años, y a la galaxia de Andrómeda 2.5 millones de años.
+> Mirar el cielo es mirar el pasado. Cálculo: 149.6 millones de km ÷ velocidad de la luz. Distancias: NASA. Ilustración propia.
+**#:** #astronomia #ciencia #espacio #cienciadedatos #shorts
+
+## Astro 2: Las estrellas rojas son las más frías
+**Título:** Las estrellas rojas son las más frías
+**Miniatura:** `MiniAstro2-Rojas` → "AZUL ARDE"
+**Descripción:**
+> El color de una estrella dice su temperatura: las rojas son las más frías y las azules las más calientes. Betelgeuse (3,600 K) brilla más en el infrarrojo y Rigel (12,100 K) en el ultravioleta, y las dos están en Orión.
+> El Sol (5,772 K) tiene su pico en el verde-azul, pero emite todos los colores y por eso lo vemos blanco. Ley de Wien y curvas de Planck calculadas de verdad. Ilustración propia.
+**#:** #astronomia #estrellas #ciencia #fisica #shorts
+
+---
+
 # Serie: Matemáticas que sí usa un científico de datos (8 partes)
 
 Plantilla: `src/kit/serie.tsx` (etiqueta "Parte N/8", fórmula, avance). Ritmo sugerido: 2 por semana.

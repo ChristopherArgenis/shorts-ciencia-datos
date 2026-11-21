@@ -13,6 +13,8 @@ import { SieteReal } from "../shorts/vision/Digito64";
 import { DosPandas } from "../shorts/vision/PandaGibon";
 import { PuntosFinal } from "../shorts/deporte/Federer";
 import { PorteriaQuieta } from "../shorts/deporte/Portero";
+import { SolReloj } from "../shorts/astro/LuzSol";
+import { OrionMini } from "../shorts/astro/EstrellasRojas";
 
 // Miniaturas verticales 1080×1920 para los Shorts.
 // Regla: máximo 3 palabras, distintas al título, legibles al tamaño del feed.
@@ -1782,5 +1784,23 @@ export const MiniDeporte2: React.FC = () => (
       ¡QUIETO!
     </Grande>
     <PorteriaQuieta />
+  </Fondo>
+);
+
+export const MiniAstro1: React.FC = () => (
+  <Fondo accent="#ffd43b">
+    <Grande size={200} color="#ffd43b">
+      LUZ VIEJA
+    </Grande>
+    <SolReloj />
+  </Fondo>
+);
+
+export const MiniAstro2: React.FC = () => (
+  <Fondo accent={C.blue}>
+    <Grande size={210} color="#a5c8ff">
+      AZUL ARDE
+    </Grande>
+    <OrionMini />
   </Fondo>
 );

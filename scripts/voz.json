@@ -564,5 +564,23 @@
   "q5": "¿Por qué saltan? Porque si te meten gol quieto… parece que no hiciste nada.",
   "q6": "Se llama sesgo de acción: preferimos fallar moviéndonos.",
   "q7": "Y por eso…"
+ },
+ "luzsol": {
+  "l1": "Ese Sol que ves no es el de ahora. Es el de hace ocho minutos.",
+  "l2": "Creemos que la luz llega al instante.",
+  "l3": "Pero tarda: a la Luna, poco más de un segundo.",
+  "l4": "Al Sol, ocho minutos.",
+  "l5": "Y a la estrella más cercana, más de cuatro años.",
+  "l6": "Andrómeda la ves como era hace dos millones y medio de años: antes de que existieran los humanos.",
+  "l7": "Así que, cada vez que miras el cielo…"
+ },
+ "rojas": {
+  "e1": "En las estrellas, el rojo es el más frío. Y el azul, el más caliente.",
+  "e2": "Al revés de lo que dice tu grifo.",
+  "e3": "Si calientas un metal, primero brilla rojo…",
+  "e4": "y con más calor, se vuelve blanco y luego azul.",
+  "e5": "El Sol brilla más en el verde…",
+  "e6": "pero mezcla todos los colores, y por eso lo ves blanco.",
+  "e7": "Así que, aunque el rojo parezca fuego…"
  }
 }

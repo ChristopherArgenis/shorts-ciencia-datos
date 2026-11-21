@@ -73,6 +73,8 @@ import { Digito64, TOTAL_DIGITOS } from "./shorts/vision/Digito64";
 import { PandaGibon, TOTAL_PANDA } from "./shorts/vision/PandaGibon";
 import { Federer, TOTAL_FEDERER } from "./shorts/deporte/Federer";
 import { PorteroQuieto, TOTAL_PORTERO } from "./shorts/deporte/Portero";
+import { LuzSol, TOTAL_LUZSOL } from "./shorts/astro/LuzSol";
+import { EstrellasRojas, TOTAL_ROJAS } from "./shorts/astro/EstrellasRojas";
 import {
   MatrizRecomienda,
   TOTAL_MATRIZ,
@@ -147,6 +149,8 @@ import {
   MiniVision10,
   MiniDeporte1,
   MiniDeporte2,
+  MiniAstro1,
+  MiniAstro2,
 } from "./miniaturas/Miniaturas";
 
 export const RemotionRoot: React.FC = () => {
@@ -724,6 +728,24 @@ export const RemotionRoot: React.FC = () => {
           height={1920}
         />
       </Folder>
+      <Folder name="Astro">
+        <Composition
+          id="Astro1-LuzSol"
+          component={LuzSol}
+          durationInFrames={TOTAL_LUZSOL}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="Astro2-Rojas"
+          component={EstrellasRojas}
+          durationInFrames={TOTAL_ROJAS}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+      </Folder>
       <Folder name="Miniaturas">
         <Still
           id="Mini1-Cumpleanos"
@@ -1036,6 +1058,18 @@ export const RemotionRoot: React.FC = () => {
         <Still
           id="MiniDeporte2-Portero"
           component={MiniDeporte2}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniAstro1-LuzSol"
+          component={MiniAstro1}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniAstro2-Rojas"
+          component={MiniAstro2}
           width={1080}
           height={1920}
         />
