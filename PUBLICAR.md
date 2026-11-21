@@ -285,6 +285,30 @@ Plan en `docs/plan-serie-astronomia.md`; guiones en `docs/guiones-astro-1-2.md`.
 > El Sol (5,772 K) tiene su pico en el verde-azul, pero emite todos los colores y por eso lo vemos blanco. Ley de Wien y curvas de Planck calculadas de verdad. Ilustración propia.
 **#:** #astronomia #estrellas #ciencia #fisica #shorts
 
+## Astro 3: Hallamos helio en el Sol antes que en la Tierra
+**Título:** Hallamos helio en el Sol antes que en la Tierra
+**Miniatura:** `MiniAstro3-Helio` → "SIN TOCARLO"
+**Descripción:**
+> Sabemos de qué está hecho el Sol por su luz: cada elemento deja rayas en colores exactos, como un código de barras. En 1868 apareció una raya amarilla que no era de ningún elemento conocido; la llamaron helio, por el Sol, y en la Tierra se aisló hasta 1895.
+> Fuentes: American Physical Society y Smithsonian. Rayas del hidrógeno y del sodio con sus longitudes de onda reales. Ilustración propia.
+**#:** #astronomia #quimica #ciencia #sol #shorts
+
+## Astro 4: Puedes medir una estrella con tu pulgar
+**Título:** Puedes medir una estrella con tu pulgar
+**Miniatura:** `MiniAstro4-Pulgar` → "GUIÑA UN OJO"
+**Descripción:**
+> La paralaje es el truco del pulgar: cierra un ojo y luego el otro, y tu pulgar "salta". Los astrónomos miran la misma estrella desde lados opuestos de la órbita de la Tierra. Próxima Centauri se mueve 0.77 segundos de arco, como ver una moneda a 5 km de distancia: está a 4.24 años luz.
+> La misión Gaia (ESA) midió así unos 1,460 millones de estrellas. Paralaje de Gaia DR3. Ilustración propia.
+**#:** #astronomia #ciencia #espacio #matematicas #shorts
+
+## Astro 5: La Tierra apaga al Sol solo un 0.008 %
+**Título:** La Tierra apaga al Sol solo un 0.008 %
+**Miniatura:** `MiniAstro5-Transito` → "PLANETA INVISIBLE"
+**Descripción:**
+> Los exoplanetas casi nunca se ven: se detectan porque, al pasar frente a su estrella, la apagan un poquito. Júpiter apagaría al Sol un 1 %; la Tierra, solo un 0.008 % (84 partes por millón). Con este método, la misión Kepler de NASA encontró más de 2,600 planetas.
+> Cálculo: (radio del planeta ÷ radio de la estrella)². Curva de luz simulada. Ilustración propia.
+**#:** #astronomia #exoplanetas #nasa #cienciadedatos #shorts
+
 ---
 
 # Serie: Matemáticas que sí usa un científico de datos (8 partes)

@@ -582,5 +582,32 @@
   "e5": "El Sol brilla más en el verde…",
   "e6": "pero mezcla todos los colores, y por eso lo ves blanco.",
   "e7": "Así que, aunque el rojo parezca fuego…"
+ },
+ "helio": {
+  "h1": "Sabemos de qué está hecho el Sol, sin que nadie lo haya tocado.",
+  "h2": "Y está a ciento cincuenta millones de kilómetros.",
+  "h3": "Pero su luz trae una huella.",
+  "h4": "Cada elemento deja rayas en colores exactos, como un código de barras.",
+  "h5": "En mil ochocientos sesenta y ocho apareció una raya amarilla de nada conocido.",
+  "h6": "La llamaron helio, por el Sol. En la Tierra lo hallaron veintisiete años después.",
+  "h7": "Así es como, mirando solo su luz…"
+ },
+ "pulgar": {
+  "u1": "Con el truco de tu pulgar medimos la estrella más cercana: a cuarenta billones de kilómetros.",
+  "u2": "Estira el brazo y cierra un ojo. Luego, el otro.",
+  "u3": "Tu pulgar salta. Más cerca, salta más.",
+  "u4": "Los astrónomos hacen igual, pero sus dos ojos son la Tierra en enero y en julio.",
+  "u5": "Próxima Centauri salta menos de un segundo de arco: como una moneda vista a cinco kilómetros.",
+  "u6": "La misión Gaia ya midió así casi mil quinientos millones de estrellas.",
+  "u7": "Y todo…"
+ },
+ "transito": {
+  "t1": "Encontramos miles de planetas sin ver ni uno: solo vimos su estrella apagarse un poquito.",
+  "t2": "Crees que el telescopio ve el planeta.",
+  "t3": "No: está lejísimos y su estrella lo deslumbra.",
+  "t4": "Pero cuando pasa enfrente, la luz baja.",
+  "t5": "Júpiter apagaría al Sol un uno por ciento. La Tierra, solo ocho milésimas de por ciento.",
+  "t6": "Así encontró Kepler más de dos mil seiscientos planetas.",
+  "t7": "Y en realidad…"
  }
 }

@@ -15,6 +15,9 @@ import { PuntosFinal } from "../shorts/deporte/Federer";
 import { PorteriaQuieta } from "../shorts/deporte/Portero";
 import { SolReloj } from "../shorts/astro/LuzSol";
 import { OrionMini } from "../shorts/astro/EstrellasRojas";
+import { SolEspectro } from "../shorts/astro/Helio";
+import { PulgarMini } from "../shorts/astro/Pulgar";
+import { TransitoMini } from "../shorts/astro/Transito";
 
 // Miniaturas verticales 1080×1920 para los Shorts.
 // Regla: máximo 3 palabras, distintas al título, legibles al tamaño del feed.
@@ -1802,5 +1805,32 @@ export const MiniAstro2: React.FC = () => (
       AZUL ARDE
     </Grande>
     <OrionMini />
+  </Fondo>
+);
+
+export const MiniAstro3: React.FC = () => (
+  <Fondo accent={C.yellow}>
+    <Grande size={170} color={C.yellow}>
+      SIN TOCARLO
+    </Grande>
+    <SolEspectro />
+  </Fondo>
+);
+
+export const MiniAstro4: React.FC = () => (
+  <Fondo accent={C.yellow}>
+    <Grande size={170} color={C.yellow}>
+      GUIÑA UN OJO
+    </Grande>
+    <PulgarMini />
+  </Fondo>
+);
+
+export const MiniAstro5: React.FC = () => (
+  <Fondo accent="#ffa94d">
+    <Grande size={150} color="#ffa94d">
+      PLANETA INVISIBLE
+    </Grande>
+    <TransitoMini />
   </Fondo>
 );

@@ -19,6 +19,7 @@ Shorts verticales (1080×1920, 30 s) sin cara, hechos con [Remotion](https://rem
 | `SUP1-Tipos` … `SUP8-Proyecto` | Aprendizaje Automático › rama Supervisado 1–8 (`src/shorts/sup/`, números de `scripts/ml/supervisado.py`, pingüinos de Palmer) |
 | `NOS1-Grupos` … `NOS7-Asociacion`, `ML-GranFinal` | Aprendizaje Automático › rama No supervisado 1–7 y Gran Final (`src/shorts/nos/`, números de `scripts/ml/nosupervisado.py`) |
 | `Short7-SimpsonFutbol`, `Short8-ParadaF1`, `Short9-Matriz`, `Short10-ImagenNumeros` | Sueltos: Simpson en fútbol, parada en F1 con probabilidad, recomendaciones con matrices, una imagen son 6 millones de números (`src/shorts/sueltos/`) |
+| `Astro3-Helio`, `Astro4-Pulgar`, `Astro5-Transito` | Serie Cómo leemos el universo: helio en el Sol, paralaje con el pulgar, planetas por tránsito (`src/shorts/astro/`) |
 | `Astro1-LuzSol`, `Astro2-Rojas` | Serie Cómo leemos el universo: la luz del Sol tarda 8 min; las estrellas rojas son las más frías (`src/shorts/astro/`) |
 | `Deporte1-Federer`, `Deporte2-Portero` | Serie El marcador miente: Federer ganó más puntos y perdió; el portero quieto ataja más (`src/shorts/deporte/`) |
 | `Vision10-Panda` | Serie cómo ve una computadora: un ruido invisible engaña a la IA (`src/shorts/vision/`) |

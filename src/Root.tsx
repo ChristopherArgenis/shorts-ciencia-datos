@@ -75,6 +75,9 @@ import { Federer, TOTAL_FEDERER } from "./shorts/deporte/Federer";
 import { PorteroQuieto, TOTAL_PORTERO } from "./shorts/deporte/Portero";
 import { LuzSol, TOTAL_LUZSOL } from "./shorts/astro/LuzSol";
 import { EstrellasRojas, TOTAL_ROJAS } from "./shorts/astro/EstrellasRojas";
+import { Helio, TOTAL_HELIO } from "./shorts/astro/Helio";
+import { PulgarEstrella, TOTAL_PULGAR } from "./shorts/astro/Pulgar";
+import { TransitoPlanetas, TOTAL_TRANSITO } from "./shorts/astro/Transito";
 import {
   MatrizRecomienda,
   TOTAL_MATRIZ,
@@ -151,6 +154,9 @@ import {
   MiniDeporte2,
   MiniAstro1,
   MiniAstro2,
+  MiniAstro3,
+  MiniAstro4,
+  MiniAstro5,
 } from "./miniaturas/Miniaturas";
 
 export const RemotionRoot: React.FC = () => {
@@ -745,6 +751,30 @@ export const RemotionRoot: React.FC = () => {
           width={1080}
           height={1920}
         />
+        <Composition
+          id="Astro3-Helio"
+          component={Helio}
+          durationInFrames={TOTAL_HELIO}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="Astro4-Pulgar"
+          component={PulgarEstrella}
+          durationInFrames={TOTAL_PULGAR}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="Astro5-Transito"
+          component={TransitoPlanetas}
+          durationInFrames={TOTAL_TRANSITO}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
       </Folder>
       <Folder name="Miniaturas">
         <Still
@@ -1070,6 +1100,24 @@ export const RemotionRoot: React.FC = () => {
         <Still
           id="MiniAstro2-Rojas"
           component={MiniAstro2}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniAstro3-Helio"
+          component={MiniAstro3}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniAstro4-Pulgar"
+          component={MiniAstro4}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniAstro5-Transito"
+          component={MiniAstro5}
           width={1080}
           height={1920}
         />
