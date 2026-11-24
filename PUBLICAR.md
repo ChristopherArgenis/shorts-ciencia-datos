@@ -309,6 +309,14 @@ Plan en `docs/plan-serie-astronomia.md`; guiones en `docs/guiones-astro-1-2.md`.
 > Cálculo: (radio del planeta ÷ radio de la estrella)². Curva de luz simulada. Ilustración propia.
 **#:** #astronomia #exoplanetas #nasa #cienciadedatos #shorts
 
+## Astro 8: Las galaxias giran demasiado rápido (primer Short en 3D)
+**Título:** Las galaxias giran demasiado rápido
+**Miniatura:** `MiniAstro8-Galaxias` → "FALTA MASA"
+**Descripción:**
+> En los años setenta, Vera Rubin midió que las estrellas del borde de las galaxias giran casi igual de rápido que las del centro. Con la masa que vemos deberían ir más lento, como Neptuno, que va casi 9 veces más lento que Mercurio. Falta masa: la llamamos materia oscura, y sería cerca del 85 % de toda la materia.
+> Aún no sabemos qué es; otra idea propone cambiar la gravedad a gran escala. El Observatorio Vera C. Rubin lleva su nombre. Fuentes: APS, NASA. Animación 3D ilustrativa.
+**#:** #astronomia #materiaoscura #galaxias #ciencia #shorts
+
 ---
 
 # Serie: Matemáticas que sí usa un científico de datos (8 partes)
