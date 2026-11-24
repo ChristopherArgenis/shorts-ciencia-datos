@@ -609,5 +609,32 @@
   "t5": "Júpiter apagaría al Sol un uno por ciento. La Tierra, solo ocho milésimas de por ciento.",
   "t6": "Así encontró Kepler más de dos mil seiscientos planetas.",
   "t7": "Y en realidad…"
+ },
+ "rubin": {
+  "n1": "Este telescopio guarda veinte terabytes cada noche… y ningún humano los va a revisar.",
+  "n2": "Mirar el cielo parece algo tranquilo.",
+  "n3": "Pero su cámara tiene tres mil doscientos megapíxeles.",
+  "n4": "Toma unas mil fotos cada noche, durante diez años.",
+  "n5": "Cada noche, veinte terabytes: como ochenta celulares llenos.",
+  "n6": "Y marca hasta diez millones de cambios por noche. Por eso no los revisan personas: los revisan algoritmos.",
+  "n7": "Y así, cada noche…"
+ },
+ "kepler90": {
+  "k1": "Una IA encontró un planeta que los humanos habían pasado por alto.",
+  "k2": "Kepler juntó millones de curvas de luz durante años.",
+  "k3": "Las fuertes las revisaron personas. Las débiles, nadie.",
+  "k4": "Una red neuronal aprendió con quince mil señales ya revisadas.",
+  "k5": "Luego revisó seiscientas setenta débiles… y halló a Kepler noventa i.",
+  "k6": "Con él, esa estrella tiene ocho planetas: empata con nuestro Sistema Solar.",
+  "k7": "Y así fue como…"
+ },
+ "galaxias": {
+  "g1": "Las galaxias giran demasiado rápido. Lo de afuera debería ir más lento.",
+  "g2": "En el Sistema Solar sí: Neptuno va casi nueve veces más lento que Mercurio.",
+  "g3": "Vera Rubin midió las estrellas de Andrómeda en los años setenta…",
+  "g4": "y las de afuera iban igual de rápido que las de adentro.",
+  "g5": "Para que no salgan volando, falta masa que no vemos: materia oscura.",
+  "g6": "Sería el ochenta y cinco por ciento de toda la materia.",
+  "g7": "Y por eso decimos que…"
  }
 }

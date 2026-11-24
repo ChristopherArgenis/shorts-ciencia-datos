@@ -76,6 +76,10 @@ import { PorteroQuieto, TOTAL_PORTERO } from "./shorts/deporte/Portero";
 import { LuzSol, TOTAL_LUZSOL } from "./shorts/astro/LuzSol";
 import { EstrellasRojas, TOTAL_ROJAS } from "./shorts/astro/EstrellasRojas";
 import { Helio, TOTAL_HELIO } from "./shorts/astro/Helio";
+import { Prueba3D } from "./kit/three/Prueba3D";
+import { Galaxias, TOTAL_GALAXIAS } from "./shorts/astro/Galaxias";
+import { Rubin, TOTAL_RUBIN } from "./shorts/astro/Rubin";
+import { Kepler90, TOTAL_KEPLER90 } from "./shorts/astro/Kepler90";
 import { PulgarEstrella, TOTAL_PULGAR } from "./shorts/astro/Pulgar";
 import { TransitoPlanetas, TOTAL_TRANSITO } from "./shorts/astro/Transito";
 import {
@@ -157,6 +161,7 @@ import {
   MiniAstro3,
   MiniAstro4,
   MiniAstro5,
+  MiniAstro8,
 } from "./miniaturas/Miniaturas";
 
 export const RemotionRoot: React.FC = () => {
@@ -734,6 +739,16 @@ export const RemotionRoot: React.FC = () => {
           height={1920}
         />
       </Folder>
+      <Folder name="Pruebas3D">
+        <Composition
+          id="Prueba3D"
+          component={Prueba3D}
+          durationInFrames={150}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+      </Folder>
       <Folder name="Astro">
         <Composition
           id="Astro1-LuzSol"
@@ -771,6 +786,30 @@ export const RemotionRoot: React.FC = () => {
           id="Astro5-Transito"
           component={TransitoPlanetas}
           durationInFrames={TOTAL_TRANSITO}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="Astro6-Rubin"
+          component={Rubin}
+          durationInFrames={TOTAL_RUBIN}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="Astro7-Kepler90"
+          component={Kepler90}
+          durationInFrames={TOTAL_KEPLER90}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="Astro8-Galaxias"
+          component={Galaxias}
+          durationInFrames={TOTAL_GALAXIAS}
           fps={30}
           width={1080}
           height={1920}
@@ -1118,6 +1157,12 @@ export const RemotionRoot: React.FC = () => {
         <Still
           id="MiniAstro5-Transito"
           component={MiniAstro5}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniAstro8-Galaxias"
+          component={MiniAstro8}
           width={1080}
           height={1920}
         />

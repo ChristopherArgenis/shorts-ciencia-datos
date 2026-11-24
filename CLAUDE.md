@@ -42,6 +42,14 @@ Mejor caso: StatsBomb (57.8 %), que abría con un número grande y una cancha ll
 - En Remotion: no usar la plantilla `Capitulo` (etiqueta de serie + transiciones lentas) para estos
   Shorts; ejemplo de referencia: `src/shorts/sueltos/ImagenNumeros.tsx`.
 
+### 3D con Three.js (como en meditrack)
+- Cuando haya personas, o cuando el 3D explique mejor que el 2D (galaxias, órbitas, objetos), usar
+  Three.js con `@remotion/three` y el kit `src/kit/three/`: `Humanoide` (maniquí sin rostro, 18
+  articulaciones), `poses.ts` (de pie, mirar al cielo, señalar), `Lienzo` (cámara, luces, sombras)
+  y `Espacio.tsx` (estrellas, planetas, órbitas, galaxia de partículas, observatorio, red neuronal).
+- Números, gráficas y textos siguen en 2D, encima del lienzo 3D.
+- Render con WebGL por software (`swangle`, ya en `remotion.config.ts`); es más lento: renderizar de uno en uno.
+
 ## Entrega de cada video nuevo
 Al terminar cada video, entregar SIEMPRE en el chat, listo para copiar a YouTube:
 - **Título** (≤ 60 caracteres, verificado con `yt-package/title.py`)
