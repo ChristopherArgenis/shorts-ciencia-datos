@@ -29,7 +29,7 @@ export const TelescopioAficionado: React.FC<{
           key={i}
           castShadow
           position={[0.18 * Math.cos(a), 0.55, 0.18 * Math.sin(a)]}
-          rotation={[Math.sin(a) * 0.32, 0, -Math.cos(a) * 0.32]}
+          rotation={[-Math.sin(a) * 0.32, 0, Math.cos(a) * 0.32]}
         >
           <cylinderGeometry args={[0.012, 0.016, 1.15, 10]} />
           <Mat color="#adb5bd" metal={0.7} rough={0.35} />
