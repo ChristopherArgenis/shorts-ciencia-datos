@@ -259,7 +259,7 @@ const Red = () => {
     <>
       <Lienzo
         cam={{
-          pos: [Math.sin(t * 0.5) * 1.5, 0.4, 5.2],
+          pos: [Math.sin(t * 0.5) * 2.2, 0.4, 9.5],
           mira: [0, 0, 0],
           fov: 45,
         }}

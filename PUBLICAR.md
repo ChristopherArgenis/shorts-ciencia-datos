@@ -317,6 +317,14 @@ Plan en `docs/plan-serie-astronomia.md`; guiones en `docs/guiones-astro-1-2.md`.
 > Por eso los datos los revisan algoritmos. Fuente: Observatorio Rubin (NOIRLab/SLAC). Comparación: 20 TB ≈ 78 celulares de 256 GB. Animación 3D ilustrativa.
 **#:** #astronomia #bigdata #cienciadedatos #telescopio #shorts
 
+## Astro 7: Una IA encontró un planeta que nadie vio (3D)
+**Título:** Una IA encontró un planeta que nadie vio
+**Miniatura:** `MiniAstro7-Kepler90` → "8 PLANETAS"
+**Descripción:**
+> En 2017, una red neuronal de Google y la Universidad de Texas revisó señales débiles en datos de Kepler que nadie había mirado y encontró Kepler-90i. Con él, la estrella Kepler-90 tiene 8 planetas y empata con nuestro Sistema Solar.
+> La red aprendió con 15,000 señales ya revisadas y buscó en 670 nuevas; la IA marca candidatos y los científicos los confirman. Fuente: NASA. Animación 3D ilustrativa.
+**#:** #inteligenciaartificial #astronomia #exoplanetas #machinelearning #shorts
+
 ## Astro 8: Las galaxias giran demasiado rápido (primer Short en 3D)
 **Título:** Las galaxias giran demasiado rápido
 **Miniatura:** `MiniAstro8-Galaxias` → "FALTA MASA"

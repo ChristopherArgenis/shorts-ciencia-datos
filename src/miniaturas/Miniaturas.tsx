@@ -20,6 +20,7 @@ import { PulgarMini } from "../shorts/astro/Pulgar";
 import { TransitoMini } from "../shorts/astro/Transito";
 import { GalaxiaMini } from "../shorts/astro/Galaxias";
 import { ObservatorioMini } from "../shorts/astro/Rubin";
+import { EmpateMini } from "../shorts/astro/Kepler90";
 
 // Miniaturas verticales 1080×1920 para los Shorts.
 // Regla: máximo 3 palabras, distintas al título, legibles al tamaño del feed.
@@ -1854,6 +1855,17 @@ export const MiniAstro6: React.FC = () => (
     <AbsoluteFill style={{ alignItems: "center", paddingTop: 300 }}>
       <Grande size={190} color={C.yellow}>
         NADIE LO MIRA
+      </Grande>
+    </AbsoluteFill>
+  </AbsoluteFill>
+);
+
+export const MiniAstro7: React.FC = () => (
+  <AbsoluteFill style={{ backgroundColor: "#070a18" }}>
+    <EmpateMini />
+    <AbsoluteFill style={{ alignItems: "center", paddingTop: 790 }}>
+      <Grande size={140} color="#69db7c">
+        8 PLANETAS
       </Grande>
     </AbsoluteFill>
   </AbsoluteFill>
