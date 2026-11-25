@@ -162,6 +162,7 @@ import {
   MiniAstro4,
   MiniAstro5,
   MiniAstro8,
+  MiniAstro6,
 } from "./miniaturas/Miniaturas";
 
 export const RemotionRoot: React.FC = () => {
@@ -1163,6 +1164,12 @@ export const RemotionRoot: React.FC = () => {
         <Still
           id="MiniAstro8-Galaxias"
           component={MiniAstro8}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniAstro6-Rubin"
+          component={MiniAstro6}
           width={1080}
           height={1920}
         />

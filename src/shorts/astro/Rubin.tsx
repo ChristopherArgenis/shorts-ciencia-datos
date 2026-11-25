@@ -96,8 +96,8 @@ const Portada: React.FC = () => {
     <>
       <Lienzo
         cam={{
-          pos: [Math.sin(t * 0.25) * 1.2, 2.3, 4.6],
-          mira: [0, 1.3, 0],
+          pos: [Math.sin(t * 0.25) * 1.5, 2.8, 7.2],
+          mira: [0, 2.3, 0],
           fov: 50,
         }}
         fondo={FONDO}
@@ -112,7 +112,7 @@ const Portada: React.FC = () => {
           destello={destello}
         />
       </Lienzo>
-      <Datos f={f} x0={60} x1={1000} top={1150} alto={300} />
+      <Datos f={f} x0={60} x1={1000} top={600} alto={300} />
       <Centro top={290}>
         <Grande size={220} color={C.yellow}>
           20 TB
@@ -146,7 +146,7 @@ const Tranquilo = () => {
   return (
     <>
       <Lienzo
-        cam={{ pos: [1.6, 1.5, 3.4], mira: [0.2, 1.05, 0], fov: 42 }}
+        cam={{ pos: [-0.4, 1.5, 4.2], mira: [0.35, 1.25, 0], fov: 44 }}
         fondo={FONDO}
         ambiente={0.35}
         luz={{ pos: [2, 5, 3], color: "#dbe4ff", intensidad: 1.8 }}
@@ -255,8 +255,8 @@ const Fotos = () => {
     <>
       <Lienzo
         cam={{
-          pos: [Math.sin(t * 0.3) * 0.6, 3.0, 3.2],
-          mira: [0, 1.4, 0],
+          pos: [Math.sin(t * 0.3) * 0.8, 3.2, 5.6],
+          mira: [0, 2.2, 0],
           fov: 50,
         }}
         fondo={FONDO}
@@ -406,7 +406,7 @@ export const Rubin: React.FC = () => (
 /** Observatorio (fijo), para la miniatura. */
 export const ObservatorioMini: React.FC = () => (
   <Lienzo
-    cam={{ pos: [0.4, 2.3, 4.6], mira: [0, 1.3, 0], fov: 50 }}
+    cam={{ pos: [0.4, 2.8, 7.2], mira: [0, 2.3, 0], fov: 50 }}
     fondo={FONDO}
     ambiente={0.3}
     luz={{ pos: [3, 6, 4], color: "#dbe4ff", intensidad: 1.6 }}

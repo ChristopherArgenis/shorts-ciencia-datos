@@ -285,7 +285,7 @@ export const Observatorio: React.FC<{
                 key={i}
                 castShadow
                 position={[0, y, 0]}
-                rotation={[0, 0, 0]}
+                rotation={[Math.PI / 2, 0, 0]}
               >
                 <torusGeometry args={[0.24, 0.035, 10, 32]} />
                 <meshStandardMaterial

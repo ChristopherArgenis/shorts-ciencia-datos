@@ -19,6 +19,7 @@ import { SolEspectro } from "../shorts/astro/Helio";
 import { PulgarMini } from "../shorts/astro/Pulgar";
 import { TransitoMini } from "../shorts/astro/Transito";
 import { GalaxiaMini } from "../shorts/astro/Galaxias";
+import { ObservatorioMini } from "../shorts/astro/Rubin";
 
 // Miniaturas verticales 1080×1920 para los Shorts.
 // Regla: máximo 3 palabras, distintas al título, legibles al tamaño del feed.
@@ -1842,6 +1843,17 @@ export const MiniAstro8: React.FC = () => (
     <AbsoluteFill style={{ alignItems: "center", paddingTop: 300 }}>
       <Grande size={210} color="#b197fc">
         FALTA MASA
+      </Grande>
+    </AbsoluteFill>
+  </AbsoluteFill>
+);
+
+export const MiniAstro6: React.FC = () => (
+  <AbsoluteFill style={{ backgroundColor: "#070a18" }}>
+    <ObservatorioMini />
+    <AbsoluteFill style={{ alignItems: "center", paddingTop: 300 }}>
+      <Grande size={190} color={C.yellow}>
+        NADIE LO MIRA
       </Grande>
     </AbsoluteFill>
   </AbsoluteFill>

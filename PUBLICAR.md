@@ -309,6 +309,14 @@ Plan en `docs/plan-serie-astronomia.md`; guiones en `docs/guiones-astro-1-2.md`.
 > Cálculo: (radio del planeta ÷ radio de la estrella)². Curva de luz simulada. Ilustración propia.
 **#:** #astronomia #exoplanetas #nasa #cienciadedatos #shorts
 
+## Astro 6: Este telescopio guarda 20 TB cada noche (3D)
+**Título:** Este telescopio guarda 20 TB cada noche
+**Miniatura:** `MiniAstro6-Rubin` → "NADIE LO MIRA"
+**Descripción:**
+> El Observatorio Vera C. Rubin genera unos 20 terabytes de datos cada noche con una cámara de 3,200 megapíxeles, la más grande hecha para astronomía. Durante 10 años tomará unas mil imágenes por noche y marcará hasta 10 millones de cambios en el cielo.
+> Por eso los datos los revisan algoritmos. Fuente: Observatorio Rubin (NOIRLab/SLAC). Comparación: 20 TB ≈ 78 celulares de 256 GB. Animación 3D ilustrativa.
+**#:** #astronomia #bigdata #cienciadedatos #telescopio #shorts
+
 ## Astro 8: Las galaxias giran demasiado rápido (primer Short en 3D)
 **Título:** Las galaxias giran demasiado rápido
 **Miniatura:** `MiniAstro8-Galaxias` → "FALTA MASA"
