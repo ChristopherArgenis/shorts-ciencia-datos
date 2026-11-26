@@ -21,6 +21,8 @@ import { TransitoMini } from "../shorts/astro/Transito";
 import { GalaxiaMini } from "../shorts/astro/Galaxias";
 import { ObservatorioMini } from "../shorts/astro/Rubin";
 import { EmpateMini } from "../shorts/astro/Kepler90";
+import { PanMini } from "../shorts/astro/Hubble";
+import { AnilloMini } from "../shorts/astro/AgujeroNegro";
 
 // Miniaturas verticales 1080×1920 para los Shorts.
 // Regla: máximo 3 palabras, distintas al título, legibles al tamaño del feed.
@@ -1866,6 +1868,28 @@ export const MiniAstro7: React.FC = () => (
     <AbsoluteFill style={{ alignItems: "center", paddingTop: 790 }}>
       <Grande size={140} color="#69db7c">
         8 PLANETAS
+      </Grande>
+    </AbsoluteFill>
+  </AbsoluteFill>
+);
+
+export const MiniAstro9: React.FC = () => (
+  <AbsoluteFill style={{ backgroundColor: "#070a18" }}>
+    <PanMini />
+    <AbsoluteFill style={{ alignItems: "center", paddingTop: 300 }}>
+      <Grande size={180} color="#e0a86a">
+        PAN CON PASAS
+      </Grande>
+    </AbsoluteFill>
+  </AbsoluteFill>
+);
+
+export const MiniAstro10: React.FC = () => (
+  <AbsoluteFill style={{ backgroundColor: "#070a18" }}>
+    <AnilloMini />
+    <AbsoluteFill style={{ alignItems: "center", paddingTop: 280 }}>
+      <Grande size={190} color="#ff922b">
+        4 PETABYTES
       </Grande>
     </AbsoluteFill>
   </AbsoluteFill>

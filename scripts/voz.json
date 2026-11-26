@@ -636,5 +636,23 @@
   "g5": "Para que no salgan volando, falta masa que no vemos: materia oscura.",
   "g6": "Sería el ochenta y cinco por ciento de toda la materia.",
   "g7": "Y por eso decimos que…"
+ },
+ "hubble": {
+  "h1": "Casi todas las galaxias se alejan de ti… y no eres el centro del universo.",
+  "h2": "Su luz llega más roja: se alejan.",
+  "h3": "En mil novecientos veintinueve, Hubble vio que las lejanas huyen más rápido.",
+  "h4": "Calculó quinientos kilómetros por segundo por cada megapársec.",
+  "h5": "Hoy medimos unos setenta: falló siete veces… pero acertó: el universo se expande.",
+  "h6": "Como pasas en un pan que crece: cada una ve a las demás alejarse.",
+  "h7": "Por eso, mires desde donde mires…"
+ },
+ "agujero": {
+  "a1": "La primera foto de un agujero negro no viajó por internet. Viajó en avión.",
+  "a2": "Ocho radiotelescopios lo miraron a la vez, en dos mil diecisiete.",
+  "a3": "Juntos funcionaron como un telescopio del tamaño de la Tierra.",
+  "a4": "Grabaron unos cuatro petabytes: demasiado para internet.",
+  "a5": "Viajaron en avión… y los del Polo Sur esperaron meses a que hubiera vuelos.",
+  "a6": "Algoritmos llenaron los huecos y armaron la imagen: una foto también es números.",
+  "a7": "Y así fue como…"
  }
 }

@@ -333,6 +333,22 @@ Plan en `docs/plan-serie-astronomia.md`; guiones en `docs/guiones-astro-1-2.md`.
 > Aún no sabemos qué es; otra idea propone cambiar la gravedad a gran escala. El Observatorio Vera C. Rubin lleva su nombre. Fuentes: APS, NASA. Animación 3D ilustrativa.
 **#:** #astronomia #materiaoscura #galaxias #ciencia #shorts
 
+## Astro 9: Hubble falló por 7× (y aun así tenía razón) (3D)
+**Título:** Hubble falló por 7× (y aun así tenía razón)
+**Miniatura:** `MiniAstro9-Hubble` → "PAN CON PASAS"
+**Descripción:**
+> En 1929, Edwin Hubble descubrió que las galaxias lejanas se alejan más rápido: el universo se expande. Pero calculó unos 500 km/s por megapársec, y hoy medimos entre 67 y 73: se equivocó unas 7 veces, aunque acertó la idea.
+> Como pasas en un pan que crece, cada galaxia ve a las demás alejarse; no hay centro. La diferencia entre 67 y 73 (la "tensión de Hubble") sigue sin resolverse. Animación 3D ilustrativa.
+**#:** #astronomia #universo #hubble #ciencia #shorts
+
+## Astro 10: La foto del agujero negro viajó en avión (3D)
+**Título:** La foto del agujero negro viajó en avión
+**Miniatura:** `MiniAstro10-Agujero` → "4 PETABYTES"
+**Descripción:**
+> La primera imagen de un agujero negro (M87*, publicada en 2019) salió de 8 radiotelescopios que observaron juntos en abril de 2017. Grabaron unos 4 petabytes en discos duros, demasiado para internet: los discos viajaron en avión, y los del Polo Sur esperaron meses a que hubiera vuelos.
+> Algoritmos llenaron los huecos y armaron la imagen. Fuentes: Event Horizon Telescope, MIT Haystack, NSF. Cálculo: 4 PB a 100 Mb/s ≈ 10 años. Animación 3D ilustrativa.
+**#:** #agujeronegro #astronomia #bigdata #cienciadedatos #shorts
+
 ---
 
 # Serie: Matemáticas que sí usa un científico de datos (8 partes)

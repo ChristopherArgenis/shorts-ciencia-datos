@@ -80,6 +80,8 @@ import { Prueba3D } from "./kit/three/Prueba3D";
 import { Galaxias, TOTAL_GALAXIAS } from "./shorts/astro/Galaxias";
 import { Rubin, TOTAL_RUBIN } from "./shorts/astro/Rubin";
 import { Kepler90, TOTAL_KEPLER90 } from "./shorts/astro/Kepler90";
+import { Hubble, TOTAL_HUBBLE } from "./shorts/astro/Hubble";
+import { AgujeroNegro, TOTAL_AGUJERO } from "./shorts/astro/AgujeroNegro";
 import { PulgarEstrella, TOTAL_PULGAR } from "./shorts/astro/Pulgar";
 import { TransitoPlanetas, TOTAL_TRANSITO } from "./shorts/astro/Transito";
 import {
@@ -164,6 +166,8 @@ import {
   MiniAstro8,
   MiniAstro6,
   MiniAstro7,
+  MiniAstro9,
+  MiniAstro10,
 } from "./miniaturas/Miniaturas";
 
 export const RemotionRoot: React.FC = () => {
@@ -816,6 +820,22 @@ export const RemotionRoot: React.FC = () => {
           width={1080}
           height={1920}
         />
+        <Composition
+          id="Astro9-Hubble"
+          component={Hubble}
+          durationInFrames={TOTAL_HUBBLE}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="Astro10-Agujero"
+          component={AgujeroNegro}
+          durationInFrames={TOTAL_AGUJERO}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
       </Folder>
       <Folder name="Miniaturas">
         <Still
@@ -1177,6 +1197,18 @@ export const RemotionRoot: React.FC = () => {
         <Still
           id="MiniAstro7-Kepler90"
           component={MiniAstro7}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniAstro9-Hubble"
+          component={MiniAstro9}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniAstro10-Agujero"
+          component={MiniAstro10}
           width={1080}
           height={1920}
         />
