@@ -83,6 +83,7 @@ import { Rubin, TOTAL_RUBIN } from "./shorts/astro/Rubin";
 import { Kepler90, TOTAL_KEPLER90 } from "./shorts/astro/Kepler90";
 import { Hubble, TOTAL_HUBBLE } from "./shorts/astro/Hubble";
 import { AgujeroNegro, TOTAL_AGUJERO } from "./shorts/astro/AgujeroNegro";
+import { Positivo, TOTAL_POSITIVO } from "./shorts/intuicion/Positivo";
 import { PulgarEstrella, TOTAL_PULGAR } from "./shorts/astro/Pulgar";
 import { TransitoPlanetas, TOTAL_TRANSITO } from "./shorts/astro/Transito";
 import {
@@ -169,6 +170,7 @@ import {
   MiniAstro7,
   MiniAstro9,
   MiniAstro10,
+  MiniIntuicion1,
 } from "./miniaturas/Miniaturas";
 
 export const RemotionRoot: React.FC = () => {
@@ -846,6 +848,16 @@ export const RemotionRoot: React.FC = () => {
           height={1920}
         />
       </Folder>
+      <Folder name="Intuicion">
+        <Composition
+          id="Intuicion1-Positivo"
+          component={Positivo}
+          durationInFrames={TOTAL_POSITIVO}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+      </Folder>
       <Folder name="Miniaturas">
         <Still
           id="Mini1-Cumpleanos"
@@ -1218,6 +1230,12 @@ export const RemotionRoot: React.FC = () => {
         <Still
           id="MiniAstro10-Agujero"
           component={MiniAstro10}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniIntuicion1-Positivo"
+          component={MiniIntuicion1}
           width={1080}
           height={1920}
         />

@@ -351,6 +351,19 @@ Plan en `docs/plan-serie-astronomia.md`; guiones en `docs/guiones-astro-1-2.md`.
 
 ---
 
+# Serie 3D: Tu intuición pierde (lista de reproducción, sin números en los videos)
+Plan en `docs/plan-serie-intuicion-3d.md`; guiones en `docs/guiones-intuicion-1-2.md`.
+
+## Intuición 1: Diste positivo al 99 %… y casi seguro estás sano (3D)
+**Título:** Diste positivo al 99 %… y casi seguro estás sano
+**Miniatura:** `MiniIntuicion1-Positivo` → "1 DE 11"
+**Descripción:**
+> Si una enfermedad la tiene 1 de cada 1,000 personas y la prueba acierta el 99 %, de cada 11 positivos solo 1 está enfermo: un positivo significa 9 % de probabilidad, no 99 %. Los falsos positivos de los sanos superan a los enfermos reales.
+> Por eso un positivo se confirma con una segunda prueba (teorema de Bayes, valor predictivo positivo). Ejemplo simplificado con cifras ilustrativas. Animación 3D.
+**#:** #estadistica #probabilidad #salud #cienciadedatos #shorts
+
+---
+
 # Serie: Matemáticas que sí usa un científico de datos (8 partes)
 
 Plantilla: `src/kit/serie.tsx` (etiqueta "Parte N/8", fórmula, avance). Ritmo sugerido: 2 por semana.

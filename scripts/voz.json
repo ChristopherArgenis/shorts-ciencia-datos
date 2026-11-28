@@ -654,5 +654,14 @@
   "a5": "Viajaron en avión… y los del Polo Sur esperaron meses a que hubiera vuelos.",
   "a6": "Algoritmos llenaron los huecos y armaron la imagen: una foto también es números.",
   "a7": "Y así fue como…"
+ },
+ "positivo": {
+  "p1": "Diste positivo en una prueba que acierta el noventa y nueve por ciento… y casi seguro estás sano.",
+  "p2": "Suena imposible. Imagina mil personas.",
+  "p3": "Esta enfermedad la tiene una de cada mil.",
+  "p4": "La prueba lo detecta… pero también falla con el uno por ciento de los sanos: diez más.",
+  "p5": "Once positivos… y solo uno está enfermo.",
+  "p6": "Nueve por ciento. Por eso un positivo se confirma con otra prueba.",
+  "p7": "Y por eso, aunque suene imposible…"
  }
 }
