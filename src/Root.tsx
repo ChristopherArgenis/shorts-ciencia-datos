@@ -84,6 +84,7 @@ import { Kepler90, TOTAL_KEPLER90 } from "./shorts/astro/Kepler90";
 import { Hubble, TOTAL_HUBBLE } from "./shorts/astro/Hubble";
 import { AgujeroNegro, TOTAL_AGUJERO } from "./shorts/astro/AgujeroNegro";
 import { Positivo, TOTAL_POSITIVO } from "./shorts/intuicion/Positivo";
+import { MontyHall, TOTAL_MONTY } from "./shorts/intuicion/MontyHall";
 import { PulgarEstrella, TOTAL_PULGAR } from "./shorts/astro/Pulgar";
 import { TransitoPlanetas, TOTAL_TRANSITO } from "./shorts/astro/Transito";
 import {
@@ -171,6 +172,7 @@ import {
   MiniAstro9,
   MiniAstro10,
   MiniIntuicion1,
+  MiniIntuicion2,
 } from "./miniaturas/Miniaturas";
 
 export const RemotionRoot: React.FC = () => {
@@ -857,6 +859,14 @@ export const RemotionRoot: React.FC = () => {
           width={1080}
           height={1920}
         />
+        <Composition
+          id="Intuicion2-MontyHall"
+          component={MontyHall}
+          durationInFrames={TOTAL_MONTY}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
       </Folder>
       <Folder name="Miniaturas">
         <Still
@@ -1236,6 +1246,12 @@ export const RemotionRoot: React.FC = () => {
         <Still
           id="MiniIntuicion1-Positivo"
           component={MiniIntuicion1}
+          width={1080}
+          height={1920}
+        />
+        <Still
+          id="MiniIntuicion2-MontyHall"
+          component={MiniIntuicion2}
           width={1080}
           height={1920}
         />

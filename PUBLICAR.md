@@ -362,6 +362,14 @@ Plan en `docs/plan-serie-intuicion-3d.md`; guiones en `docs/guiones-intuicion-1-
 > Por eso un positivo se confirma con una segunda prueba (teorema de Bayes, valor predictivo positivo). Ejemplo simplificado con cifras ilustrativas. Animación 3D.
 **#:** #estadistica #probabilidad #salud #cienciadedatos #shorts
 
+## Intuición 2: ¿Cambias de puerta? La mayoría elige mal (3D)
+**Título:** ¿Cambias de puerta? La mayoría elige mal
+**Miniatura:** `MiniIntuicion2-MontyHall` → "¿TE QUEDAS?"
+**Descripción:**
+> Tres puertas, un auto y dos cabras. Eliges una, el presentador abre otra con cabra y te deja cambiar. Cambiar gana 2 de cada 3 veces, porque tu primera elección solo acertó 1 de cada 3. Lo simulamos 10,000 veces: quedarse ganó 33 %, cambiar 67 %.
+> Es el problema de Monty Hall; en experimentos, la mayoría de la gente no cambia (Granberg y Brown, 1995). Simulación hecha en Python. Animación 3D.
+**#:** #probabilidad #estadistica #matematicas #cienciadedatos #shorts
+
 ---
 
 # Serie: Matemáticas que sí usa un científico de datos (8 partes)
