@@ -25,6 +25,7 @@ import { PanMini } from "../shorts/astro/Hubble";
 import { AnilloMini } from "../shorts/astro/AgujeroNegro";
 import { MultitudMini } from "../shorts/intuicion/Positivo";
 import { PuertasMini } from "../shorts/intuicion/MontyHall";
+import { RuletaMini } from "../shorts/intuicion/Ruleta";
 
 // Miniaturas verticales 1080×1920 para los Shorts.
 // Regla: máximo 3 palabras, distintas al título, legibles al tamaño del feed.
@@ -1914,6 +1915,23 @@ export const MiniIntuicion2: React.FC = () => (
     <AbsoluteFill style={{ alignItems: "center", paddingTop: 230 }}>
       <Grande size={210} color={C.yellow}>
         ¿TE QUEDAS?
+      </Grande>
+    </AbsoluteFill>
+  </AbsoluteFill>
+);
+
+export const MiniIntuicion3: React.FC = () => (
+  <AbsoluteFill style={{ backgroundColor: "#0d0a08" }}>
+    <RuletaMini />
+    <AbsoluteFill
+      style={{
+        background:
+          "linear-gradient(#0d0a08ee 0%, #0d0a0899 30%, transparent 48%)",
+      }}
+    />
+    <AbsoluteFill style={{ alignItems: "center", paddingTop: 240 }}>
+      <Grande size={190} color={C.ink}>
+        ¿<span style={{ color: "#ff6b6b" }}>ROJO</span> AHORA?
       </Grande>
     </AbsoluteFill>
   </AbsoluteFill>

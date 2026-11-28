@@ -370,6 +370,14 @@ Plan en `docs/plan-serie-intuicion-3d.md`; guiones en `docs/guiones-intuicion-1-
 > Es el problema de Monty Hall; en experimentos, la mayoría de la gente no cambia (Granberg y Brown, 1995). Simulación hecha en Python. Animación 3D.
 **#:** #probabilidad #estadistica #matematicas #cienciadedatos #shorts
 
+## Intuición 3: Salió negro 26 veces seguidas y todos perdieron (3D)
+**Título:** Salió negro 26 veces seguidas y todos perdieron
+**Miniatura:** `MiniIntuicion3-Ruleta` → "¿ROJO AHORA?"
+**Descripción:**
+> En 1913, en el casino de Montecarlo, la ruleta cayó en negro 26 veces seguidas. Los jugadores apostaron todo al rojo, convencidos de que "ya tocaba", y perdieron millones. La ruleta no tiene memoria: en cada giro el rojo tiene la misma probabilidad (18/37 ≈ 48.6 %).
+> Es la falacia del jugador, también llamada falacia de Montecarlo. Probabilidad de la racha calculada en Python (≈ 1 en 137 millones contando el cero). Animación 3D.
+**#:** #probabilidad #estadistica #casino #cienciadedatos #shorts
+
 ---
 
 # Serie: Matemáticas que sí usa un científico de datos (8 partes)

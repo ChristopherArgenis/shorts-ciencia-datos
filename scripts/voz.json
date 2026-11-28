@@ -672,5 +672,14 @@
   "m5": "Pero tu primera elección acertó solo una de cada tres. Las otras dos, el auto está en la que queda.",
   "m6": "Diez mil juegos: quedarse gana un tercio; cambiar, dos tercios.",
   "m7": "Así que, la próxima vez que…"
+ },
+ "ruleta": {
+  "r1": "Salió negro veintiséis veces seguidas… y todos perdieron.",
+  "r2": "Montecarlo, mil novecientos trece. Negro, negro, negro…",
+  "r3": "La gente pensó: ya toca rojo. Y apostó más y más.",
+  "r4": "Pero la ruleta no tiene memoria.",
+  "r5": "En el giro veintisiete, el rojo seguía en cuarenta y nueve por ciento.",
+  "r6": "Uno en ciento treinta y siete millones. Rarísimo… pero pasó.",
+  "r7": "Así que, la próxima vez que pienses que ya toca rojo, recuerda:"
  }
 }
