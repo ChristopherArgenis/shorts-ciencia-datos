@@ -48,6 +48,10 @@ Mejor caso: StatsBomb (57.8 %), que abría con un número grande y una cancha ll
   articulaciones), `poses.ts` (de pie, mirar al cielo, señalar), `Lienzo` (cámara, luces, sombras)
   y `Espacio.tsx` (estrellas, planetas, órbitas, galaxia de partículas, observatorio, red neuronal).
 - Números, gráficas y textos siguen en 2D, encima del lienzo 3D.
+- Kit ampliado: `Camara.ts` (camaraEn por claves, orbita, temblor), `Fisica.ts` (rebote, proyectil,
+  pendulo, resorte, frenado: fórmulas cerradas, solo dependen del tiempo), `Escenario.tsx` (Multitud
+  instanciada de miles, Sala, Puerta con bisagra, Cabra, Reflector) y más poses en `poses.ts`
+  (caminar, preocupado, celebra, señala, lee, cruzado) con aspectos nuevos. Prueba: composición `PruebaKit`.
 - Render con WebGL por software (`swangle`, ya en `remotion.config.ts`); es más lento: renderizar de uno en uno.
 
 ## Entrega de cada video nuevo

@@ -77,6 +77,7 @@ import { LuzSol, TOTAL_LUZSOL } from "./shorts/astro/LuzSol";
 import { EstrellasRojas, TOTAL_ROJAS } from "./shorts/astro/EstrellasRojas";
 import { Helio, TOTAL_HELIO } from "./shorts/astro/Helio";
 import { Prueba3D } from "./kit/three/Prueba3D";
+import { PruebaKit } from "./kit/three/PruebaKit";
 import { Galaxias, TOTAL_GALAXIAS } from "./shorts/astro/Galaxias";
 import { Rubin, TOTAL_RUBIN } from "./shorts/astro/Rubin";
 import { Kepler90, TOTAL_KEPLER90 } from "./shorts/astro/Kepler90";
@@ -750,6 +751,14 @@ export const RemotionRoot: React.FC = () => {
           id="Prueba3D"
           component={Prueba3D}
           durationInFrames={150}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="PruebaKit"
+          component={PruebaKit}
+          durationInFrames={240}
           fps={30}
           width={1080}
           height={1920}
