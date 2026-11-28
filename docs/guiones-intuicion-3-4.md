@@ -68,7 +68,7 @@ Escenas 3D con el kit (`src/kit/three/`); números y gráficas en 2D encima.
 
 **≈ 64 palabras · 26 a 28 s**
 
-- **Título:** `Regaños que "funcionan"… y es pura estadística` (46 caracteres, linter 80/100). El linter pide un número. Si quieres subir el puntaje, la alternativa es `Gritar "funciona" el 90 % de las veces… por suerte`.
+- **Título:** `Regaños que "funcionan"… y es pura estadística` (46 caracteres, linter 80/100). El linter pide un número. Si quieres subir el puntaje, la alternativa es `Gritar "funciona" el 90 % de las veces… por suerte`, con la miniatura "NADIE CAMBIÓ" (el título ya dice "suerte").
 - **Miniatura:** "SUERTE, NO GRITOS" sobre el entrenador gritando y la diana. Revisada con el linter: no repite palabras del título.
 - **#:** `#estadistica #psicologia #kahneman #cienciadedatos #shorts`
 - **Descripción:**
